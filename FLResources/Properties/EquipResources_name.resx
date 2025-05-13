@@ -1,0 +1,2592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1002" xml:space="preserve">
+    <value>Установка «Копье»</value>
+  </data>
+  <data name="1003" xml:space="preserve">
+    <value>Установка «Копье»</value>
+  </data>
+  <data name="1004" xml:space="preserve">
+    <value>Установка «Праща»</value>
+  </data>
+  <data name="1005" xml:space="preserve">
+    <value>Установка «Катапульта»</value>
+  </data>
+  <data name="1006" xml:space="preserve">
+    <value>Установка «Улан»</value>
+  </data>
+  <data name="1007" xml:space="preserve">
+    <value>Установка «Снаряд»</value>
+  </data>
+  <data name="1008" xml:space="preserve">
+    <value>Установка «Сталкер»</value>
+  </data>
+  <data name="1009" xml:space="preserve">
+    <value>Уст. «Ветряной сталкер»</value>
+  </data>
+  <data name="1010" xml:space="preserve">
+    <value>Уст. «Лунный сталкер»</value>
+  </data>
+  <data name="1011" xml:space="preserve">
+    <value>Уст. «Солнечный сталкер»</value>
+  </data>
+  <data name="1012" xml:space="preserve">
+    <value>Уст. «Огненный сталкер»</value>
+  </data>
+  <data name="1013" xml:space="preserve">
+    <value>Установка «Стиратель»</value>
+  </data>
+  <data name="1014" xml:space="preserve">
+    <value>Установка «Чистильщик»</value>
+  </data>
+  <data name="1015" xml:space="preserve">
+    <value>Установка «Нейтрализатор»</value>
+  </data>
+  <data name="1016" xml:space="preserve">
+    <value>Установка «Парализатор»</value>
+  </data>
+  <data name="1017" xml:space="preserve">
+    <value>Блокиратор движения «Оса»</value>
+  </data>
+  <data name="1018" xml:space="preserve">
+    <value>Блокиратор движения «Шершень»</value>
+  </data>
+  <data name="1019" xml:space="preserve">
+    <value>Т-установка «Звездобой»</value>
+  </data>
+  <data name="1020" xml:space="preserve">
+    <value>Т-установка «Солнцебой»</value>
+  </data>
+  <data name="1021" xml:space="preserve">
+    <value>Миномет «Трутень»</value>
+  </data>
+  <data name="1022" xml:space="preserve">
+    <value>Миномет «Боевой пес»</value>
+  </data>
+  <data name="1023" xml:space="preserve">
+    <value>Миномет «Головастик»</value>
+  </data>
+  <data name="1024" xml:space="preserve">
+    <value>Миномет «Мухобойка»</value>
+  </data>
+  <data name="1025" xml:space="preserve">
+    <value>Миномет «Крикун»</value>
+  </data>
+  <data name="1026" xml:space="preserve">
+    <value>Миномет «Охотник»</value>
+  </data>
+  <data name="1027" xml:space="preserve">
+    <value>Миномет «Лезвие»</value>
+  </data>
+  <data name="1028" xml:space="preserve">
+    <value>Миномет «Буровик»</value>
+  </data>
+  <data name="1029" xml:space="preserve">
+    <value>Миномет «Резак»</value>
+  </data>
+  <data name="1030" xml:space="preserve">
+    <value>Миномет «Потрошитель»</value>
+  </data>
+  <data name="1031" xml:space="preserve">
+    <value>«Барраж Мк I»</value>
+  </data>
+  <data name="1032" xml:space="preserve">
+    <value>«Барраж Мк II»</value>
+  </data>
+  <data name="1033" xml:space="preserve">
+    <value>«Барраж Мк III»</value>
+  </data>
+  <data name="1034" xml:space="preserve">
+    <value>Турель «Барраж Мк I»</value>
+  </data>
+  <data name="1035" xml:space="preserve">
+    <value>Турель «Барраж Мк II»</value>
+  </data>
+  <data name="1036" xml:space="preserve">
+    <value>Турель «Барраж Мк III»</value>
+  </data>
+  <data name="1037" xml:space="preserve">
+    <value>Азраэль</value>
+  </data>
+  <data name="1038" xml:space="preserve">
+    <value>Драэль</value>
+  </data>
+  <data name="1039" xml:space="preserve">
+    <value>Рафаэль</value>
+  </data>
+  <data name="1040" xml:space="preserve">
+    <value>Узиэль</value>
+  </data>
+  <data name="1041" xml:space="preserve">
+    <value>Вассаго</value>
+  </data>
+  <data name="1042" xml:space="preserve">
+    <value>Турель «Зафиэль»</value>
+  </data>
+  <data name="1043" xml:space="preserve">
+    <value>Турель «Бадариэль»</value>
+  </data>
+  <data name="1044" xml:space="preserve">
+    <value>Турель «Сапиэль»</value>
+  </data>
+  <data name="1045" xml:space="preserve">
+    <value>Турель «Тот»</value>
+  </data>
+  <data name="1046" xml:space="preserve">
+    <value>«Драгун Тип 1»</value>
+  </data>
+  <data name="1047" xml:space="preserve">
+    <value>Драгун Тип 2</value>
+  </data>
+  <data name="1048" xml:space="preserve">
+    <value>Драгун Тип 3</value>
+  </data>
+  <data name="1049" xml:space="preserve">
+    <value>Червь Тип 1</value>
+  </data>
+  <data name="1050" xml:space="preserve">
+    <value>Червь Тип 2</value>
+  </data>
+  <data name="1051" xml:space="preserve">
+    <value>Пирос Тип 1</value>
+  </data>
+  <data name="1052" xml:space="preserve">
+    <value>Пирос Тип 2</value>
+  </data>
+  <data name="1053" xml:space="preserve">
+    <value>Пирос Тип 3</value>
+  </data>
+  <data name="1054" xml:space="preserve">
+    <value>Кракен Тип 1</value>
+  </data>
+  <data name="1055" xml:space="preserve">
+    <value>Кракен Тип 2</value>
+  </data>
+  <data name="1056" xml:space="preserve">
+    <value>Турель «Драгун Тип 1»</value>
+  </data>
+  <data name="1057" xml:space="preserve">
+    <value>Турель «Драгун Тип 2»</value>
+  </data>
+  <data name="1058" xml:space="preserve">
+    <value>Турель «Червь»</value>
+  </data>
+  <data name="1059" xml:space="preserve">
+    <value>Турель «Пирос Тип 1»</value>
+  </data>
+  <data name="1060" xml:space="preserve">
+    <value>Турель «Пирос Тип 1»</value>
+  </data>
+  <data name="1061" xml:space="preserve">
+    <value>Турель «Кракен»</value>
+  </data>
+  <data name="1062" xml:space="preserve">
+    <value>Ангелито Мк I</value>
+  </data>
+  <data name="1063" xml:space="preserve">
+    <value>Ангелито Мк II</value>
+  </data>
+  <data name="1064" xml:space="preserve">
+    <value>Ангелито Мк III</value>
+  </data>
+  <data name="1065" xml:space="preserve">
+    <value>Саламанка Мк I</value>
+  </data>
+  <data name="1066" xml:space="preserve">
+    <value>Саламанка Мк II</value>
+  </data>
+  <data name="1067" xml:space="preserve">
+    <value>Борроко</value>
+  </data>
+  <data name="1068" xml:space="preserve">
+    <value>Рапира</value>
+  </data>
+  <data name="1069" xml:space="preserve">
+    <value>Тизона дель Цид</value>
+  </data>
+  <data name="1070" xml:space="preserve">
+    <value>Турель «Ангелито Мк I»</value>
+  </data>
+  <data name="1071" xml:space="preserve">
+    <value>Турель «Ангелито Мк II»</value>
+  </data>
+  <data name="1072" xml:space="preserve">
+    <value>Турель «Саламанка»</value>
+  </data>
+  <data name="1073" xml:space="preserve">
+    <value>Турель «Борроко»</value>
+  </data>
+  <data name="1074" xml:space="preserve">
+    <value>Турель «Рапира»</value>
+  </data>
+  <data name="1075" xml:space="preserve">
+    <value>Рука смерти Мк I</value>
+  </data>
+  <data name="1076" xml:space="preserve">
+    <value>Рука смерти Мк I</value>
+  </data>
+  <data name="1077" xml:space="preserve">
+    <value>Рука смерти Мк II</value>
+  </data>
+  <data name="1078" xml:space="preserve">
+    <value>Рука смерти Мк III</value>
+  </data>
+  <data name="1079" xml:space="preserve">
+    <value>Коса Мк I</value>
+  </data>
+  <data name="1080" xml:space="preserve">
+    <value>Коса Мк II</value>
+  </data>
+  <data name="1081" xml:space="preserve">
+    <value>Коса Мк III</value>
+  </data>
+  <data name="1082" xml:space="preserve">
+    <value>Турель «Рука смерти Мк I»</value>
+  </data>
+  <data name="1083" xml:space="preserve">
+    <value>Турель «Рука смерти Мк II»</value>
+  </data>
+  <data name="1084" xml:space="preserve">
+    <value>Турель «Коса Мк I»</value>
+  </data>
+  <data name="1085" xml:space="preserve">
+    <value>Турель «Коса Мк II»</value>
+  </data>
+  <data name="1086" xml:space="preserve">
+    <value>Протуберанец A</value>
+  </data>
+  <data name="1087" xml:space="preserve">
+    <value>Протуберанец B</value>
+  </data>
+  <data name="1088" xml:space="preserve">
+    <value>Зарница A</value>
+  </data>
+  <data name="1089" xml:space="preserve">
+    <value>Зарница B</value>
+  </data>
+  <data name="1090" xml:space="preserve">
+    <value>Турель «Протуберанец»</value>
+  </data>
+  <data name="1091" xml:space="preserve">
+    <value>Турель «Зарница A»</value>
+  </data>
+  <data name="1092" xml:space="preserve">
+    <value>Турель «Зарница B»</value>
+  </data>
+  <data name="1093" xml:space="preserve">
+    <value>Легкая турель транспорта Мк I</value>
+  </data>
+  <data name="1094" xml:space="preserve">
+    <value>Легкая турель транспорта Мк II</value>
+  </data>
+  <data name="1095" xml:space="preserve">
+    <value>Легкая турель транспорта Мк III</value>
+  </data>
+  <data name="1096" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк I</value>
+  </data>
+  <data name="1097" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк II</value>
+  </data>
+  <data name="1098" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк III</value>
+  </data>
+  <data name="1099" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк I</value>
+  </data>
+  <data name="1100" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк II</value>
+  </data>
+  <data name="1101" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк III</value>
+  </data>
+  <data name="1102" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк I</value>
+  </data>
+  <data name="1103" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк II</value>
+  </data>
+  <data name="1104" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк III</value>
+  </data>
+  <data name="1105" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк I</value>
+  </data>
+  <data name="1106" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк II</value>
+  </data>
+  <data name="1107" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк III</value>
+  </data>
+  <data name="1108" xml:space="preserve">
+    <value>Аннигилятор-1</value>
+  </data>
+  <data name="1109" xml:space="preserve">
+    <value>Аннигилятор-2</value>
+  </data>
+  <data name="1110" xml:space="preserve">
+    <value>Вампир-1</value>
+  </data>
+  <data name="1111" xml:space="preserve">
+    <value>Вампир-2</value>
+  </data>
+  <data name="1112" xml:space="preserve">
+    <value>Вампир-3</value>
+  </data>
+  <data name="1113" xml:space="preserve">
+    <value>Турель «Аннигилятор»</value>
+  </data>
+  <data name="1114" xml:space="preserve">
+    <value>Турель «Вампир-1»</value>
+  </data>
+  <data name="1115" xml:space="preserve">
+    <value>Турель «Вампир-2»</value>
+  </data>
+  <data name="1116" xml:space="preserve">
+    <value>Легкая турель транспорта Мк I</value>
+  </data>
+  <data name="1117" xml:space="preserve">
+    <value>Легкая турель транспорта Мк II</value>
+  </data>
+  <data name="1118" xml:space="preserve">
+    <value>Легкая турель транспорта Мк III</value>
+  </data>
+  <data name="1119" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк I</value>
+  </data>
+  <data name="1120" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк II</value>
+  </data>
+  <data name="1121" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк III</value>
+  </data>
+  <data name="1122" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк I</value>
+  </data>
+  <data name="1123" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк II</value>
+  </data>
+  <data name="1124" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк III</value>
+  </data>
+  <data name="1125" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк I</value>
+  </data>
+  <data name="1126" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк II</value>
+  </data>
+  <data name="1127" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк III</value>
+  </data>
+  <data name="1128" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк I</value>
+  </data>
+  <data name="1129" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк II</value>
+  </data>
+  <data name="1130" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк III</value>
+  </data>
+  <data name="1131" xml:space="preserve">
+    <value>Легкая шахтная турель</value>
+  </data>
+  <data name="1132" xml:space="preserve">
+    <value>Средняя шахтная турель</value>
+  </data>
+  <data name="1133" xml:space="preserve">
+    <value>Тяжелая шахтная турель</value>
+  </data>
+  <data name="1134" xml:space="preserve">
+    <value>Гангстер Мк I</value>
+  </data>
+  <data name="1135" xml:space="preserve">
+    <value>Гангстер Мк II</value>
+  </data>
+  <data name="1136" xml:space="preserve">
+    <value>Винчестер Мк I</value>
+  </data>
+  <data name="1137" xml:space="preserve">
+    <value>Винчестер Мк II</value>
+  </data>
+  <data name="1138" xml:space="preserve">
+    <value>Разбойник Мк I</value>
+  </data>
+  <data name="1139" xml:space="preserve">
+    <value>Разбойник Мк II</value>
+  </data>
+  <data name="1140" xml:space="preserve">
+    <value>Храбрец Мк I</value>
+  </data>
+  <data name="1141" xml:space="preserve">
+    <value>Храбрец Мк II</value>
+  </data>
+  <data name="1142" xml:space="preserve">
+    <value>Воин Мк I</value>
+  </data>
+  <data name="1143" xml:space="preserve">
+    <value>Воин Мк II</value>
+  </data>
+  <data name="1144" xml:space="preserve">
+    <value>Картечь</value>
+  </data>
+  <data name="1145" xml:space="preserve">
+    <value>Гангстер Мк I</value>
+  </data>
+  <data name="1146" xml:space="preserve">
+    <value>Гангстер Мк II</value>
+  </data>
+  <data name="1147" xml:space="preserve">
+    <value>Турель «Винчестер»</value>
+  </data>
+  <data name="1148" xml:space="preserve">
+    <value>Турель «Коса»</value>
+  </data>
+  <data name="1149" xml:space="preserve">
+    <value>Турель «Храбрец»</value>
+  </data>
+  <data name="1150" xml:space="preserve">
+    <value>Турель «Воин»</value>
+  </data>
+  <data name="1151" xml:space="preserve">
+    <value>Турель «Гангстер»</value>
+  </data>
+  <data name="1152" xml:space="preserve">
+    <value>Ворчун</value>
+  </data>
+  <data name="1153" xml:space="preserve">
+    <value>Ворчун-2</value>
+  </data>
+  <data name="1154" xml:space="preserve">
+    <value>Ротер Блиц</value>
+  </data>
+  <data name="1155" xml:space="preserve">
+    <value>Ворчекрут</value>
+  </data>
+  <data name="1156" xml:space="preserve">
+    <value>Турель «Ворчун»</value>
+  </data>
+  <data name="1157" xml:space="preserve">
+    <value>Турель «Ротер Блиц»</value>
+  </data>
+  <data name="1158" xml:space="preserve">
+    <value>Танто</value>
+  </data>
+  <data name="1159" xml:space="preserve">
+    <value>Вакизаши</value>
+  </data>
+  <data name="1160" xml:space="preserve">
+    <value>Катана</value>
+  </data>
+  <data name="1161" xml:space="preserve">
+    <value>Гендаито</value>
+  </data>
+  <data name="1162" xml:space="preserve">
+    <value>Турель «Танто»</value>
+  </data>
+  <data name="1163" xml:space="preserve">
+    <value>Турель «Катана»</value>
+  </data>
+  <data name="1164" xml:space="preserve">
+    <value>Люгер Тип A</value>
+  </data>
+  <data name="1165" xml:space="preserve">
+    <value>Люгер Тип B</value>
+  </data>
+  <data name="1166" xml:space="preserve">
+    <value>Люгер Тип C</value>
+  </data>
+  <data name="1167" xml:space="preserve">
+    <value>Турель «Люгер Тип A»</value>
+  </data>
+  <data name="1168" xml:space="preserve">
+    <value>Турель «Люгер Тип B»</value>
+  </data>
+  <data name="1169" xml:space="preserve">
+    <value>Гелиос</value>
+  </data>
+  <data name="1170" xml:space="preserve">
+    <value>Гелиос-2</value>
+  </data>
+  <data name="1171" xml:space="preserve">
+    <value>Ярость</value>
+  </data>
+  <data name="1172" xml:space="preserve">
+    <value>Ярость-2</value>
+  </data>
+  <data name="1173" xml:space="preserve">
+    <value>Ярость-3</value>
+  </data>
+  <data name="1174" xml:space="preserve">
+    <value>Турель «Гелиос»</value>
+  </data>
+  <data name="1175" xml:space="preserve">
+    <value>Турель «Ярость»</value>
+  </data>
+  <data name="1176" xml:space="preserve">
+    <value>Турель «Ярость-2»</value>
+  </data>
+  <data name="1177" xml:space="preserve">
+    <value>Шквал Мк I</value>
+  </data>
+  <data name="1178" xml:space="preserve">
+    <value>Шквал Мк II</value>
+  </data>
+  <data name="1179" xml:space="preserve">
+    <value>Шквал Мк III</value>
+  </data>
+  <data name="1180" xml:space="preserve">
+    <value>Турель «Шквал Мк I»</value>
+  </data>
+  <data name="1181" xml:space="preserve">
+    <value>Турель «Шквал Мк II»</value>
+  </data>
+  <data name="1182" xml:space="preserve">
+    <value>Ящер Тип A</value>
+  </data>
+  <data name="1183" xml:space="preserve">
+    <value>Ящер Тип B</value>
+  </data>
+  <data name="1184" xml:space="preserve">
+    <value>Ящер Тип C</value>
+  </data>
+  <data name="1185" xml:space="preserve">
+    <value>Турель «Ящер Тип A»</value>
+  </data>
+  <data name="1186" xml:space="preserve">
+    <value>Турель «Ящер Тип B»</value>
+  </data>
+  <data name="1187" xml:space="preserve">
+    <value>Дублинская щетка Мк I</value>
+  </data>
+  <data name="1188" xml:space="preserve">
+    <value>Дублинская щетка Мк II</value>
+  </data>
+  <data name="1189" xml:space="preserve">
+    <value>Дублинская щетка Мк III</value>
+  </data>
+  <data name="1190" xml:space="preserve">
+    <value>Турель «Дублинская щетка Мк I»</value>
+  </data>
+  <data name="1191" xml:space="preserve">
+    <value>Турель «Дублинская щетка Мк II»</value>
+  </data>
+  <data name="1192" xml:space="preserve">
+    <value>Мститель</value>
+  </data>
+  <data name="1193" xml:space="preserve">
+    <value>Мститель Тип B</value>
+  </data>
+  <data name="1194" xml:space="preserve">
+    <value>Спаситель Гайи</value>
+  </data>
+  <data name="1195" xml:space="preserve">
+    <value>Спаситель Гайи Тип B</value>
+  </data>
+  <data name="1196" xml:space="preserve">
+    <value>Защитник Мк I</value>
+  </data>
+  <data name="1197" xml:space="preserve">
+    <value>Защитник Мк II</value>
+  </data>
+  <data name="1198" xml:space="preserve">
+    <value>Защитник Мк III</value>
+  </data>
+  <data name="1199" xml:space="preserve">
+    <value>Лучемет A</value>
+  </data>
+  <data name="1200" xml:space="preserve">
+    <value>Лучемет B</value>
+  </data>
+  <data name="1201" xml:space="preserve">
+    <value>Лучемет C</value>
+  </data>
+  <data name="1202" xml:space="preserve">
+    <value>Разрушитель</value>
+  </data>
+  <data name="1203" xml:space="preserve">
+    <value>Разрушитель (у)</value>
+  </data>
+  <data name="1204" xml:space="preserve">
+    <value>Испепелитель</value>
+  </data>
+  <data name="1205" xml:space="preserve">
+    <value>Испепелитель (у)</value>
+  </data>
+  <data name="1206" xml:space="preserve">
+    <value>Хищник</value>
+  </data>
+  <data name="1207" xml:space="preserve">
+    <value>Хищник-2</value>
+  </data>
+  <data name="1208" xml:space="preserve">
+    <value>Хищник-3</value>
+  </data>
+  <data name="1209" xml:space="preserve">
+    <value>Скорпион</value>
+  </data>
+  <data name="1210" xml:space="preserve">
+    <value>Скорпион (у)</value>
+  </data>
+  <data name="1211" xml:space="preserve">
+    <value>Тарантул</value>
+  </data>
+  <data name="1212" xml:space="preserve">
+    <value>Тарантул (у)</value>
+  </data>
+  <data name="1213" xml:space="preserve">
+    <value>Правосудие Мк I</value>
+  </data>
+  <data name="1214" xml:space="preserve">
+    <value>Правосудие Мк II</value>
+  </data>
+  <data name="1215" xml:space="preserve">
+    <value>Правосудие Мк III</value>
+  </data>
+  <data name="1216" xml:space="preserve">
+    <value>Месть Мк I</value>
+  </data>
+  <data name="1217" xml:space="preserve">
+    <value>Месть Мк II</value>
+  </data>
+  <data name="1218" xml:space="preserve">
+    <value>Месть Мк III</value>
+  </data>
+  <data name="1219" xml:space="preserve">
+    <value>Месть Мк III</value>
+  </data>
+  <data name="1220" xml:space="preserve">
+    <value>Клинок лавы Мк I</value>
+  </data>
+  <data name="1221" xml:space="preserve">
+    <value>Клинок лавы Мк II</value>
+  </data>
+  <data name="1222" xml:space="preserve">
+    <value>Клинок лавы Мк III</value>
+  </data>
+  <data name="1223" xml:space="preserve">
+    <value>Молот магмы Мк I</value>
+  </data>
+  <data name="1224" xml:space="preserve">
+    <value>Молот магмы Мк II</value>
+  </data>
+  <data name="1225" xml:space="preserve">
+    <value>Молот магмы Мк III</value>
+  </data>
+  <data name="1226" xml:space="preserve">
+    <value>Турель «Правосудие Мк I»</value>
+  </data>
+  <data name="1227" xml:space="preserve">
+    <value>Турель «Правосудие Мк II»</value>
+  </data>
+  <data name="1228" xml:space="preserve">
+    <value>Турель «Месть»</value>
+  </data>
+  <data name="1229" xml:space="preserve">
+    <value>Турель «Клинок лавы Мк I»</value>
+  </data>
+  <data name="1230" xml:space="preserve">
+    <value>Турель «Клинок лавы Мк II»</value>
+  </data>
+  <data name="1231" xml:space="preserve">
+    <value>Турель «Молот магмы»</value>
+  </data>
+  <data name="1232" xml:space="preserve">
+    <value>Турель крейсера</value>
+  </data>
+  <data name="1233" xml:space="preserve">
+    <value>Носовая пушка крейсера</value>
+  </data>
+  <data name="1234" xml:space="preserve">
+    <value>Ракетная турель крейсера</value>
+  </data>
+  <data name="1235" xml:space="preserve">
+    <value>Основная турель линкора</value>
+  </data>
+  <data name="1236" xml:space="preserve">
+    <value>Вторичная турель линкора</value>
+  </data>
+  <data name="1237" xml:space="preserve">
+    <value>Третичная турель линкора</value>
+  </data>
+  <data name="1238" xml:space="preserve">
+    <value>Защитная турель линкора</value>
+  </data>
+  <data name="1239" xml:space="preserve">
+    <value>Зенитная турель линкора</value>
+  </data>
+  <data name="1240" xml:space="preserve">
+    <value>Ракетная турель линкора</value>
+  </data>
+  <data name="1241" xml:space="preserve">
+    <value>Турель тюрьмы</value>
+  </data>
+  <data name="1242" xml:space="preserve">
+    <value>Резак</value>
+  </data>
+  <data name="1243" xml:space="preserve">
+    <value>Резак (у)</value>
+  </data>
+  <data name="1244" xml:space="preserve">
+    <value>Расщепитель</value>
+  </data>
+  <data name="1245" xml:space="preserve">
+    <value>Расщепитель (у)</value>
+  </data>
+  <data name="1246" xml:space="preserve">
+    <value>Небосвод</value>
+  </data>
+  <data name="1247" xml:space="preserve">
+    <value>Небосвод (у)</value>
+  </data>
+  <data name="1248" xml:space="preserve">
+    <value>Проминь</value>
+  </data>
+  <data name="1249" xml:space="preserve">
+    <value>Проминь (у)</value>
+  </data>
+  <data name="1250" xml:space="preserve">
+    <value>Турель «Резак»</value>
+  </data>
+  <data name="1251" xml:space="preserve">
+    <value>Турель «Резак» (у)</value>
+  </data>
+  <data name="1252" xml:space="preserve">
+    <value>Турель «Расщепитель»</value>
+  </data>
+  <data name="1253" xml:space="preserve">
+    <value>Турель «Небосвод»</value>
+  </data>
+  <data name="1254" xml:space="preserve">
+    <value>Турель «Небосвод» (у)</value>
+  </data>
+  <data name="1255" xml:space="preserve">
+    <value>Турель «Проминь»</value>
+  </data>
+  <data name="1256" xml:space="preserve">
+    <value>Основная турель эсминца</value>
+  </data>
+  <data name="1257" xml:space="preserve">
+    <value>Вторичная турель эсминца</value>
+  </data>
+  <data name="1258" xml:space="preserve">
+    <value>Третичная турель эсминца</value>
+  </data>
+  <data name="1259" xml:space="preserve">
+    <value>Защитная турель эсминца</value>
+  </data>
+  <data name="1260" xml:space="preserve">
+    <value>Ракетная турель эсминца</value>
+  </data>
+  <data name="1261" xml:space="preserve">
+    <value>Основная турель канонерки</value>
+  </data>
+  <data name="1262" xml:space="preserve">
+    <value>Вторичная турель канонерки</value>
+  </data>
+  <data name="1263" xml:space="preserve">
+    <value>Крупнокалиберная пушка канонерки</value>
+  </data>
+  <data name="1264" xml:space="preserve">
+    <value>Ракетная турель канонерки</value>
+  </data>
+  <data name="1265" xml:space="preserve">
+    <value>Основная турель линкора</value>
+  </data>
+  <data name="1266" xml:space="preserve">
+    <value>Вторичная турель линкора</value>
+  </data>
+  <data name="1267" xml:space="preserve">
+    <value>Третичная турель линкора</value>
+  </data>
+  <data name="1268" xml:space="preserve">
+    <value>Защитная турель линкора</value>
+  </data>
+  <data name="1269" xml:space="preserve">
+    <value>Зенитная турель линкора</value>
+  </data>
+  <data name="1270" xml:space="preserve">
+    <value>Ракетная турель линкора</value>
+  </data>
+  <data name="1271" xml:space="preserve">
+    <value>Турель тюрьмы</value>
+  </data>
+  <data name="1272" xml:space="preserve">
+    <value>Шифратор-1</value>
+  </data>
+  <data name="1273" xml:space="preserve">
+    <value>Шифратор-2</value>
+  </data>
+  <data name="1274" xml:space="preserve">
+    <value>Дезинфектор-1</value>
+  </data>
+  <data name="1275" xml:space="preserve">
+    <value>Дезинфектор-2</value>
+  </data>
+  <data name="1276" xml:space="preserve">
+    <value>Ярость солнца-1</value>
+  </data>
+  <data name="1277" xml:space="preserve">
+    <value>Ярость солнца-2</value>
+  </data>
+  <data name="1278" xml:space="preserve">
+    <value>Безумие солнца-1</value>
+  </data>
+  <data name="1279" xml:space="preserve">
+    <value>Безумие солнца-2</value>
+  </data>
+  <data name="1280" xml:space="preserve">
+    <value>Турель «Шифратор-1»</value>
+  </data>
+  <data name="1281" xml:space="preserve">
+    <value>Турель «Шифратор-2»</value>
+  </data>
+  <data name="1282" xml:space="preserve">
+    <value>Турель «Дезинфектор»</value>
+  </data>
+  <data name="1283" xml:space="preserve">
+    <value>Турель «Ярость солнца-1»</value>
+  </data>
+  <data name="1284" xml:space="preserve">
+    <value>Турель «Ярость солнца-2»</value>
+  </data>
+  <data name="1285" xml:space="preserve">
+    <value>Турель «Безумие солнца»</value>
+  </data>
+  <data name="1286" xml:space="preserve">
+    <value>Основная турель эсминца</value>
+  </data>
+  <data name="1287" xml:space="preserve">
+    <value>Вторичная турель эсминца</value>
+  </data>
+  <data name="1288" xml:space="preserve">
+    <value>Защитная турель эсминца</value>
+  </data>
+  <data name="1289" xml:space="preserve">
+    <value>Ракетная турель эсминца</value>
+  </data>
+  <data name="1290" xml:space="preserve">
+    <value>Защитная турель канонерки</value>
+  </data>
+  <data name="1291" xml:space="preserve">
+    <value>Крупнокалиберная пушка канонерки</value>
+  </data>
+  <data name="1292" xml:space="preserve">
+    <value>Ракетная турель канонерки</value>
+  </data>
+  <data name="1293" xml:space="preserve">
+    <value>Основная турель линкора</value>
+  </data>
+  <data name="1294" xml:space="preserve">
+    <value>Вторичная турель линкора</value>
+  </data>
+  <data name="1295" xml:space="preserve">
+    <value>Третичная турель линкора</value>
+  </data>
+  <data name="1296" xml:space="preserve">
+    <value>Защитная турель линкора</value>
+  </data>
+  <data name="1297" xml:space="preserve">
+    <value>Зенитная турель линкора</value>
+  </data>
+  <data name="1298" xml:space="preserve">
+    <value>Ракетная турель линкора</value>
+  </data>
+  <data name="1299" xml:space="preserve">
+    <value>Турель тюрьмы</value>
+  </data>
+  <data name="1300" xml:space="preserve">
+    <value>Клинок теней Мк I</value>
+  </data>
+  <data name="1301" xml:space="preserve">
+    <value>Клинок теней Мк I</value>
+  </data>
+  <data name="1302" xml:space="preserve">
+    <value>Клинок теней Мк I</value>
+  </data>
+  <data name="1303" xml:space="preserve">
+    <value>Клинок теней Мк II</value>
+  </data>
+  <data name="1304" xml:space="preserve">
+    <value>Гадюка Мк I</value>
+  </data>
+  <data name="1305" xml:space="preserve">
+    <value>Гадюка Мк II</value>
+  </data>
+  <data name="1306" xml:space="preserve">
+    <value>Пламенное проклятие Мк I</value>
+  </data>
+  <data name="1307" xml:space="preserve">
+    <value>Пламенное проклятие Мк II</value>
+  </data>
+  <data name="1308" xml:space="preserve">
+    <value>Огненный поцелуй Мк I</value>
+  </data>
+  <data name="1309" xml:space="preserve">
+    <value>Огненный поцелуй Мк II</value>
+  </data>
+  <data name="1310" xml:space="preserve">
+    <value>Турель «Клинок теней Мк I»</value>
+  </data>
+  <data name="1311" xml:space="preserve">
+    <value>Турель «Клинок теней Мк II»</value>
+  </data>
+  <data name="1312" xml:space="preserve">
+    <value>Турель «Гадюка»</value>
+  </data>
+  <data name="1313" xml:space="preserve">
+    <value>Турель «Пламенное проклятие Мк I»</value>
+  </data>
+  <data name="1314" xml:space="preserve">
+    <value>Турель «Пламенное проклятие Мк II»</value>
+  </data>
+  <data name="1315" xml:space="preserve">
+    <value>Турель Огненный поцелуй</value>
+  </data>
+  <data name="1316" xml:space="preserve">
+    <value>Основная турель крейсера</value>
+  </data>
+  <data name="1317" xml:space="preserve">
+    <value>Основная турель крейсера</value>
+  </data>
+  <data name="1318" xml:space="preserve">
+    <value>Вторичная турель крейсера</value>
+  </data>
+  <data name="1319" xml:space="preserve">
+    <value>Вторичная турель крейсера</value>
+  </data>
+  <data name="1320" xml:space="preserve">
+    <value>Третичная турель крейсера</value>
+  </data>
+  <data name="1321" xml:space="preserve">
+    <value>Третичная турель крейсера</value>
+  </data>
+  <data name="1322" xml:space="preserve">
+    <value>Защитная турель крейсера</value>
+  </data>
+  <data name="1323" xml:space="preserve">
+    <value>Защитная турель крейсера</value>
+  </data>
+  <data name="1324" xml:space="preserve">
+    <value>Ракетная турель крейсера</value>
+  </data>
+  <data name="1325" xml:space="preserve">
+    <value>Основная турель канонерки</value>
+  </data>
+  <data name="1326" xml:space="preserve">
+    <value>Вторичная турель канонерки</value>
+  </data>
+  <data name="1327" xml:space="preserve">
+    <value>Крупнокалиберная пушка канонерки</value>
+  </data>
+  <data name="1328" xml:space="preserve">
+    <value>Ракетная турель канонерки</value>
+  </data>
+  <data name="1329" xml:space="preserve">
+    <value>Основная турель линкора</value>
+  </data>
+  <data name="1330" xml:space="preserve">
+    <value>Вторичная турель линкора</value>
+  </data>
+  <data name="1331" xml:space="preserve">
+    <value>Третичная турель линкора</value>
+  </data>
+  <data name="1332" xml:space="preserve">
+    <value>Защитная турель линкора</value>
+  </data>
+  <data name="1333" xml:space="preserve">
+    <value>Зенитная турель линкора</value>
+  </data>
+  <data name="1334" xml:space="preserve">
+    <value>Ракетная турель линкора</value>
+  </data>
+  <data name="1335" xml:space="preserve">
+    <value>Основная турель линкора</value>
+  </data>
+  <data name="1336" xml:space="preserve">
+    <value>Вторичная турель линкора</value>
+  </data>
+  <data name="1337" xml:space="preserve">
+    <value>Третичная турель линкора</value>
+  </data>
+  <data name="1338" xml:space="preserve">
+    <value>Защитная турель линкора</value>
+  </data>
+  <data name="1339" xml:space="preserve">
+    <value>Зенитная турель линкора</value>
+  </data>
+  <data name="1340" xml:space="preserve">
+    <value>Ракетная турель линкора</value>
+  </data>
+  <data name="1341" xml:space="preserve">
+    <value>Турель тюрьмы</value>
+  </data>
+  <data name="1342" xml:space="preserve">
+    <value>Звездный луч</value>
+  </data>
+  <data name="1343" xml:space="preserve">
+    <value>Звездный луч (у)</value>
+  </data>
+  <data name="1344" xml:space="preserve">
+    <value>Звездный луч (у+)</value>
+  </data>
+  <data name="1345" xml:space="preserve">
+    <value>Воспламенение</value>
+  </data>
+  <data name="1346" xml:space="preserve">
+    <value>Воспламенение (у)</value>
+  </data>
+  <data name="1347" xml:space="preserve">
+    <value>Воспламенение (у+)</value>
+  </data>
+  <data name="1348" xml:space="preserve">
+    <value>Шок</value>
+  </data>
+  <data name="1349" xml:space="preserve">
+    <value>Шок (у)</value>
+  </data>
+  <data name="1350" xml:space="preserve">
+    <value>Деструктор</value>
+  </data>
+  <data name="1351" xml:space="preserve">
+    <value>Деструктор (у)</value>
+  </data>
+  <data name="1352" xml:space="preserve">
+    <value>Турель «Звездный луч»</value>
+  </data>
+  <data name="1353" xml:space="preserve">
+    <value>Турель «Звездный луч» (у)</value>
+  </data>
+  <data name="1354" xml:space="preserve">
+    <value>Турель «Дот»</value>
+  </data>
+  <data name="1355" xml:space="preserve">
+    <value>Турель «Шок»</value>
+  </data>
+  <data name="1356" xml:space="preserve">
+    <value>Турель «Деструктор»</value>
+  </data>
+  <data name="1357" xml:space="preserve">
+    <value>Турель «Деструктор (у)»</value>
+  </data>
+  <data name="1358" xml:space="preserve">
+    <value>Легкая турель транспорта Мк I</value>
+  </data>
+  <data name="1359" xml:space="preserve">
+    <value>Легкая турель транспорта Мк II</value>
+  </data>
+  <data name="1360" xml:space="preserve">
+    <value>Легкая турель транспорта Мк III</value>
+  </data>
+  <data name="1361" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк I</value>
+  </data>
+  <data name="1362" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк II</value>
+  </data>
+  <data name="1363" xml:space="preserve">
+    <value>Тяжелая турель транспорта Мк III</value>
+  </data>
+  <data name="1364" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк I</value>
+  </data>
+  <data name="1365" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк II</value>
+  </data>
+  <data name="1366" xml:space="preserve">
+    <value>Легкая турель космопоезда Мк III</value>
+  </data>
+  <data name="1367" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк I</value>
+  </data>
+  <data name="1368" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк II</value>
+  </data>
+  <data name="1369" xml:space="preserve">
+    <value>Средняя турель космопоезда Мк III</value>
+  </data>
+  <data name="1370" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк I</value>
+  </data>
+  <data name="1371" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк II</value>
+  </data>
+  <data name="1372" xml:space="preserve">
+    <value>Тяжелая турель космопоезда Мк III</value>
+  </data>
+  <data name="1373" xml:space="preserve">
+    <value>Легкая шахтная турель</value>
+  </data>
+  <data name="1374" xml:space="preserve">
+    <value>Средняя шахтная турель</value>
+  </data>
+  <data name="1375" xml:space="preserve">
+    <value>Тяжелая шахтная турель</value>
+  </data>
+  <data name="1376" xml:space="preserve">
+    <value>Турель подъемника</value>
+  </data>
+  <data name="1377" xml:space="preserve">
+    <value>Турель ремонтника</value>
+  </data>
+  <data name="1378" xml:space="preserve">
+    <value>Турель лайнера</value>
+  </data>
+  <data name="1379" xml:space="preserve">
+    <value>Лазер Странников</value>
+  </data>
+  <data name="1380" xml:space="preserve">
+    <value>Лазер Странников</value>
+  </data>
+  <data name="1381" xml:space="preserve">
+    <value>Лазер Странников</value>
+  </data>
+  <data name="1382" xml:space="preserve">
+    <value>Блокиратор наведения Странников</value>
+  </data>
+  <data name="1383" xml:space="preserve">
+    <value>Торпеда Странников</value>
+  </data>
+  <data name="1384" xml:space="preserve">
+    <value>Турель Странников</value>
+  </data>
+  <data name="1385" xml:space="preserve">
+    <value>Турель Странников</value>
+  </data>
+  <data name="1386" xml:space="preserve">
+    <value>Турель Странников</value>
+  </data>
+  <data name="1387" xml:space="preserve">
+    <value>Турель Странников</value>
+  </data>
+  <data name="1388" xml:space="preserve">
+    <value>Энергетический бластер Странников</value>
+  </data>
+  <data name="1389" xml:space="preserve">
+    <value>Энергетическая пушка Странников</value>
+  </data>
+  <data name="1390" xml:space="preserve">
+    <value>Прототип Странников</value>
+  </data>
+  <data name="1391" xml:space="preserve">
+    <value>Месть Ровлетта</value>
+  </data>
+  <data name="1392" xml:space="preserve">
+    <value>ОНИКС</value>
+  </data>
+  <data name="1393" xml:space="preserve">
+    <value>ГЕЛИОТРОП</value>
+  </data>
+  <data name="1394" xml:space="preserve">
+    <value>НЕФРИТ</value>
+  </data>
+  <data name="1395" xml:space="preserve">
+    <value>ГРАНЬ БРИЛЛИАНТА</value>
+  </data>
+  <data name="1396" xml:space="preserve">
+    <value>СТАЛЬНОЙ МОЛОТ</value>
+  </data>
+  <data name="1397" xml:space="preserve">
+    <value>СЕРЕБРЯНОЕ ПЛАМЯ</value>
+  </data>
+  <data name="1398" xml:space="preserve">
+    <value>ЗОЛОТОЙ КЛИНОК</value>
+  </data>
+  <data name="1399" xml:space="preserve">
+    <value>ЛАЗУРНОЕ ПЛАМЯ</value>
+  </data>
+  <data name="1400" xml:space="preserve">
+    <value>СИЯНИЕ ТЬМЫ</value>
+  </data>
+  <data name="1401" xml:space="preserve">
+    <value>ДИКИЙ ОГОНЬ</value>
+  </data>
+  <data name="1402" xml:space="preserve">
+    <value>МОЛОТ ТОРА</value>
+  </data>
+  <data name="1403" xml:space="preserve">
+    <value>ПРОМЕТЕЙ</value>
+  </data>
+  <data name="1404" xml:space="preserve">
+    <value>СТРАЖ</value>
+  </data>
+  <data name="1405" xml:space="preserve">
+    <value>ЦЕРБЕР</value>
+  </data>
+  <data name="1406" xml:space="preserve">
+    <value>АРХАНГЕЛ</value>
+  </data>
+  <data name="1407" xml:space="preserve">
+    <value>Легкая турель станции</value>
+  </data>
+  <data name="1408" xml:space="preserve">
+    <value>Тяжелая турель станции</value>
+  </data>
+  <data name="1409" xml:space="preserve">
+    <value>Легкая турель станции Свободы</value>
+  </data>
+  <data name="1410" xml:space="preserve">
+    <value>Тяжелая турель станции Свободы</value>
+  </data>
+  <data name="1411" xml:space="preserve">
+    <value>Легкая турель станции Свободы</value>
+  </data>
+  <data name="1412" xml:space="preserve">
+    <value>Тяжелая турель станции Свободы</value>
+  </data>
+  <data name="1413" xml:space="preserve">
+    <value>Легкая турель станции Свободы</value>
+  </data>
+  <data name="1414" xml:space="preserve">
+    <value>Тяжелая турель станции Свободы</value>
+  </data>
+  <data name="1415" xml:space="preserve">
+    <value>Легкая турель станции Бретонь</value>
+  </data>
+  <data name="1416" xml:space="preserve">
+    <value>Тяжелая турель станции Бретонь</value>
+  </data>
+  <data name="1417" xml:space="preserve">
+    <value>Легкая турель станции Бретонь</value>
+  </data>
+  <data name="1418" xml:space="preserve">
+    <value>Тяжелая турель станции Бретонь</value>
+  </data>
+  <data name="1419" xml:space="preserve">
+    <value>Легкая турель станции Бретонь</value>
+  </data>
+  <data name="1420" xml:space="preserve">
+    <value>Тяжелая турель станции Бретонь</value>
+  </data>
+  <data name="1421" xml:space="preserve">
+    <value>Легкая турель станции Кусари</value>
+  </data>
+  <data name="1422" xml:space="preserve">
+    <value>Тяжелая турель станции Кусари</value>
+  </data>
+  <data name="1423" xml:space="preserve">
+    <value>Легкая турель станции Кусари</value>
+  </data>
+  <data name="1424" xml:space="preserve">
+    <value>Тяжелая турель станции Кусари</value>
+  </data>
+  <data name="1425" xml:space="preserve">
+    <value>Легкая турель станции Кусари</value>
+  </data>
+  <data name="1426" xml:space="preserve">
+    <value>Тяжелая турель станции Кусари</value>
+  </data>
+  <data name="1427" xml:space="preserve">
+    <value>Легкая турель станции Рейнландии</value>
+  </data>
+  <data name="1428" xml:space="preserve">
+    <value>Тяжелая турель станции Рейнландии</value>
+  </data>
+  <data name="1429" xml:space="preserve">
+    <value>Легкая турель станции Рейнландии</value>
+  </data>
+  <data name="1430" xml:space="preserve">
+    <value>Тяжелая турель станции Рейнландии</value>
+  </data>
+  <data name="1431" xml:space="preserve">
+    <value>Легкая турель станции Рейнландии</value>
+  </data>
+  <data name="1432" xml:space="preserve">
+    <value>Тяжелая турель станции Рейнландии</value>
+  </data>
+  <data name="1433" xml:space="preserve">
+    <value>Легкая турель свободной станции</value>
+  </data>
+  <data name="1434" xml:space="preserve">
+    <value>Тяжелая турель свободной станции</value>
+  </data>
+  <data name="1435" xml:space="preserve">
+    <value>Легкая турель свободной станции</value>
+  </data>
+  <data name="1436" xml:space="preserve">
+    <value>Тяжелая турель свободной станции</value>
+  </data>
+  <data name="1437" xml:space="preserve">
+    <value>Легкая турель свободной станции</value>
+  </data>
+  <data name="1438" xml:space="preserve">
+    <value>Тяжелая турель свободной станции</value>
+  </data>
+  <data name="1439" xml:space="preserve">
+    <value>Легкая турель станции</value>
+  </data>
+  <data name="1440" xml:space="preserve">
+    <value>Тяжелая турель станции</value>
+  </data>
+  <data name="1441" xml:space="preserve">
+    <value>Легкая турель станции</value>
+  </data>
+  <data name="1442" xml:space="preserve">
+    <value>Тяжелая турель станции</value>
+  </data>
+  <data name="1443" xml:space="preserve">
+    <value>Легкая турель станции</value>
+  </data>
+  <data name="1444" xml:space="preserve">
+    <value>Тяжелая турель станции</value>
+  </data>
+  <data name="1445" xml:space="preserve">
+    <value>Лазерная турель платформы Свободы</value>
+  </data>
+  <data name="1446" xml:space="preserve">
+    <value>Ракетная турель платформы Свободы</value>
+  </data>
+  <data name="1447" xml:space="preserve">
+    <value>Лазерная турель платформы Свободы</value>
+  </data>
+  <data name="1448" xml:space="preserve">
+    <value>Лазерная турель платформы Свободы</value>
+  </data>
+  <data name="1449" xml:space="preserve">
+    <value>Лазерная турель платформы Свободы</value>
+  </data>
+  <data name="1450" xml:space="preserve">
+    <value>Лазерная турель платформы Свободы</value>
+  </data>
+  <data name="1451" xml:space="preserve">
+    <value>Ракетная турель платформы Свободы</value>
+  </data>
+  <data name="1452" xml:space="preserve">
+    <value>Ракетная турель платформы Свободы</value>
+  </data>
+  <data name="1453" xml:space="preserve">
+    <value>Ракетная турель платформы Свободы</value>
+  </data>
+  <data name="1454" xml:space="preserve">
+    <value>Ракетная турель платформы Свободы</value>
+  </data>
+  <data name="1455" xml:space="preserve">
+    <value>Лазерная турель платформы Бретони</value>
+  </data>
+  <data name="1456" xml:space="preserve">
+    <value>Лазерная турель платформы Бретони</value>
+  </data>
+  <data name="1457" xml:space="preserve">
+    <value>Лазерная турель платформы Бретони</value>
+  </data>
+  <data name="1458" xml:space="preserve">
+    <value>Ракетная турель платформы Бретони</value>
+  </data>
+  <data name="1459" xml:space="preserve">
+    <value>Ракетная турель платформы Бретони</value>
+  </data>
+  <data name="1460" xml:space="preserve">
+    <value>Ракетная турель платформы Бретони</value>
+  </data>
+  <data name="1461" xml:space="preserve">
+    <value>Лазерная турель платформы Кусари</value>
+  </data>
+  <data name="1462" xml:space="preserve">
+    <value>Лазерная турель платформы Кусари</value>
+  </data>
+  <data name="1463" xml:space="preserve">
+    <value>Лазерная турель платформы Кусари</value>
+  </data>
+  <data name="1464" xml:space="preserve">
+    <value>Ракетная турель платформы Кусари</value>
+  </data>
+  <data name="1465" xml:space="preserve">
+    <value>Ракетная турель платформы Кусари</value>
+  </data>
+  <data name="1466" xml:space="preserve">
+    <value>Ракетная турель платформы Кусари</value>
+  </data>
+  <data name="1467" xml:space="preserve">
+    <value>Лазерная турель платформы Рейнландии</value>
+  </data>
+  <data name="1468" xml:space="preserve">
+    <value>Лазерная турель платформы Рейнландии</value>
+  </data>
+  <data name="1469" xml:space="preserve">
+    <value>Лазерная турель платформы Рейнландии</value>
+  </data>
+  <data name="1470" xml:space="preserve">
+    <value>Ракетная турель платформы Рейнландии</value>
+  </data>
+  <data name="1471" xml:space="preserve">
+    <value>Ракетная турель платформы Рейнландии</value>
+  </data>
+  <data name="1472" xml:space="preserve">
+    <value>Ракетная турель платформы Рейнландии</value>
+  </data>
+  <data name="1473" xml:space="preserve">
+    <value>Лазерная турель гражданской платформы</value>
+  </data>
+  <data name="1474" xml:space="preserve">
+    <value>Лазерная турель гражданской платформы</value>
+  </data>
+  <data name="1475" xml:space="preserve">
+    <value>Лазерная турель гражданской платформы</value>
+  </data>
+  <data name="1476" xml:space="preserve">
+    <value>Ракетная турель гражданской платформы</value>
+  </data>
+  <data name="1477" xml:space="preserve">
+    <value>Ракетная турель гражданской платформы</value>
+  </data>
+  <data name="1478" xml:space="preserve">
+    <value>Ракетная турель гражданской платформы</value>
+  </data>
+  <data name="1479" xml:space="preserve">
+    <value>Лазерная турель платформы</value>
+  </data>
+  <data name="1480" xml:space="preserve">
+    <value>Лазерная турель платформы</value>
+  </data>
+  <data name="1481" xml:space="preserve">
+    <value>Лазерная турель платформы</value>
+  </data>
+  <data name="1482" xml:space="preserve">
+    <value>Ракетная турель платформы</value>
+  </data>
+  <data name="1483" xml:space="preserve">
+    <value>Ракетная турель платформы</value>
+  </data>
+  <data name="1484" xml:space="preserve">
+    <value>Ракетная турель платформы</value>
+  </data>
+  <data name="1485" xml:space="preserve">
+    <value>Легкое орудие платформы</value>
+  </data>
+  <data name="1486" xml:space="preserve">
+    <value>Легкая установка платформы</value>
+  </data>
+  <data name="1487" xml:space="preserve">
+    <value>Легкое орудие платформы Свободы</value>
+  </data>
+  <data name="1488" xml:space="preserve">
+    <value>Легкое орудие платформы Свободы</value>
+  </data>
+  <data name="1489" xml:space="preserve">
+    <value>Легкое орудие платформы Свободы</value>
+  </data>
+  <data name="1490" xml:space="preserve">
+    <value>Легкая пусковая установка Свободы</value>
+  </data>
+  <data name="1491" xml:space="preserve">
+    <value>Легкая пусковая установка Свободы</value>
+  </data>
+  <data name="1492" xml:space="preserve">
+    <value>Легкая пусковая установка Свободы</value>
+  </data>
+  <data name="1493" xml:space="preserve">
+    <value>Легкое орудие платформы Бретони</value>
+  </data>
+  <data name="1494" xml:space="preserve">
+    <value>Легкое орудие платформы Бретони</value>
+  </data>
+  <data name="1495" xml:space="preserve">
+    <value>Легкое орудие платформы Бретони</value>
+  </data>
+  <data name="1496" xml:space="preserve">
+    <value>Легкая пусковая установка Бретони</value>
+  </data>
+  <data name="1497" xml:space="preserve">
+    <value>Легкая пусковая установка Бретони</value>
+  </data>
+  <data name="1498" xml:space="preserve">
+    <value>Легкая пусковая установка Бретони</value>
+  </data>
+  <data name="1499" xml:space="preserve">
+    <value>Легкое орудие платформы Кусари</value>
+  </data>
+  <data name="1500" xml:space="preserve">
+    <value>Легкое орудие платформы Кусари</value>
+  </data>
+  <data name="1501" xml:space="preserve">
+    <value>Легкое орудие платформы Кусари</value>
+  </data>
+  <data name="1502" xml:space="preserve">
+    <value>Легкая пусковая установка Кусари</value>
+  </data>
+  <data name="1503" xml:space="preserve">
+    <value>Легкая пусковая установка Кусари</value>
+  </data>
+  <data name="1504" xml:space="preserve">
+    <value>Легкая пусковая установка Кусари</value>
+  </data>
+  <data name="1505" xml:space="preserve">
+    <value>Легкое орудие платформы Рейнландии</value>
+  </data>
+  <data name="1506" xml:space="preserve">
+    <value>Легкое орудие платформы Рейнландии</value>
+  </data>
+  <data name="1507" xml:space="preserve">
+    <value>Легкое орудие платформы Рейнландии</value>
+  </data>
+  <data name="1508" xml:space="preserve">
+    <value>Легкая пусковая установка Рейнландии</value>
+  </data>
+  <data name="1509" xml:space="preserve">
+    <value>Легкая пусковая установка Рейнландии</value>
+  </data>
+  <data name="1510" xml:space="preserve">
+    <value>Легкая пусковая установка Рейнландии</value>
+  </data>
+  <data name="1511" xml:space="preserve">
+    <value>Легкое орудие гражданской платформы</value>
+  </data>
+  <data name="1512" xml:space="preserve">
+    <value>Легкое орудие гражданской платформы</value>
+  </data>
+  <data name="1513" xml:space="preserve">
+    <value>Легкое орудие гражданской платформы</value>
+  </data>
+  <data name="1514" xml:space="preserve">
+    <value>Легкая пусковая установка</value>
+  </data>
+  <data name="1515" xml:space="preserve">
+    <value>Легкая пусковая установка</value>
+  </data>
+  <data name="1516" xml:space="preserve">
+    <value>Легкая пусковая установка</value>
+  </data>
+  <data name="1517" xml:space="preserve">
+    <value>Легкое орудие оружейной платформы</value>
+  </data>
+  <data name="1518" xml:space="preserve">
+    <value>Легкое орудие оружейной платформы</value>
+  </data>
+  <data name="1519" xml:space="preserve">
+    <value>Легкое орудие оружейной платформы</value>
+  </data>
+  <data name="1520" xml:space="preserve">
+    <value>Пусковая установка оружейной платформы</value>
+  </data>
+  <data name="1521" xml:space="preserve">
+    <value>Пусковая установка оружейной платформы</value>
+  </data>
+  <data name="1522" xml:space="preserve">
+    <value>Пусковая установка оружейной платформы</value>
+  </data>
+  <data name="1523" xml:space="preserve">
+    <value>Турель Странников</value>
+  </data>
+  <data name="1524" xml:space="preserve">
+    <value>Турель Странников</value>
+  </data>
+  <data name="1526" xml:space="preserve">
+    <value>Двигатель спасательного отсека</value>
+  </data>
+  <data name="1527" xml:space="preserve">
+    <value>Двигатель «Звездолета»</value>
+  </data>
+  <data name="1528" xml:space="preserve">
+    <value>Двигатель «Мустанга»</value>
+  </data>
+  <data name="1529" xml:space="preserve">
+    <value>Двигатель «Блейзера»</value>
+  </data>
+  <data name="1530" xml:space="preserve">
+    <value>Двигатель гражданского истребителя</value>
+  </data>
+  <data name="1531" xml:space="preserve">
+    <value>Двигатель тяжелого гражданского истребителя</value>
+  </data>
+  <data name="1532" xml:space="preserve">
+    <value>Двигатель сверхтяжелого гражданского истребителя</value>
+  </data>
+  <data name="1533" xml:space="preserve">
+    <value>Двигатель истребителя КМ</value>
+  </data>
+  <data name="1534" xml:space="preserve">
+    <value>Двигатель тяжелого истребителя КМ</value>
+  </data>
+  <data name="1535" xml:space="preserve">
+    <value>Двигатель сверхтяжелого истребителя КМ</value>
+  </data>
+  <data name="1536" xml:space="preserve">
+    <value>Двигатель грузового корабля КМ</value>
+  </data>
+  <data name="1537" xml:space="preserve">
+    <value>Двигатель истребителя Корсаров</value>
+  </data>
+  <data name="1538" xml:space="preserve">
+    <value>Двигатель тяжелого истребителя Корсаров</value>
+  </data>
+  <data name="1539" xml:space="preserve">
+    <value>Двигатель сверхтяжелого истребителя Корсаров</value>
+  </data>
+  <data name="1540" xml:space="preserve">
+    <value>Двигатель истребителя Наемников</value>
+  </data>
+  <data name="1541" xml:space="preserve">
+    <value>Двигатель тяжелого истребителя Наемников</value>
+  </data>
+  <data name="1542" xml:space="preserve">
+    <value>Двигатель сверхтяжелого истребителя Наемников</value>
+  </data>
+  <data name="1543" xml:space="preserve">
+    <value>Двигатель истребителя Свободы</value>
+  </data>
+  <data name="1544" xml:space="preserve">
+    <value>Двигатель истребителя Свободы (у)</value>
+  </data>
+  <data name="1545" xml:space="preserve">
+    <value>Двигатель грузового корабля Свободы</value>
+  </data>
+  <data name="1546" xml:space="preserve">
+    <value>Двигатель истребителя Бретони</value>
+  </data>
+  <data name="1547" xml:space="preserve">
+    <value>Двигатель истребителя Бретони (у)</value>
+  </data>
+  <data name="1548" xml:space="preserve">
+    <value>Двигатель грузового корабля Бретони</value>
+  </data>
+  <data name="1549" xml:space="preserve">
+    <value>Двигатель истребителя Кусари</value>
+  </data>
+  <data name="1550" xml:space="preserve">
+    <value>Двигатель истребителя Кусари (у)</value>
+  </data>
+  <data name="1551" xml:space="preserve">
+    <value>Двигатель грузового корабля Кусари</value>
+  </data>
+  <data name="1552" xml:space="preserve">
+    <value>Двигатель истребителя Рейнландии</value>
+  </data>
+  <data name="1553" xml:space="preserve">
+    <value>Двигатель истребителя Рейнландии (у)</value>
+  </data>
+  <data name="1554" xml:space="preserve">
+    <value>Двигатель грузового корабля Рейнландии</value>
+  </data>
+  <data name="1555" xml:space="preserve">
+    <value>Двигатель истребителя Испании</value>
+  </data>
+  <data name="1556" xml:space="preserve">
+    <value>Двигатель истребителя Испании (у)</value>
+  </data>
+  <data name="1557" xml:space="preserve">
+    <value>Двигатель грузового корабля Испании</value>
+  </data>
+  <data name="1558" xml:space="preserve">
+    <value>Двигатель истребителя Порядок</value>
+  </data>
+  <data name="1560" xml:space="preserve">
+    <value>Бесконечная энергия только для НИП</value>
+  </data>
+  <data name="1561" xml:space="preserve">
+    <value>Реактор «Звездолета»</value>
+  </data>
+  <data name="1562" xml:space="preserve">
+    <value>Реактор «Телескопа»</value>
+  </data>
+  <data name="1563" xml:space="preserve">
+    <value>Реактор легкого гражданского истребителя</value>
+  </data>
+  <data name="1564" xml:space="preserve">
+    <value>Реактор тяжелого гражданского истребителя</value>
+  </data>
+  <data name="1565" xml:space="preserve">
+    <value>Реактор сверхтяжелого гражданского истребителя</value>
+  </data>
+  <data name="1566" xml:space="preserve">
+    <value>Реактор легкого истребителя КМ</value>
+  </data>
+  <data name="1567" xml:space="preserve">
+    <value>Реактор Тяжелого Истребителя КМ</value>
+  </data>
+  <data name="1568" xml:space="preserve">
+    <value>Реактор сверхтяжелого истребителя КМ</value>
+  </data>
+  <data name="1569" xml:space="preserve">
+    <value>Реактор грузового корабля КМ</value>
+  </data>
+  <data name="1570" xml:space="preserve">
+    <value>Реактор легкого истребителя Корсаров</value>
+  </data>
+  <data name="1571" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Корсаров</value>
+  </data>
+  <data name="1572" xml:space="preserve">
+    <value>Реактор сверхтяжелого истребителя Корсаров</value>
+  </data>
+  <data name="1573" xml:space="preserve">
+    <value>Реактор легкого истребителя Наемников</value>
+  </data>
+  <data name="1574" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Наемников</value>
+  </data>
+  <data name="1575" xml:space="preserve">
+    <value>Реактор сверхтяжелого истребителя Наемников</value>
+  </data>
+  <data name="1576" xml:space="preserve">
+    <value>Реактор легкого истребителя Свободы</value>
+  </data>
+  <data name="1577" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Свободы</value>
+  </data>
+  <data name="1578" xml:space="preserve">
+    <value>Реактор сверхтяжелого истребителя Свободы</value>
+  </data>
+  <data name="1579" xml:space="preserve">
+    <value>Реактор легкого истребителя Бретони</value>
+  </data>
+  <data name="1580" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Бретони</value>
+  </data>
+  <data name="1581" xml:space="preserve">
+    <value>Реактор грузового корабля Бретони</value>
+  </data>
+  <data name="1582" xml:space="preserve">
+    <value>Реактор легкого истребителя Кусари</value>
+  </data>
+  <data name="1583" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Кусари</value>
+  </data>
+  <data name="1584" xml:space="preserve">
+    <value>Реактор грузового корабля Кусари</value>
+  </data>
+  <data name="1585" xml:space="preserve">
+    <value>Реактор легкого истребителя Рейнландии</value>
+  </data>
+  <data name="1586" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Рейнландии</value>
+  </data>
+  <data name="1587" xml:space="preserve">
+    <value>Реактор грузового корабля Рейнландии</value>
+  </data>
+  <data name="1588" xml:space="preserve">
+    <value>Реактор легкого истребителя Пиратов</value>
+  </data>
+  <data name="1589" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Пиратов</value>
+  </data>
+  <data name="1590" xml:space="preserve">
+    <value>Реактор грузового корабля Пиратов</value>
+  </data>
+  <data name="1591" xml:space="preserve">
+    <value>Реактор тяжелого истребителя Ордена</value>
+  </data>
+  <data name="1593" xml:space="preserve">
+    <value>Ускоритель</value>
+  </data>
+  <data name="1594" xml:space="preserve">
+    <value>Ускоритель (у)</value>
+  </data>
+  <data name="1595" xml:space="preserve">
+    <value>Тяжелый ускоритель</value>
+  </data>
+  <data name="1596" xml:space="preserve">
+    <value>Усиленный ускоритель</value>
+  </data>
+  <data name="1597" xml:space="preserve">
+    <value>Ускоритель Ордена</value>
+  </data>
+  <data name="1598" xml:space="preserve">
+    <value>Ускоритель Странников</value>
+  </data>
+  <data name="1600" xml:space="preserve">
+    <value>Луч захвата</value>
+  </data>
+  <data name="1602" xml:space="preserve">
+    <value>Нанороботы</value>
+  </data>
+  <data name="1604" xml:space="preserve">
+    <value>Аккумулятор щита</value>
+  </data>
+  <data name="1606" xml:space="preserve">
+    <value>Сканер</value>
+  </data>
+  <data name="1607" xml:space="preserve">
+    <value>Усиленный сканер</value>
+  </data>
+  <data name="1609" xml:space="preserve">
+    <value>Сбрасыватель обманок КМ-1</value>
+  </data>
+  <data name="1610" xml:space="preserve">
+    <value>Сбрасыватель обманок КМ-2</value>
+  </data>
+  <data name="1611" xml:space="preserve">
+    <value>Сбрасыватель обманок КМ-3</value>
+  </data>
+  <data name="1613" xml:space="preserve">
+    <value>Щит легкого истребителя «Убер»</value>
+  </data>
+  <data name="1614" xml:space="preserve">
+    <value>Щит тяжелого истребителя «Убер»</value>
+  </data>
+  <data name="1615" xml:space="preserve">
+    <value>Щит «Часовой»</value>
+  </data>
+  <data name="1616" xml:space="preserve">
+    <value>Щит «Часовой» (у)</value>
+  </data>
+  <data name="1617" xml:space="preserve">
+    <value>Щит «Страж»</value>
+  </data>
+  <data name="1618" xml:space="preserve">
+    <value>Щит «Страж» (у)</value>
+  </data>
+  <data name="1619" xml:space="preserve">
+    <value>Щит «Хранитель»</value>
+  </data>
+  <data name="1620" xml:space="preserve">
+    <value>Щит «Хранитель» (у)</value>
+  </data>
+  <data name="1621" xml:space="preserve">
+    <value>Щит «Защитник»</value>
+  </data>
+  <data name="1622" xml:space="preserve">
+    <value>Щит «Защитник» (у)</value>
+  </data>
+  <data name="1623" xml:space="preserve">
+    <value>Щит «Чемпион»</value>
+  </data>
+  <data name="1624" xml:space="preserve">
+    <value>Щит «Чемпион» (у)</value>
+  </data>
+  <data name="1625" xml:space="preserve">
+    <value>Щит «Бастион»</value>
+  </data>
+  <data name="1626" xml:space="preserve">
+    <value>Щит «Бастион» (у)</value>
+  </data>
+  <data name="1627" xml:space="preserve">
+    <value>Щит «Блокгауз»</value>
+  </data>
+  <data name="1628" xml:space="preserve">
+    <value>Щит «Блокгауз» (у)</value>
+  </data>
+  <data name="1629" xml:space="preserve">
+    <value>Щит «Частокол»</value>
+  </data>
+  <data name="1630" xml:space="preserve">
+    <value>Щит «Частокол» (у)</value>
+  </data>
+  <data name="1631" xml:space="preserve">
+    <value>Щит «Оплот»</value>
+  </data>
+  <data name="1632" xml:space="preserve">
+    <value>Щит «Оплот» (у)</value>
+  </data>
+  <data name="1633" xml:space="preserve">
+    <value>Щит «Барьер»</value>
+  </data>
+  <data name="1634" xml:space="preserve">
+    <value>Щит «Барьер» (у)</value>
+  </data>
+  <data name="1635" xml:space="preserve">
+    <value>Щит «Браслет»</value>
+  </data>
+  <data name="1636" xml:space="preserve">
+    <value>Щит «Браслет» (у)</value>
+  </data>
+  <data name="1637" xml:space="preserve">
+    <value>Щит «Булат»</value>
+  </data>
+  <data name="1638" xml:space="preserve">
+    <value>Щит «Булат» (у)</value>
+  </data>
+  <data name="1639" xml:space="preserve">
+    <value>Щит «Твердь»</value>
+  </data>
+  <data name="1640" xml:space="preserve">
+    <value>Щит «Твердь» (у)</value>
+  </data>
+  <data name="1641" xml:space="preserve">
+    <value>Щит «Эгида»</value>
+  </data>
+  <data name="1642" xml:space="preserve">
+    <value>Щит «Эгида» (у)</value>
+  </data>
+  <data name="1643" xml:space="preserve">
+    <value>Щит «Оберег»</value>
+  </data>
+  <data name="1644" xml:space="preserve">
+    <value>Щит «Оберег» (у)</value>
+  </data>
+  <data name="1645" xml:space="preserve">
+    <value>Щит «Часовой» ЛИ</value>
+  </data>
+  <data name="1646" xml:space="preserve">
+    <value>Щит «Часовой» ЛИ (у)</value>
+  </data>
+  <data name="1647" xml:space="preserve">
+    <value>Щит «Страж» ЛИ</value>
+  </data>
+  <data name="1648" xml:space="preserve">
+    <value>Щит «Страж» ЛИ (у)</value>
+  </data>
+  <data name="1649" xml:space="preserve">
+    <value>Щит «Хранитель» ЛИ</value>
+  </data>
+  <data name="1650" xml:space="preserve">
+    <value>Щит «Хранитель» ЛИ (у)</value>
+  </data>
+  <data name="1651" xml:space="preserve">
+    <value>Щит «Защитник» ЛИ</value>
+  </data>
+  <data name="1652" xml:space="preserve">
+    <value>Щит «Защитник» ЛИ (у)</value>
+  </data>
+  <data name="1653" xml:space="preserve">
+    <value>Щит «Чемпион» ЛИ</value>
+  </data>
+  <data name="1654" xml:space="preserve">
+    <value>Щит «Чемпион» ЛИ (у)</value>
+  </data>
+  <data name="1655" xml:space="preserve">
+    <value>Щит «Часовой» ТИ</value>
+  </data>
+  <data name="1656" xml:space="preserve">
+    <value>Щит «Часовой» ТИ (у)</value>
+  </data>
+  <data name="1657" xml:space="preserve">
+    <value>Щит «Страж» ТИ</value>
+  </data>
+  <data name="1658" xml:space="preserve">
+    <value>Щит «Страж» ТИ (у)</value>
+  </data>
+  <data name="1659" xml:space="preserve">
+    <value>Щит «Хранитель» ТИ</value>
+  </data>
+  <data name="1660" xml:space="preserve">
+    <value>Щит «Хранитель» ТИ (у)</value>
+  </data>
+  <data name="1661" xml:space="preserve">
+    <value>Щит «Защитник» ТИ</value>
+  </data>
+  <data name="1662" xml:space="preserve">
+    <value>Щит «Защитник» ТИ (у)</value>
+  </data>
+  <data name="1663" xml:space="preserve">
+    <value>Щит «Чемпион» ТИ</value>
+  </data>
+  <data name="1664" xml:space="preserve">
+    <value>Щит «Чемпион» ТИ (у)</value>
+  </data>
+  <data name="1665" xml:space="preserve">
+    <value>Щит «Часовой» ГР</value>
+  </data>
+  <data name="1666" xml:space="preserve">
+    <value>Щит «Часовой» ГР (у)</value>
+  </data>
+  <data name="1667" xml:space="preserve">
+    <value>Щит «Страж» ГР</value>
+  </data>
+  <data name="1668" xml:space="preserve">
+    <value>Щит «Страж» ГР (у)</value>
+  </data>
+  <data name="1669" xml:space="preserve">
+    <value>Щит «Хранитель» ГР</value>
+  </data>
+  <data name="1670" xml:space="preserve">
+    <value>Щит «Хранитель» ГР (у)</value>
+  </data>
+  <data name="1671" xml:space="preserve">
+    <value>Щит «Защитник» ГР</value>
+  </data>
+  <data name="1672" xml:space="preserve">
+    <value>Щит «Защитник» ГР (у)</value>
+  </data>
+  <data name="1673" xml:space="preserve">
+    <value>Щит «Чемпион» ГР</value>
+  </data>
+  <data name="1674" xml:space="preserve">
+    <value>Щит «Чемпион» ГР (у)</value>
+  </data>
+  <data name="1675" xml:space="preserve">
+    <value>Щит «Бастион» ЛИ</value>
+  </data>
+  <data name="1676" xml:space="preserve">
+    <value>Щит «Бастион» ЛИ (у)</value>
+  </data>
+  <data name="1677" xml:space="preserve">
+    <value>Щит «Блокгауз» ЛИ</value>
+  </data>
+  <data name="1678" xml:space="preserve">
+    <value>Щит «Блокгауз» ЛИ (у)</value>
+  </data>
+  <data name="1679" xml:space="preserve">
+    <value>Щит «Частокол» ЛИ</value>
+  </data>
+  <data name="1680" xml:space="preserve">
+    <value>Щит «Частокол» ЛИ (у)</value>
+  </data>
+  <data name="1681" xml:space="preserve">
+    <value>Щит «Оплот» ЛИ</value>
+  </data>
+  <data name="1682" xml:space="preserve">
+    <value>Щит «Оплот» ЛИ (у)</value>
+  </data>
+  <data name="1683" xml:space="preserve">
+    <value>Щит «Барьер» ЛИ</value>
+  </data>
+  <data name="1684" xml:space="preserve">
+    <value>Щит «Барьер» ЛИ (у)</value>
+  </data>
+  <data name="1685" xml:space="preserve">
+    <value>Щит «Бастион» ТИ</value>
+  </data>
+  <data name="1686" xml:space="preserve">
+    <value>Щит «Бастион» ТИ (у)</value>
+  </data>
+  <data name="1687" xml:space="preserve">
+    <value>Щит «Блокгауз» ТИ</value>
+  </data>
+  <data name="1688" xml:space="preserve">
+    <value>Щит «Блокгауз» ТИ (у)</value>
+  </data>
+  <data name="1689" xml:space="preserve">
+    <value>Щит «Частокол» ТИ</value>
+  </data>
+  <data name="1690" xml:space="preserve">
+    <value>Щит «Частокол» ТИ (у)</value>
+  </data>
+  <data name="1691" xml:space="preserve">
+    <value>Щит «Оплот» ТИ</value>
+  </data>
+  <data name="1692" xml:space="preserve">
+    <value>Щит «Оплот» ТИ (у)</value>
+  </data>
+  <data name="1693" xml:space="preserve">
+    <value>Щит «Барьер» ТИ</value>
+  </data>
+  <data name="1694" xml:space="preserve">
+    <value>Щит «Барьер» ТИ (у)</value>
+  </data>
+  <data name="1695" xml:space="preserve">
+    <value>Щит «Бастион» ГР</value>
+  </data>
+  <data name="1696" xml:space="preserve">
+    <value>Щит «Бастион» ГР (у)</value>
+  </data>
+  <data name="1697" xml:space="preserve">
+    <value>Щит «Блокгауз» ГР</value>
+  </data>
+  <data name="1698" xml:space="preserve">
+    <value>Щит «Блокгауз» ГР (у)</value>
+  </data>
+  <data name="1699" xml:space="preserve">
+    <value>Щит «Частокол» ГР</value>
+  </data>
+  <data name="1700" xml:space="preserve">
+    <value>Щит «Частокол» ГР (у)</value>
+  </data>
+  <data name="1701" xml:space="preserve">
+    <value>Щит «Оплот» ГР</value>
+  </data>
+  <data name="1702" xml:space="preserve">
+    <value>Щит «Оплот» ГР (у)</value>
+  </data>
+  <data name="1703" xml:space="preserve">
+    <value>Щит «Барьер» ГР</value>
+  </data>
+  <data name="1704" xml:space="preserve">
+    <value>Щит «Барьер» ГР (у)</value>
+  </data>
+  <data name="1705" xml:space="preserve">
+    <value>Щит «Браслет» ЛИ</value>
+  </data>
+  <data name="1706" xml:space="preserve">
+    <value>Щит «Браслет» ЛИ (у)</value>
+  </data>
+  <data name="1707" xml:space="preserve">
+    <value>Щит «Булат» ЛИ</value>
+  </data>
+  <data name="1708" xml:space="preserve">
+    <value>Щит «Булат» ЛИ (у)</value>
+  </data>
+  <data name="1709" xml:space="preserve">
+    <value>Щит «Твердь» ЛИ</value>
+  </data>
+  <data name="1710" xml:space="preserve">
+    <value>Щит «Твердь» ЛИ (у)</value>
+  </data>
+  <data name="1711" xml:space="preserve">
+    <value>Щит «Эгида» ЛИ</value>
+  </data>
+  <data name="1712" xml:space="preserve">
+    <value>Щит «Эгида» ЛИ (у)</value>
+  </data>
+  <data name="1713" xml:space="preserve">
+    <value>Щит «Оберег» ЛИ</value>
+  </data>
+  <data name="1714" xml:space="preserve">
+    <value>Щит «Оберег» ЛИ (у)</value>
+  </data>
+  <data name="1715" xml:space="preserve">
+    <value>Щит «Браслет» ТИ</value>
+  </data>
+  <data name="1716" xml:space="preserve">
+    <value>Щит «Браслет» ТИ (у)</value>
+  </data>
+  <data name="1717" xml:space="preserve">
+    <value>Щит «Булат» ТИ</value>
+  </data>
+  <data name="1718" xml:space="preserve">
+    <value>Щит «Булат» ТИ (у)</value>
+  </data>
+  <data name="1719" xml:space="preserve">
+    <value>Щит «Твердь» ТИ</value>
+  </data>
+  <data name="1720" xml:space="preserve">
+    <value>Щит «Твердь» ТИ (у)</value>
+  </data>
+  <data name="1721" xml:space="preserve">
+    <value>Щит «Эгида» ТИ</value>
+  </data>
+  <data name="1722" xml:space="preserve">
+    <value>Щит «Эгида» ТИ (у)</value>
+  </data>
+  <data name="1723" xml:space="preserve">
+    <value>Щит «Оберег» ТИ</value>
+  </data>
+  <data name="1724" xml:space="preserve">
+    <value>Щит «Оберег» ТИ (у)</value>
+  </data>
+  <data name="1725" xml:space="preserve">
+    <value>Щит «Браслет» ГР</value>
+  </data>
+  <data name="1726" xml:space="preserve">
+    <value>Щит «Браслет» ГР (у)</value>
+  </data>
+  <data name="1727" xml:space="preserve">
+    <value>Щит «Булат» ГР</value>
+  </data>
+  <data name="1728" xml:space="preserve">
+    <value>Щит «Булат» ГР (у)</value>
+  </data>
+  <data name="1729" xml:space="preserve">
+    <value>Щит «Твердь» ГР</value>
+  </data>
+  <data name="1730" xml:space="preserve">
+    <value>Щит «Твердь» ГР (у)</value>
+  </data>
+  <data name="1731" xml:space="preserve">
+    <value>Щит «Эгида» ГР</value>
+  </data>
+  <data name="1732" xml:space="preserve">
+    <value>Щит «Эгида» ГР (у)</value>
+  </data>
+  <data name="1733" xml:space="preserve">
+    <value>Щит «Оберег» ГР</value>
+  </data>
+  <data name="1734" xml:space="preserve">
+    <value>Щит «Оберег» ГР (у)</value>
+  </data>
+  <data name="1735" xml:space="preserve">
+    <value>Щит Ордена ТИ</value>
+  </data>
+  <data name="1737" xml:space="preserve">
+    <value>Транспортный двигатель</value>
+  </data>
+  <data name="1738" xml:space="preserve">
+    <value>Мощный транспортный двигатель</value>
+  </data>
+  <data name="1739" xml:space="preserve">
+    <value>Двигатель космопоезда</value>
+  </data>
+  <data name="1740" xml:space="preserve">
+    <value>Мощный двигатель космопоезда</value>
+  </data>
+  <data name="1741" xml:space="preserve">
+    <value>Двигатель бронетранспортера</value>
+  </data>
+  <data name="1742" xml:space="preserve">
+    <value>Двигатель шахты</value>
+  </data>
+  <data name="1743" xml:space="preserve">
+    <value>Двигатель крейсера Свободы</value>
+  </data>
+  <data name="1744" xml:space="preserve">
+    <value>Двигатель линкора Свободы</value>
+  </data>
+  <data name="1745" xml:space="preserve">
+    <value>Двигатель дредноута Свободы</value>
+  </data>
+  <data name="1746" xml:space="preserve">
+    <value>Двигатель эсминца Бретони</value>
+  </data>
+  <data name="1747" xml:space="preserve">
+    <value>Двигатель линкора Бретони</value>
+  </data>
+  <data name="1748" xml:space="preserve">
+    <value>Двигатель канонерки Бретони</value>
+  </data>
+  <data name="1749" xml:space="preserve">
+    <value>Двигатель канонерки Кусари</value>
+  </data>
+  <data name="1750" xml:space="preserve">
+    <value>Двигатель эсминца Кусари</value>
+  </data>
+  <data name="1751" xml:space="preserve">
+    <value>Двигатель линкора Кусари</value>
+  </data>
+  <data name="1752" xml:space="preserve">
+    <value>Двигатель канонерки Рейнландии</value>
+  </data>
+  <data name="1753" xml:space="preserve">
+    <value>Двигатель крейсера Рейнландии</value>
+  </data>
+  <data name="1754" xml:space="preserve">
+    <value>Двигатель линкора Рейнландии</value>
+  </data>
+  <data name="1755" xml:space="preserve">
+    <value>Двигатель погрузчика</value>
+  </data>
+  <data name="1756" xml:space="preserve">
+    <value>Двигатель подъемника</value>
+  </data>
+  <data name="1757" xml:space="preserve">
+    <value>Двигатель круизного лайнера</value>
+  </data>
+  <data name="1758" xml:space="preserve">
+    <value>Двигатель тюремного судна</value>
+  </data>
+  <data name="1759" xml:space="preserve">
+    <value>Двигатель ремонтного судна</value>
+  </data>
+  <data name="1760" xml:space="preserve">
+    <value>Двигатель истребителя Странников</value>
+  </data>
+  <data name="1761" xml:space="preserve">
+    <value>Двигатель канонерки Странников</value>
+  </data>
+  <data name="1762" xml:space="preserve">
+    <value>Двигатель линкора Странников</value>
+  </data>
+  <data name="1763" xml:space="preserve">
+    <value>Двигатель «Осириса»</value>
+  </data>
+  <data name="3002" xml:space="preserve">
+    <value>Ракета «Копье»</value>
+  </data>
+  <data name="3003" xml:space="preserve">
+    <value>Ракета «Копье»</value>
+  </data>
+  <data name="3004" xml:space="preserve">
+    <value>Ракета «Праща»</value>
+  </data>
+  <data name="3005" xml:space="preserve">
+    <value>Ракета «Катапульта»</value>
+  </data>
+  <data name="3006" xml:space="preserve">
+    <value>Ракета «Улан»</value>
+  </data>
+  <data name="3007" xml:space="preserve">
+    <value>Ракета «Снаряд»</value>
+  </data>
+  <data name="3008" xml:space="preserve">
+    <value>Ракета «Сталкер»</value>
+  </data>
+  <data name="3009" xml:space="preserve">
+    <value>Ракета «Ветряной сталкер»</value>
+  </data>
+  <data name="3010" xml:space="preserve">
+    <value>Ракета «Лунный сталкер»</value>
+  </data>
+  <data name="3011" xml:space="preserve">
+    <value>Ракета «Солнечный сталкер»</value>
+  </data>
+  <data name="3012" xml:space="preserve">
+    <value>Ракета «Огненный сталкер»</value>
+  </data>
+  <data name="3013" xml:space="preserve">
+    <value>Ракета «Стиратель»</value>
+  </data>
+  <data name="3014" xml:space="preserve">
+    <value>Ракета «Чистильшик»</value>
+  </data>
+  <data name="3015" xml:space="preserve">
+    <value>Ракета «Нейтрализатор»</value>
+  </data>
+  <data name="3016" xml:space="preserve">
+    <value>Ракета «Парализатор»</value>
+  </data>
+  <data name="3017" xml:space="preserve">
+    <value>Ракета «Оса»</value>
+  </data>
+  <data name="3018" xml:space="preserve">
+    <value>Ракета «Шершень»</value>
+  </data>
+  <data name="3019" xml:space="preserve">
+    <value>Торпеда «Звездобой»</value>
+  </data>
+  <data name="3020" xml:space="preserve">
+    <value>Торпеда «Солнцебой»</value>
+  </data>
+  <data name="3021" xml:space="preserve">
+    <value>Мина «Трутень»</value>
+  </data>
+  <data name="3022" xml:space="preserve">
+    <value>Мина «Боевой пес»</value>
+  </data>
+  <data name="3023" xml:space="preserve">
+    <value>Мина «Головастик»</value>
+  </data>
+  <data name="3024" xml:space="preserve">
+    <value>Мина «Мухобойка»</value>
+  </data>
+  <data name="3025" xml:space="preserve">
+    <value>Мина «Крикун»</value>
+  </data>
+  <data name="3026" xml:space="preserve">
+    <value>Мина «Охотник»</value>
+  </data>
+  <data name="3027" xml:space="preserve">
+    <value>Мина «Лезвие»</value>
+  </data>
+  <data name="3028" xml:space="preserve">
+    <value>Мина «Буровик»</value>
+  </data>
+  <data name="3029" xml:space="preserve">
+    <value>Мина «Резак»</value>
+  </data>
+  <data name="3030" xml:space="preserve">
+    <value>Мина «Потрошитель»</value>
+  </data>
+  <data name="3382" xml:space="preserve">
+    <value>Блокиратор движения Странников</value>
+  </data>
+  <data name="3446" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3451" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3452" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3453" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3454" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3458" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3459" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3460" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3464" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3465" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3466" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3470" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3471" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3472" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3476" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3477" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3478" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3482" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3483" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3484" xml:space="preserve">
+    <value>Ракета ТП</value>
+  </data>
+  <data name="3486" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3490" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3491" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3492" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3496" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3497" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3498" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3502" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3503" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3504" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3508" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3509" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3514" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3515" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3516" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3520" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3521" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3522" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3530" xml:space="preserve">
+    <value>Легкая ракета ТП</value>
+  </data>
+  <data name="3609" xml:space="preserve">
+    <value>Обманка КМ-1</value>
+  </data>
+  <data name="3610" xml:space="preserve">
+    <value>Обманка КМ-2</value>
+  </data>
+  <data name="3611" xml:space="preserve">
+    <value>Обманка КМ-3</value>
+  </data>
+</root>

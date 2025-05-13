@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EC12496-9021-42FB-B347-173969461B82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FLResources</RootNamespace>
+    <AssemblyName>FLResources</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\SBM3_name.Designer.cs">
+      <DependentUpon>SBM3_name.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources_name.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources_name.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StatusHandle.cs" />
+    <Compile Include="Properties\EquipResources_info.Designer.cs">
+      <DependentUpon>EquipResources_info.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\EquipResources_name.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EquipResources_name.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\InfoCards_info.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfoCards_info.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\MiscTextInfo2_info.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MiscTextInfo2_info.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\MiscText_info.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MiscText_info.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\NameResources_name.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NameResources_name.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\OfferBribeResources_name.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfferBribeResources_name.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SBM2_name.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SBM2_name.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SBM3_info.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SBM3_info.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SBM_info.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SBM_info.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SBM_name.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SBM_name.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResControl.cs" />
+    <Compile Include="IResources.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\EquipResources_info.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EquipResources_info.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\EquipResources_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EquipResources_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\InfoCards_info.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>InfoCards_info.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\MiscTextInfo2_info.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiscTextInfo2_info.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\MiscText_info.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiscText_info.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\NameResources_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NameResources_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\OfferBribeResources_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OfferBribeResources_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SBM3_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SBM3_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SBM2_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SBM2_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SBM3_info.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SBM3_info.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SBM_info.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SBM_info.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SBM_name.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SBM_name.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FLCore\FLCore.csproj">
+      <Project>{92F167F4-06AE-4DB5-83A9-1CD1C243E5A3}</Project>
+      <Name>FLCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FLData\FLData.csproj">
+      <Project>{83A465F0-6B49-4274-9874-75EFFA3D0CDF}</Project>
+      <Name>FLData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,1308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1" xml:space="preserve">
+    <value>Воин</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>Cylon Raider</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>Огненный поцелуй</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>Starfury</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>Убийца Звезд</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>Galaxy Lifter</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>Убийца Звезд</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>Dropship</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>Уничтожитель</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>Phoenix</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>Крон</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>Nial Drail</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>Золотой червь MKIII</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>Nial Usiel</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>Турель транспорта</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>Сикер MKII</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>Люгер Тип D</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>Змей MKII</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>ФЕНИКС</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>Турель канонерки</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>Турель линкора кусари</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>Орудие теней</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>Небесное сияние</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>Небесное сияние</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>Турель Лайнера</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>Закат солнца</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>Орудие беженцев</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>Ангел</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>Маскитон</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>Маскитон MKII</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>Турель Сикер</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>Турель «Маскитон»</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>Оптимум</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>Планета Оптимум</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>Станция Аурилия</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>Турель линкора Осириса</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>Сикер</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>МАГИЧЕСКИЙ ШАР</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>Гипертоннель</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>Гипертоннель</value>
+  </data>
+  <data name="65" xml:space="preserve">
+    <value>Лазурит MKI</value>
+  </data>
+  <data name="67" xml:space="preserve">
+    <value>Лазурит MKII</value>
+  </data>
+  <data name="69" xml:space="preserve">
+    <value>Щит «Орканиус»</value>
+  </data>
+  <data name="71" xml:space="preserve">
+    <value>Кара</value>
+  </data>
+  <data name="73" xml:space="preserve">
+    <value>Щит «Эрагон»</value>
+  </data>
+  <data name="75" xml:space="preserve">
+    <value>Мезоструктурная броня «Крепчак»</value>
+  </data>
+  <data name="77" xml:space="preserve">
+    <value>Maledict Burst Cannon</value>
+  </data>
+  <data name="79" xml:space="preserve">
+    <value>Турель Сикер</value>
+  </data>
+  <data name="81" xml:space="preserve">
+    <value />
+  </data>
+  <data name="83" xml:space="preserve">
+    <value>Нанохитиновая броня «Бронинг»</value>
+  </data>
+  <data name="85" xml:space="preserve">
+    <value>Миоплазменная броня «Скала»</value>
+  </data>
+  <data name="87" xml:space="preserve">
+    <value>Броня Амазанок «Вивьера»</value>
+  </data>
+  <data name="89" xml:space="preserve">
+    <value>АМАЗОНИТ</value>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>Броня Охотников на Амазонок «Бригантин»</value>
+  </data>
+  <data name="93" xml:space="preserve">
+    <value>Турель «Хронтан»</value>
+  </data>
+  <data name="95" xml:space="preserve">
+    <value>Mercury Mine Dropper</value>
+  </data>
+  <data name="97" xml:space="preserve">
+    <value>Protoss Cannon</value>
+  </data>
+  <data name="99" xml:space="preserve">
+    <value>Закат солнца МКII</value>
+  </data>
+  <data name="101" xml:space="preserve">
+    <value>BFG</value>
+  </data>
+  <data name="103" xml:space="preserve">
+    <value>Гелиодор</value>
+  </data>
+  <data name="105" xml:space="preserve">
+    <value>Лазер теней</value>
+  </data>
+  <data name="107" xml:space="preserve">
+    <value>Щит линкора теней</value>
+  </data>
+  <data name="109" xml:space="preserve">
+    <value>Турель Турмалин</value>
+  </data>
+  <data name="111" xml:space="preserve">
+    <value>Assault Cannon</value>
+  </data>
+  <data name="113" xml:space="preserve">
+    <value>Assault Cannon Turret</value>
+  </data>
+  <data name="115" xml:space="preserve">
+    <value>Hookah</value>
+  </data>
+  <data name="117" xml:space="preserve">
+    <value>Hookah Turret</value>
+  </data>
+  <data name="119" xml:space="preserve">
+    <value>Harquebus</value>
+  </data>
+  <data name="121" xml:space="preserve">
+    <value>Harquebus Turret</value>
+  </data>
+  <data name="123" xml:space="preserve">
+    <value>Охотники на Амазонок</value>
+  </data>
+  <data name="125" xml:space="preserve">
+    <value>Galactic Flagellator Turret</value>
+  </data>
+  <data name="127" xml:space="preserve">
+    <value>Артиллерия ада (Кл10)</value>
+  </data>
+  <data name="129" xml:space="preserve">
+    <value>МАГИЧЕСКИЙ ШАР</value>
+  </data>
+  <data name="131" xml:space="preserve">
+    <value>Защитник Мк IV</value>
+  </data>
+  <data name="133" xml:space="preserve">
+    <value>Носовая пушка крейсера кусари</value>
+  </data>
+  <data name="135" xml:space="preserve">
+    <value>Harbinger II Torpedo</value>
+  </data>
+  <data name="137" xml:space="preserve">
+    <value>Moray Missile</value>
+  </data>
+  <data name="139" xml:space="preserve">
+    <value>Moray Missile Launcher</value>
+  </data>
+  <data name="141" xml:space="preserve">
+    <value>Миномет «Разрушитель»</value>
+  </data>
+  <data name="143" xml:space="preserve">
+    <value />
+  </data>
+  <data name="144" xml:space="preserve">
+    <value>Ensnare Missile</value>
+  </data>
+  <data name="145" xml:space="preserve">
+    <value>Установка «Алькатрас»</value>
+  </data>
+  <data name="147" xml:space="preserve">
+    <value>Т-установка «Армагеддон»</value>
+  </data>
+  <data name="149" xml:space="preserve">
+    <value>Блокиратор движения «Ронкар»</value>
+  </data>
+  <data name="151" xml:space="preserve">
+    <value>Нарфон MKI</value>
+  </data>
+  <data name="153" xml:space="preserve">
+    <value>Главная пушка канонерки</value>
+  </data>
+  <data name="155" xml:space="preserve">
+    <value>Ускоритель Охотников на Амазонок</value>
+  </data>
+  <data name="157" xml:space="preserve">
+    <value>Nut Buster Turret</value>
+  </data>
+  <data name="159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="161" xml:space="preserve">
+    <value />
+  </data>
+  <data name="163" xml:space="preserve">
+    <value>Mercury Missile</value>
+  </data>
+  <data name="165" xml:space="preserve">
+    <value>МАГИЧЕСКИЙ ШАР</value>
+  </data>
+  <data name="167" xml:space="preserve">
+    <value>Турель Сикер</value>
+  </data>
+  <data name="169" xml:space="preserve">
+    <value>Неизвестное орудие</value>
+  </data>
+  <data name="171" xml:space="preserve">
+    <value>Нарфон MKII</value>
+  </data>
+  <data name="173" xml:space="preserve">
+    <value>C-4 Enema Launcher</value>
+  </data>
+  <data name="175" xml:space="preserve">
+    <value>Турель «Ластирикс»</value>
+  </data>
+  <data name="177" xml:space="preserve">
+    <value>EL Toro Launcher</value>
+  </data>
+  <data name="179" xml:space="preserve">
+    <value>Щит «Циклоп»</value>
+  </data>
+  <data name="181" xml:space="preserve">
+    <value>Skipper Missile Torp Launcher</value>
+  </data>
+  <data name="183" xml:space="preserve">
+    <value>Турель «Хризопраз»</value>
+  </data>
+  <data name="185" xml:space="preserve">
+    <value>The Big Kahuna Launcher</value>
+  </data>
+  <data name="1176" xml:space="preserve">
+    <value>ОБСИДИАН</value>
+  </data>
+  <data name="1178" xml:space="preserve">
+    <value>Training Thruster</value>
+  </data>
+  <data name="1180" xml:space="preserve">
+    <value>Recon Thruster</value>
+  </data>
+  <data name="1182" xml:space="preserve">
+    <value>Combat Thruster</value>
+  </data>
+  <data name="1184" xml:space="preserve">
+    <value>Усиленный ускоритель (y)</value>
+  </data>
+  <data name="1186" xml:space="preserve">
+    <value>Пульсар</value>
+  </data>
+  <data name="1196" xml:space="preserve">
+    <value>Турель Лабрадор</value>
+  </data>
+  <data name="1198" xml:space="preserve">
+    <value>Stage 1 Decoy Chucker</value>
+  </data>
+  <data name="1200" xml:space="preserve">
+    <value>Stage 2 Decoy</value>
+  </data>
+  <data name="1202" xml:space="preserve">
+    <value>Stage 2 Decoy Chucker</value>
+  </data>
+  <data name="1204" xml:space="preserve">
+    <value>Stage 3 Decoy</value>
+  </data>
+  <data name="1206" xml:space="preserve">
+    <value>Stage 3 Decoy Chucker</value>
+  </data>
+  <data name="1210" xml:space="preserve">
+    <value>DragonFly Missile</value>
+  </data>
+  <data name="1212" xml:space="preserve">
+    <value>DragonFly Cruise Disruptor</value>
+  </data>
+  <data name="1214" xml:space="preserve">
+    <value>Stinger Missile</value>
+  </data>
+  <data name="1216" xml:space="preserve">
+    <value>Stinger Cruise Disruptor</value>
+  </data>
+  <data name="1218" xml:space="preserve">
+    <value>Ensnare Missile</value>
+  </data>
+  <data name="1220" xml:space="preserve">
+    <value>Ensnare Cruise Disruptor</value>
+  </data>
+  <data name="1222" xml:space="preserve">
+    <value>Щит «Соран»</value>
+  </data>
+  <data name="1224" xml:space="preserve">
+    <value>Щит «Рубис»</value>
+  </data>
+  <data name="1230" xml:space="preserve">
+    <value>Беженцы</value>
+  </data>
+  <data name="1232" xml:space="preserve">
+    <value>Grand Armor</value>
+  </data>
+  <data name="1234" xml:space="preserve">
+    <value>RAF Armor</value>
+  </data>
+  <data name="1236" xml:space="preserve">
+    <value>Shark Armor</value>
+  </data>
+  <data name="1238" xml:space="preserve">
+    <value>Lancers Armor</value>
+  </data>
+  <data name="1240" xml:space="preserve">
+    <value>Demon Armor</value>
+  </data>
+  <data name="1242" xml:space="preserve">
+    <value>Black Shark Armor</value>
+  </data>
+  <data name="1255" xml:space="preserve">
+    <value>Light Fighter1 engine</value>
+  </data>
+  <data name="1257" xml:space="preserve">
+    <value>Light Fighter2 engine</value>
+  </data>
+  <data name="1259" xml:space="preserve">
+    <value>Fighter engine</value>
+  </data>
+  <data name="1261" xml:space="preserve">
+    <value>Fighter2 engine</value>
+  </data>
+  <data name="1263" xml:space="preserve">
+    <value>Fighter3 engine</value>
+  </data>
+  <data name="1265" xml:space="preserve">
+    <value>Ultra Fighter engine</value>
+  </data>
+  <data name="1267" xml:space="preserve">
+    <value>Freighter engine</value>
+  </data>
+  <data name="1269" xml:space="preserve">
+    <value>Freighter2 engine</value>
+  </data>
+  <data name="1271" xml:space="preserve">
+    <value>Freighter3 engine</value>
+  </data>
+  <data name="1273" xml:space="preserve">
+    <value>Cruiser engine</value>
+  </data>
+  <data name="1275" xml:space="preserve">
+    <value>Bomber engine</value>
+  </data>
+  <data name="1277" xml:space="preserve">
+    <value>Battleship engine</value>
+  </data>
+  <data name="1279" xml:space="preserve">
+    <value>Battleship2 engine</value>
+  </data>
+  <data name="1296" xml:space="preserve">
+    <value>Light Fighter1 Power</value>
+  </data>
+  <data name="1298" xml:space="preserve">
+    <value>Light Fighter2 Power</value>
+  </data>
+  <data name="1300" xml:space="preserve">
+    <value>Fighter Power</value>
+  </data>
+  <data name="1302" xml:space="preserve">
+    <value>Ultra Fighter Power</value>
+  </data>
+  <data name="1304" xml:space="preserve">
+    <value>Freighter Power</value>
+  </data>
+  <data name="1306" xml:space="preserve">
+    <value>Cruiser Power</value>
+  </data>
+  <data name="1308" xml:space="preserve">
+    <value>Battleship Power</value>
+  </data>
+  <data name="1326" xml:space="preserve">
+    <value>Феба Mk I</value>
+  </data>
+  <data name="1328" xml:space="preserve">
+    <value>Феба Mk II</value>
+  </data>
+  <data name="1330" xml:space="preserve">
+    <value>Щит «Орифия»</value>
+  </data>
+  <data name="1332" xml:space="preserve">
+    <value>Т-установка «Фалестрида»</value>
+  </data>
+  <data name="1334" xml:space="preserve">
+    <value>Турель «Закат солнца»</value>
+  </data>
+  <data name="1336" xml:space="preserve">
+    <value>Щит Странников</value>
+  </data>
+  <data name="1338" xml:space="preserve">
+    <value>Freighter Shield</value>
+  </data>
+  <data name="1340" xml:space="preserve">
+    <value>Дредноут Бретони</value>
+  </data>
+  <data name="1342" xml:space="preserve">
+    <value>Турель «Небесное сияние»</value>
+  </data>
+  <data name="1344" xml:space="preserve">
+    <value>Небесное сияние МКII</value>
+  </data>
+  <data name="1346" xml:space="preserve">
+    <value>Щит Администрации</value>
+  </data>
+  <data name="1348" xml:space="preserve">
+    <value>Centaurian Light Fighter Shield MKII</value>
+  </data>
+  <data name="1350" xml:space="preserve">
+    <value>Щит Грузовика</value>
+  </data>
+  <data name="1352" xml:space="preserve">
+    <value>Centaurian Heavy Fighter Shield MKII</value>
+  </data>
+  <data name="1354" xml:space="preserve">
+    <value>Centaurian Freighter Shield</value>
+  </data>
+  <data name="1356" xml:space="preserve">
+    <value>Голубой контейнер</value>
+  </data>
+  <data name="1358" xml:space="preserve">
+    <value>Амазонки</value>
+  </data>
+  <data name="1360" xml:space="preserve">
+    <value>Щит Странников</value>
+  </data>
+  <data name="1362" xml:space="preserve">
+    <value>Щит «Агава»</value>
+  </data>
+  <data name="1364" xml:space="preserve">
+    <value>Турель «Андромаха»</value>
+  </data>
+  <data name="1366" xml:space="preserve">
+    <value>Щит «Алкиппа»</value>
+  </data>
+  <data name="1368" xml:space="preserve">
+    <value>Щит «Алкибия»</value>
+  </data>
+  <data name="1370" xml:space="preserve">
+    <value>Ускоритель Амазонок</value>
+  </data>
+  <data name="1372" xml:space="preserve">
+    <value>Арето Mk II</value>
+  </data>
+  <data name="1374" xml:space="preserve">
+    <value>Арето Mk I</value>
+  </data>
+  <data name="1376" xml:space="preserve">
+    <value>Антандра</value>
+  </data>
+  <data name="1378" xml:space="preserve">
+    <value>Mega Light Fighter Shield</value>
+  </data>
+  <data name="1380" xml:space="preserve">
+    <value>Мина «Главка»</value>
+  </data>
+  <data name="1382" xml:space="preserve">
+    <value>Миномет «Главка»</value>
+  </data>
+  <data name="1384" xml:space="preserve">
+    <value>Light Mega Fighter Shield</value>
+  </data>
+  <data name="1386" xml:space="preserve">
+    <value>Блокиратор движения «Кима»</value>
+  </data>
+  <data name="1388" xml:space="preserve">
+    <value>Сбрасыватель обманок КМ-4</value>
+  </data>
+  <data name="1390" xml:space="preserve">
+    <value>Щит Лайнера</value>
+  </data>
+  <data name="1392" xml:space="preserve">
+    <value>Установка «Профоя»</value>
+  </data>
+  <data name="1394" xml:space="preserve">
+    <value>Турель «Астерия»</value>
+  </data>
+  <data name="1396" xml:space="preserve">
+    <value>Щит линкора</value>
+  </data>
+  <data name="1398" xml:space="preserve">
+    <value>Bonetti's Defense Fighter Shield</value>
+  </data>
+  <data name="1400" xml:space="preserve">
+    <value>Bonetti's Freighter Shield</value>
+  </data>
+  <data name="1402" xml:space="preserve">
+    <value>Щит Отважный</value>
+  </data>
+  <data name="1404" xml:space="preserve">
+    <value>Щит крейсера</value>
+  </data>
+  <data name="1406" xml:space="preserve">
+    <value>Щит канонерки</value>
+  </data>
+  <data name="10175" xml:space="preserve">
+    <value>JSN BH Elite Light hull</value>
+  </data>
+  <data name="10176" xml:space="preserve">
+    <value>BH Elite Light</value>
+  </data>
+  <data name="10185" xml:space="preserve">
+    <value>BH Elite Heavy Fighter Hull</value>
+  </data>
+  <data name="10186" xml:space="preserve">
+    <value>Ворон</value>
+  </data>
+  <data name="10265" xml:space="preserve">
+    <value>Leviathan Hull</value>
+  </data>
+  <data name="10266" xml:space="preserve">
+    <value>Стальной Молот</value>
+  </data>
+  <data name="10275" xml:space="preserve">
+    <value>Wasp Hull</value>
+  </data>
+  <data name="10276" xml:space="preserve">
+    <value>Паладин</value>
+  </data>
+  <data name="10285" xml:space="preserve">
+    <value>Scavenger Hull</value>
+  </data>
+  <data name="10286" xml:space="preserve">
+    <value>Гладиатор</value>
+  </data>
+  <data name="10295" xml:space="preserve">
+    <value>Soul Train Hull</value>
+  </data>
+  <data name="10296" xml:space="preserve">
+    <value>Такшип-3200</value>
+  </data>
+  <data name="10305" xml:space="preserve">
+    <value>Pack Rat Hull</value>
+  </data>
+  <data name="10306" xml:space="preserve">
+    <value>Ака-666</value>
+  </data>
+  <data name="10315" xml:space="preserve">
+    <value>Scrounge Hull</value>
+  </data>
+  <data name="10316" xml:space="preserve">
+    <value>Шторм</value>
+  </data>
+  <data name="11176" xml:space="preserve">
+    <value>Бегемот</value>
+  </data>
+  <data name="11181" xml:space="preserve">
+    <value>Fighter power</value>
+  </data>
+  <data name="11183" xml:space="preserve">
+    <value>Battleship Power</value>
+  </data>
+  <data name="11186" xml:space="preserve">
+    <value>Валькирия MK II</value>
+  </data>
+  <data name="11191" xml:space="preserve">
+    <value>Rykengoll Elite shield</value>
+  </data>
+  <data name="11193" xml:space="preserve">
+    <value>Merchant Elite shield</value>
+  </data>
+  <data name="11195" xml:space="preserve">
+    <value>Necromonger Elite shield</value>
+  </data>
+  <data name="11197" xml:space="preserve">
+    <value>Furyan Elite shield</value>
+  </data>
+  <data name="11199" xml:space="preserve">
+    <value>Elemental Elite shield</value>
+  </data>
+  <data name="11201" xml:space="preserve">
+    <value>Ultra fighter Power</value>
+  </data>
+  <data name="11203" xml:space="preserve">
+    <value>Battleship shield</value>
+  </data>
+  <data name="11205" xml:space="preserve">
+    <value>Cruiser shield</value>
+  </data>
+  <data name="11206" xml:space="preserve">
+    <value>Arcudia</value>
+  </data>
+  <data name="11207" xml:space="preserve">
+    <value>Advanced Freighter Shield</value>
+  </data>
+  <data name="11209" xml:space="preserve">
+    <value>Freighter Shield</value>
+  </data>
+  <data name="11211" xml:space="preserve">
+    <value>Light Freighter Shield</value>
+  </data>
+  <data name="11213" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11215" xml:space="preserve">
+    <value>Щит грузовика</value>
+  </data>
+  <data name="11217" xml:space="preserve">
+    <value>Щит Админа</value>
+  </data>
+  <data name="11219" xml:space="preserve">
+    <value>Centaurian Freighter Shield</value>
+  </data>
+  <data name="11221" xml:space="preserve">
+    <value>Centaurian Heavy Fighter Shield MKII</value>
+  </data>
+  <data name="11223" xml:space="preserve">
+    <value>Centaurian Light Fighter Shield MKII</value>
+  </data>
+  <data name="11225" xml:space="preserve">
+    <value>Голубой контейнер</value>
+  </data>
+  <data name="11227" xml:space="preserve">
+    <value>Щит Странников</value>
+  </data>
+  <data name="11229" xml:space="preserve">
+    <value>Sioux Light Fighter Shield</value>
+  </data>
+  <data name="11231" xml:space="preserve">
+    <value>Щит Странников</value>
+  </data>
+  <data name="11233" xml:space="preserve">
+    <value>Interdimensional shield</value>
+  </data>
+  <data name="11235" xml:space="preserve">
+    <value>Interdimensional Fighter shield</value>
+  </data>
+  <data name="11237" xml:space="preserve">
+    <value>Interdimensional Light Fighter shield</value>
+  </data>
+  <data name="11239" xml:space="preserve">
+    <value>Interdimensional Large shield</value>
+  </data>
+  <data name="11241" xml:space="preserve">
+    <value>Iroquois Fighter Shield</value>
+  </data>
+  <data name="11243" xml:space="preserve">
+    <value>Iroquois Light Fighter Shield</value>
+  </data>
+  <data name="11245" xml:space="preserve">
+    <value>Iroquois Freighter Shield</value>
+  </data>
+  <data name="11247" xml:space="preserve">
+    <value>Мина «Главка»</value>
+  </data>
+  <data name="11249" xml:space="preserve">
+    <value>Mega Light Fighter Shield</value>
+  </data>
+  <data name="11251" xml:space="preserve">
+    <value>Mega Freighter Shield</value>
+  </data>
+  <data name="11253" xml:space="preserve">
+    <value>Light Mega Fighter Shield</value>
+  </data>
+  <data name="11255" xml:space="preserve">
+    <value>Mega Ultra Light Fighter Shield</value>
+  </data>
+  <data name="11257" xml:space="preserve">
+    <value>Light Mega Freighter Shield</value>
+  </data>
+  <data name="11259" xml:space="preserve">
+    <value>RAF Fighter Shield</value>
+  </data>
+  <data name="11261" xml:space="preserve">
+    <value>Щит Лайнера</value>
+  </data>
+  <data name="11263" xml:space="preserve">
+    <value>RAF Freighter Shield</value>
+  </data>
+  <data name="11265" xml:space="preserve">
+    <value>Bonetti's Defense Fighter Shield</value>
+  </data>
+  <data name="11267" xml:space="preserve">
+    <value>Щит линкора</value>
+  </data>
+  <data name="11269" xml:space="preserve">
+    <value>Bonetti's Freighter Shield</value>
+  </data>
+  <data name="11271" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="11273" xml:space="preserve">
+    <value>Grand Armor</value>
+  </data>
+  <data name="11275" xml:space="preserve">
+    <value>RAF Armor</value>
+  </data>
+  <data name="11277" xml:space="preserve">
+    <value>Shark Armor</value>
+  </data>
+  <data name="11279" xml:space="preserve">
+    <value>Lancers Armor</value>
+  </data>
+  <data name="11281" xml:space="preserve">
+    <value>Demon Armor</value>
+  </data>
+  <data name="11285" xml:space="preserve">
+    <value>Black Shark Armor</value>
+  </data>
+  <data name="11287" xml:space="preserve">
+    <value>Fighter engine</value>
+  </data>
+  <data name="11289" xml:space="preserve">
+    <value>Large Cruiser Engine</value>
+  </data>
+  <data name="11291" xml:space="preserve">
+    <value>Battleship Engine</value>
+  </data>
+  <data name="11292" xml:space="preserve">
+    <value>Battle ship engine</value>
+  </data>
+  <data name="11293" xml:space="preserve">
+    <value>Ultra Fighter engine</value>
+  </data>
+  <data name="11295" xml:space="preserve">
+    <value>Light Fighter engine</value>
+  </data>
+  <data name="11297" xml:space="preserve">
+    <value>Cruiser Power</value>
+  </data>
+  <data name="11299" xml:space="preserve">
+    <value>Щит крейсера</value>
+  </data>
+  <data name="11301" xml:space="preserve">
+    <value>Щит Отважный</value>
+  </data>
+  <data name="11303" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11306" xml:space="preserve">
+    <value>Игла</value>
+  </data>
+  <data name="11316" xml:space="preserve">
+    <value>Bmw</value>
+  </data>
+  <data name="11321" xml:space="preserve">
+    <value>Battle ship engine</value>
+  </data>
+  <data name="11322" xml:space="preserve">
+    <value>Battle ship engine</value>
+  </data>
+  <data name="11326" xml:space="preserve">
+    <value>Dark Angel</value>
+  </data>
+  <data name="11336" xml:space="preserve">
+    <value>\xC9p\xE9e</value>
+  </data>
+  <data name="11341" xml:space="preserve">
+    <value>Bomber Engine</value>
+  </data>
+  <data name="11346" xml:space="preserve">
+    <value>Черный дракон</value>
+  </data>
+  <data name="11356" xml:space="preserve">
+    <value>Игла</value>
+  </data>
+  <data name="11366" xml:space="preserve">
+    <value>Camara</value>
+  </data>
+  <data name="11371" xml:space="preserve">
+    <value>Freighter Engine</value>
+  </data>
+  <data name="11376" xml:space="preserve">
+    <value>АКА-2</value>
+  </data>
+  <data name="11386" xml:space="preserve">
+    <value>Saucer</value>
+  </data>
+  <data name="11396" xml:space="preserve">
+    <value>Invincible</value>
+  </data>
+  <data name="11406" xml:space="preserve">
+    <value>Бронепоезд</value>
+  </data>
+  <data name="11416" xml:space="preserve">
+    <value>Мьельнир</value>
+  </data>
+  <data name="11426" xml:space="preserve">
+    <value>Истребитель беженцев</value>
+  </data>
+  <data name="11436" xml:space="preserve">
+    <value>Shipkiller</value>
+  </data>
+  <data name="11446" xml:space="preserve">
+    <value>Тени</value>
+  </data>
+  <data name="11456" xml:space="preserve">
+    <value>Информация отсутствует</value>
+  </data>
+  <data name="11466" xml:space="preserve">
+    <value>Тени</value>
+  </data>
+  <data name="11476" xml:space="preserve">
+    <value>Яростный дракон</value>
+  </data>
+  <data name="11486" xml:space="preserve">
+    <value>Кровавый дракон</value>
+  </data>
+  <data name="11496" xml:space="preserve">
+    <value>Бесстыжий</value>
+  </data>
+  <data name="11506" xml:space="preserve">
+    <value>Демон</value>
+  </data>
+  <data name="11516" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="11526" xml:space="preserve">
+    <value>Тяньлун</value>
+  </data>
+  <data name="11536" xml:space="preserve">
+    <value>Лайнер</value>
+  </data>
+  <data name="11546" xml:space="preserve">
+    <value>Мьелнир МКII</value>
+  </data>
+  <data name="11556" xml:space="preserve">
+    <value>Дредноут Кусари</value>
+  </data>
+  <data name="11566" xml:space="preserve">
+    <value>Йормунг</value>
+  </data>
+  <data name="11576" xml:space="preserve">
+    <value>Афина</value>
+  </data>
+  <data name="11586" xml:space="preserve">
+    <value>Афродита</value>
+  </data>
+  <data name="11596" xml:space="preserve">
+    <value>Кувалда</value>
+  </data>
+  <data name="11606" xml:space="preserve">
+    <value>Линкор Свободы</value>
+  </data>
+  <data name="11616" xml:space="preserve">
+    <value>Крейсер Свободы</value>
+  </data>
+  <data name="11626" xml:space="preserve">
+    <value>Крейсер Свободы</value>
+  </data>
+  <data name="11636" xml:space="preserve">
+    <value>Линкор Свободы</value>
+  </data>
+  <data name="11646" xml:space="preserve">
+    <value>Хеймдалль</value>
+  </data>
+  <data name="11656" xml:space="preserve">
+    <value>МС-80</value>
+  </data>
+  <data name="11666" xml:space="preserve">
+    <value>АКА-777</value>
+  </data>
+  <data name="11676" xml:space="preserve">
+    <value>Волк</value>
+  </data>
+  <data name="11686" xml:space="preserve">
+    <value>Пенелопа</value>
+  </data>
+  <data name="11696" xml:space="preserve">
+    <value>Краб</value>
+  </data>
+  <data name="11701" xml:space="preserve">
+    <value>Battleship Engine</value>
+  </data>
+  <data name="11704" xml:space="preserve">
+    <value>Fighter engine</value>
+  </data>
+  <data name="11716" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11718" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11720" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11722" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11724" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11726" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11728" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11730" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11732" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11734" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11736" xml:space="preserve">
+    <value />
+  </data>
+  <data name="11746" xml:space="preserve">
+    <value>Стрела</value>
+  </data>
+  <data name="11756" xml:space="preserve">
+    <value>Острие лезвия</value>
+  </data>
+  <data name="11766" xml:space="preserve">
+    <value>Острие</value>
+  </data>
+  <data name="11776" xml:space="preserve">
+    <value>Дредноут Рейнландии</value>
+  </data>
+  <data name="11786" xml:space="preserve">
+    <value>Разрушитель</value>
+  </data>
+  <data name="11796" xml:space="preserve">
+    <value>Острие лезвия МКII</value>
+  </data>
+  <data name="11806" xml:space="preserve">
+    <value>Небулон-Б EF76</value>
+  </data>
+  <data name="11816" xml:space="preserve">
+    <value>Бомбардировщик «GTR-600»</value>
+  </data>
+  <data name="11826" xml:space="preserve">
+    <value>ARC-170</value>
+  </data>
+  <data name="11836" xml:space="preserve">
+    <value>Нострик</value>
+  </data>
+  <data name="11846" xml:space="preserve">
+    <value>Бомбардировщик «GTR-600»</value>
+  </data>
+  <data name="11856" xml:space="preserve">
+    <value>Нострик</value>
+  </data>
+  <data name="11866" xml:space="preserve">
+    <value>ARC-170</value>
+  </data>
+  <data name="11876" xml:space="preserve">
+    <value>«Терронс» XI-5000</value>
+  </data>
+  <data name="11886" xml:space="preserve">
+    <value>Пэллаеон</value>
+  </data>
+  <data name="11896" xml:space="preserve">
+    <value>Звезда</value>
+  </data>
+  <data name="11906" xml:space="preserve">
+    <value>«Келлерс» XI-1500</value>
+  </data>
+  <data name="11916" xml:space="preserve">
+    <value>Хищник</value>
+  </data>
+  <data name="11926" xml:space="preserve">
+    <value>Истребитель странников</value>
+  </data>
+  <data name="11936" xml:space="preserve">
+    <value>Крейсер Кусари</value>
+  </data>
+  <data name="11946" xml:space="preserve">
+    <value>Сколопендра</value>
+  </data>
+  <data name="11956" xml:space="preserve">
+    <value>«Терронс» XI-2500</value>
+  </data>
+  <data name="11966" xml:space="preserve">
+    <value>«Близерс» XI-2000</value>
+  </data>
+  <data name="11976" xml:space="preserve">
+    <value>Dreadnaught</value>
+  </data>
+  <data name="11986" xml:space="preserve">
+    <value>Перехватчик</value>
+  </data>
+  <data name="11996" xml:space="preserve">
+    <value>Канонерка Странников</value>
+  </data>
+  <data name="12006" xml:space="preserve">
+    <value>Ворганиус</value>
+  </data>
+  <data name="12016" xml:space="preserve">
+    <value>MkIII</value>
+  </data>
+  <data name="12036" xml:space="preserve">
+    <value>Хронфаус</value>
+  </data>
+  <data name="12046" xml:space="preserve">
+    <value>Армстронг</value>
+  </data>
+  <data name="12056" xml:space="preserve">
+    <value>ОНХ-008</value>
+  </data>
+  <data name="12066" xml:space="preserve">
+    <value>Охотник</value>
+  </data>
+  <data name="12076" xml:space="preserve">
+    <value>MGS-225</value>
+  </data>
+  <data name="12086" xml:space="preserve">
+    <value>Носитель Е-2003</value>
+  </data>
+  <data name="12096" xml:space="preserve">
+    <value>«Ронникс» XI-6000</value>
+  </data>
+  <data name="12106" xml:space="preserve">
+    <value>Гром</value>
+  </data>
+  <data name="12116" xml:space="preserve">
+    <value>Канонерка Свободы</value>
+  </data>
+  <data name="12126" xml:space="preserve">
+    <value>Динамик</value>
+  </data>
+  <data name="12136" xml:space="preserve">
+    <value>Тайгер</value>
+  </data>
+  <data name="12146" xml:space="preserve">
+    <value>Имперский</value>
+  </data>
+  <data name="12156" xml:space="preserve">
+    <value>Звезда</value>
+  </data>
+  <data name="12166" xml:space="preserve">
+    <value>Титан MKII</value>
+  </data>
+  <data name="12176" xml:space="preserve">
+    <value>Сабля MKII</value>
+  </data>
+  <data name="12186" xml:space="preserve">
+    <value>Носорог MKII</value>
+  </data>
+  <data name="12196" xml:space="preserve">
+    <value>ИЛЛЮЗИЯ</value>
+  </data>
+  <data name="12206" xml:space="preserve">
+    <value>Пэллаеон MKIII</value>
+  </data>
+  <data name="12216" xml:space="preserve">
+    <value>Нострик</value>
+  </data>
+  <data name="12226" xml:space="preserve">
+    <value>Пэллаеон MKII</value>
+  </data>
+  <data name="12236" xml:space="preserve">
+    <value>Баррамунди</value>
+  </data>
+  <data name="12246" xml:space="preserve">
+    <value>Орел MKII</value>
+  </data>
+  <data name="12256" xml:space="preserve">
+    <value>Пустельга</value>
+  </data>
+  <data name="12266" xml:space="preserve">
+    <value>Звездопас</value>
+  </data>
+  <data name="12276" xml:space="preserve">
+    <value>Tranquilizer</value>
+  </data>
+  <data name="12286" xml:space="preserve">
+    <value>Канюк</value>
+  </data>
+  <data name="12296" xml:space="preserve">
+    <value>Лунь</value>
+  </data>
+  <data name="12301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="12306" xml:space="preserve">
+    <value>Нова</value>
+  </data>
+  <data name="12311" xml:space="preserve">
+    <value>Канонерка Свободы</value>
+  </data>
+  <data name="12316" xml:space="preserve">
+    <value>Артемида</value>
+  </data>
+  <data name="12321" xml:space="preserve">
+    <value>Purple Pyro</value>
+  </data>
+  <data name="12326" xml:space="preserve">
+    <value>Magnum</value>
+  </data>
+  <data name="12331" xml:space="preserve">
+    <value>Phoenix</value>
+  </data>
+  <data name="12332" xml:space="preserve">
+    <value>Сектор теней</value>
+  </data>
+  <data name="12336" xml:space="preserve">
+    <value>Линкор</value>
+  </data>
+  <data name="12341" xml:space="preserve">
+    <value>Истребитель</value>
+  </data>
+  <data name="12346" xml:space="preserve">
+    <value>Молот MKII</value>
+  </data>
+  <data name="12347" xml:space="preserve">
+    <value>Станция Мигорикс</value>
+  </data>
+  <data name="12348" xml:space="preserve">
+    <value>Загружаю местоположение дыры гиперперехода Омега-5 в вашу навигационную систему</value>
+  </data>
+  <data name="12349" xml:space="preserve">
+    <value>Паук</value>
+  </data>
+  <data name="12350" xml:space="preserve">
+    <value>Щит теней</value>
+  </data>
+  <data name="12351" xml:space="preserve">
+    <value>Ускоритель теней</value>
+  </data>
+</root>

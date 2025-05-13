@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="100" xml:space="preserve">
+    <value>&lt;br&gt;Вы получили приглашение присоединиться к: &lt;br&gt;</value>
+  </data>
+  <data name="101" xml:space="preserve">
+    <value>&lt;br&gt;Приглашение отправлено: &lt;br&gt;</value>
+  </data>
+  <data name="102" xml:space="preserve">
+    <value>&lt;br&gt;Новый член группы: &lt;br&gt;</value>
+  </data>
+  <data name="103" xml:space="preserve">
+    <value>&lt;br&gt;Вы присоединились к группе: &lt;br&gt;</value>
+  </data>
+  <data name="104" xml:space="preserve">
+    <value>&lt;br&gt;Один из членов покинул группу: &lt;br&gt;</value>
+  </data>
+  <data name="105" xml:space="preserve">
+    <value>&lt;br&gt;Вы покинули группу.&lt;br&gt;</value>
+  </data>
+  <data name="106" xml:space="preserve">
+    <value>&lt;br&gt;РАЗГРУЗКА:&lt;br&gt;</value>
+  </data>
+  <data name="107" xml:space="preserve">
+    <value>&lt;br&gt;ЛОКАЦИЯ:&lt;br&gt;</value>
+  </data>
+  <data name="108" xml:space="preserve">
+    <value>&lt;br&gt;ВВЕДИТЕ ИМЯ&lt;br&gt;</value>
+  </data>
+  <data name="109" xml:space="preserve">
+    <value>&lt;br&gt;Торговых запросов или приглашений в группы нет.&lt;br&gt;</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>&lt;br&gt;Пожалуйста, введите пароль для нового профиля.&lt;br&gt;</value>
+  </data>
+  <data name="110" xml:space="preserve">
+    <value>&lt;br&gt;КОРАБЛЬ:&lt;br&gt;</value>
+  </data>
+  <data name="111" xml:space="preserve">
+    <value>&lt;br&gt;Вы получили торговый запрос от: &lt;br&gt;</value>
+  </data>
+  <data name="112" xml:space="preserve">
+    <value>&lt;br&gt;Послать торговый запрос: &lt;br&gt;</value>
+  </data>
+  <data name="113" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Сервер, с которым вы пытаетесь соединиться, требует пароль.&lt;/align&gt;&lt;br&gt;&lt;br&gt; &lt;br&gt;Пожалуйста, введите правильный пароль ниже (учитывает регистр):&lt;br&gt;</value>
+  </data>
+  <data name="114" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ИГРОВЫЕ СЕРВЕРЫ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="115" xml:space="preserve">
+    <value>&lt;br&gt;СКРЫТЬ СЕРВЕРЫ С НЕСОВМЕСТИМЫМИ ПАРАМЕТРАМИ&lt;br&gt;</value>
+  </data>
+  <data name="116" xml:space="preserve">
+    <value>&lt;br&gt;СКРЫТЬ СЕРВЕРЫ, КОТОРЫЕ Я НЕ ПОСЕЩАЛ&lt;br&gt;</value>
+  </data>
+  <data name="117" xml:space="preserve">
+    <value>&lt;br&gt;СКРЫТЬ ИНТЕРНЕТ-СЕРВЕРЫ &lt;br&gt;</value>
+  </data>
+  <data name="118" xml:space="preserve">
+    <value>&lt;br&gt;СКРЫТЬ СЕРВЕРЫ, НЕ ПРИНИМАЮЩИЕ НОВЫЕ ПРОФИЛИ&lt;br&gt;</value>
+  </data>
+  <data name="119" xml:space="preserve">
+    <value>&lt;br&gt;СКРЫТЬ НЕАКТИВНЫЕ СЕРВЕРЫ&lt;br&gt;</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>&lt;br&gt;Пожалуйста, введите пароль снова, чтобы подтвердить его.&lt;br&gt;</value>
+  </data>
+  <data name="120" xml:space="preserve">
+    <value>&lt;br&gt;СКРЫТЬ СЕРВЕРЫ С ПАРАМЕТРОМ “PING” выше:&lt;br&gt;</value>
+  </data>
+  <data name="121" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ВЫБРАТЬ ПАРАМЕТРЫ ФИЛЬТРА&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="122" xml:space="preserve">
+    <value>&lt;br&gt; = сервер требует пароль&lt;br&gt;</value>
+  </data>
+  <data name="123" xml:space="preserve">
+    <value>&lt;br&gt; = игрок может нанести повреждения другим игрокам&lt;br&gt;</value>
+  </data>
+  <data name="124" xml:space="preserve">
+    <value>&lt;br&gt;ПРОЧАЯ ИНФОРМАЦИЯ&lt;br&gt;</value>
+  </data>
+  <data name="125" xml:space="preserve">
+    <value>&lt;br&gt;ВЫБРАТЬ СЕРВЕР&lt;br&gt;</value>
+  </data>
+  <data name="126" xml:space="preserve">
+    <value>&lt;br&gt;Большинство гражданских эскортов использует импульсное оружие - это нужно иметь в виду, если у вас преступные намерения. &lt;br&gt;</value>
+  </data>
+  <data name="127" xml:space="preserve">
+    <value>&lt;br&gt;Если вам когда-либо придется столкнуться с кем-то со свободы, помните: для защиты они используют гравитонные щиты. Запомните: плазменное оружие является самым эффективным против них. &lt;br&gt;</value>
+  </data>
+  <data name="128" xml:space="preserve">
+    <value>&lt;br&gt;Технология щитов Бретонии основана на позитронах. Столкнувшись в бою с Бретонскими пилотами, полагайтесь на лазерное оружие. Очень эффективно. &lt;br&gt;</value>
+  </data>
+  <data name="129" xml:space="preserve">
+    <value>&lt;br&gt;Корабли Кусари обычно используют гравитонные щиты. Полагайтесь на плазменное оружие, наиболее эффективное против гравитонных щитов. &lt;br&gt;</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>&lt;br&gt;Пароли не совпадают!&lt;br&gt;</value>
+  </data>
+  <data name="130" xml:space="preserve">
+    <value>&lt;br&gt;Если у вас произойдет стычка пилотами Рейнландии, не забудьте о нейтронном оружии в вашем боекомплекте. Этот тип оружия лучше всего пробивает молекулярные щиты Рейнландии. &lt;br&gt;</value>
+  </data>
+  <data name="131" xml:space="preserve">
+    <value>&lt;br&gt;Если вы столкнулись с ГДГ, даже не пытайтесь использовать против них лазерное или фотонное оружие. Их гравитонные щиты только поглотят их энергию. Попробуйте что-то другое. &lt;br&gt;</value>
+  </data>
+  <data name="132" xml:space="preserve">
+    <value>&lt;br&gt;НГШ использует позитронные щиты, поэтому любые виды нейтронного оружия против них бессильны. Я бы использовал любое другое оружие. &lt;br&gt;</value>
+  </data>
+  <data name="133" xml:space="preserve">
+    <value>&lt;br&gt;Если бы мне пришлось вступить в бой с Наемниками, я бы ни за что не использовал плазменное оружие. Наемники используют молекулярные щиты, поэтому плазменное оружие вам не поможет. &lt;br&gt;</value>
+  </data>
+  <data name="134" xml:space="preserve">
+    <value>&lt;br&gt;Лазеры Наемников обладает повышенной эффективной дальностью за счет снижения прочих характеристик. Батареи их лазеров очень быстро разряжаются, поэтому приходится экономно использовать их в битве. &lt;br&gt;</value>
+  </data>
+  <data name="135" xml:space="preserve">
+    <value>&lt;br&gt;Даже при том, что все ракеты имеют способность наведения, самонаводящиеся ракеты самые маневренные - поэтому от них сложнее уйти. &lt;br&gt;</value>
+  </data>
+  <data name="136" xml:space="preserve">
+    <value>&lt;br&gt;Самонаводящиеся ракеты более маневренные, но причиняют меньше повреждений, чем стандартные ракеты. &lt;br&gt;</value>
+  </data>
+  <data name="137" xml:space="preserve">
+    <value>&lt;br&gt;ЭМИ-ракеты разбивают щиты, но не физически не повреждают корабль. &lt;br&gt;</value>
+  </data>
+  <data name="138" xml:space="preserve">
+    <value>&lt;br&gt;Вы не можете устанавливать торпеды на легком истребители, но он может нести ракеты, которые по своей мощности не уступают торпедам. &lt;br&gt;</value>
+  </data>
+  <data name="139" xml:space="preserve">
+    <value>&lt;br&gt;Если вы столкнулись с Зонера, не пытайтесь использовать плазменное или молекулярное оружие. Молекулярные щиты очень эффективны против таких классов оружия. &lt;br&gt;</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>&lt;br&gt;Пароль (снова): &lt;br&gt;</value>
+  </data>
+  <data name="140" xml:space="preserve">
+    <value>&lt;br&gt;Ваше выживание зависит от правильного применения определенных знаний для конкретных миссий. Так, например, торпеды эффективны против линкоров и станций; все остальные корабли легко маневрируют от торпед. &lt;br&gt;</value>
+  </data>
+  <data name="141" xml:space="preserve">
+    <value>&lt;br&gt;Иногда лучше планировать миссию заранее. Если у вас на корабле установлена пара ракетных установок, у вас больше шансов поразить щиты врага. &lt;br&gt;</value>
+  </data>
+  <data name="142" xml:space="preserve">
+    <value>&lt;br&gt;Блокиратор движения - это просто маленький маршевый двигатель с системой самонаведения и электростатической боеголовкой. Поэтому они так быстро летают. &lt;br&gt;</value>
+  </data>
+  <data name="143" xml:space="preserve">
+    <value>&lt;br&gt;Если вы поразите корабль электромагнитной ракетой, когда щиты уже сняты, ракета истощит энергию двигателей и оружия. &lt;br&gt;</value>
+  </data>
+  <data name="144" xml:space="preserve">
+    <value>&lt;br&gt;Стандартные мины могут поражать цель на некотором расстоянии, но гораздо менее эффективно, чем самонаводящиеся мины. В этом и состоит разница. &lt;br&gt;</value>
+  </data>
+  <data name="145" xml:space="preserve">
+    <value>&lt;br&gt;Лазерное оружие имеет самую большую скорострельность, но обычно причиняет меньшее количество повреждений за выстрел. Если необходимо нанести цели больше повреждения, попробуйте другое оружие. &lt;br&gt;</value>
+  </data>
+  <data name="146" xml:space="preserve">
+    <value>&lt;br&gt;Плазменное оружие наносит больше всего повреждений, но попасть по цели затруднительно, поскольку скорострельность данного оружия крайне низкая. &lt;br&gt;</value>
+  </data>
+  <data name="147" xml:space="preserve">
+    <value>&lt;br&gt;Нейтронное оружие наиболее энергетически эффективно, но при этом эффективная дальность крайне низкая. &lt;br&gt;</value>
+  </data>
+  <data name="148" xml:space="preserve">
+    <value>&lt;br&gt;Импульсное оружие эффективно пробивает щиты противника, на наносит немного повреждений корпусу и оборудованию корабля. &lt;br&gt;</value>
+  </data>
+  <data name="149" xml:space="preserve">
+    <value>&lt;br&gt;Если вы окажетесь в боевой ситуации, не используйте лазеры против гравитонных щитов, это крайне неэффективно. Переключитесь на другой класс оружия. &lt;br&gt;</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>&lt;br&gt;Пароль: &lt;br&gt;</value>
+  </data>
+  <data name="150" xml:space="preserve">
+    <value>&lt;br&gt;Гравитонные щиты обеспечивают хорошую защиту против лазерного, фотонного и импульсного видов оружия.&lt;br&gt;</value>
+  </data>
+  <data name="151" xml:space="preserve">
+    <value>&lt;br&gt;Плазменное оружие хорошо работает против позитронных щитов, но наиболее эффективно против гравитонных щитов. &lt;br&gt;</value>
+  </data>
+  <data name="152" xml:space="preserve">
+    <value>&lt;br&gt;Если вы хотите установить на корабль хорошие шита, помните, что молекулярные щиты являются лучшей защитой от нейтронного и тахионного оружия. Такой щит может спасти вашу жизнь. &lt;br&gt;</value>
+  </data>
+  <data name="153" xml:space="preserve">
+    <value>&lt;br&gt;Дома и крупные группировки вложили огромные средства в создание многочисленного арсенала оружия эффективного против конкретного типа щитов. Обычно на каждом корабле устанавливается два разных класса оружия. &lt;br&gt;</value>
+  </data>
+  <data name="154" xml:space="preserve">
+    <value>&lt;br&gt;Если вы собираетесь воевать с Изгоями, вы должны установить позитронные щиты, эффективно защищающие от энергетического оружия. &lt;br&gt;</value>
+  </data>
+  <data name="155" xml:space="preserve">
+    <value>&lt;br&gt;Если вы отправляетесь на территорию Ксеносов, купите хороший молекулярный щит, который хорошо защитит от их плазменного оружия. &lt;br&gt;</value>
+  </data>
+  <data name="156" xml:space="preserve">
+    <value>&lt;br&gt;Все щиты достаточно эффективны против взрывчатки или шрапнели. Главным фактором выступает то, как тот или иной щит справляется с энергетическим оружием. &lt;br&gt;</value>
+  </data>
+  <data name="157" xml:space="preserve">
+    <value>&lt;br&gt;В бою берегитесь импульсного оружия, так как оно быстро отключает многие виды щитов. В такой ситуации может помочь только гравитонный щит. &lt;br&gt;</value>
+  </data>
+  <data name="158" xml:space="preserve">
+    <value>&lt;br&gt;Лазеры Наемников обладают наибольшей эффективной дальностью по сравнению с лазерами других фракций - это техническое новшество делает корабли гильдии непобедимыми в любой стычке. &lt;br&gt;</value>
+  </data>
+  <data name="159" xml:space="preserve">
+    <value>&lt;br&gt;Берегитесь похожего с виду оружия, в разных фракциях оно имеет разную силу. Изгои производили совершенствования с целью увеличения уровня повреждений. &lt;br&gt;</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Создать новый профиль.&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="160" xml:space="preserve">
+    <value>&lt;br&gt;Если вы столкнетесь с противником, использующим гравитонные щиты, воспользуйтесь плазменным оружием. Очень эффективно. &lt;br&gt;</value>
+  </data>
+  <data name="161" xml:space="preserve">
+    <value>&lt;br&gt;Тахионное оружие обладает наибольшей эффективной дальностью. Если вам нужно достать кого-то издалека, это - то, что вам нужно. &lt;br&gt;</value>
+  </data>
+  <data name="162" xml:space="preserve">
+    <value>&lt;br&gt;Плазменное оружие, хоть и очень мощное, но очень медленное. Целесообразней пользоваться плазмой на коротких расстояниях. &lt;br&gt;</value>
+  </data>
+  <data name="163" xml:space="preserve">
+    <value>&lt;br&gt;Если вы столкнетесь с противником, использующим плазменное оружие, попытайтесь удерживать дистанцию. Плазма летит медленно и вы можете легко избежать попаданий, соблюдая определенную дистанцию. &lt;br&gt;</value>
+  </data>
+  <data name="164" xml:space="preserve">
+    <value>&lt;br&gt;Если вы ищете оружие, которое обладает наибольшей эффективной дальностью и высоким уровнем повреждений, используйте позитронные пушки. Но помните, что позитроны тратят очень много энергии. &lt;br&gt;</value>
+  </data>
+  <data name="165" xml:space="preserve">
+    <value>&lt;br&gt;Характеристики молекулярного оружия похожи на характеристики плазменного оружия, но за свет высокого уровня скорострельности потребляют огромное количество энергии. &lt;br&gt;</value>
+  </data>
+  <data name="166" xml:space="preserve">
+    <value>&lt;br&gt;Даже не пытайтесь защищаться молекулярными щитами на территории Кусари. Да, эти щиты очень хороши, но не защитят вас от оружия Кусари. &lt;br&gt;</value>
+  </data>
+  <data name="167" xml:space="preserve">
+    <value>&lt;br&gt;Если вы столкнетесь с врагом, использующим молекулярный щит, а в вашем распоряжении только молекулярные пушки, бегите. &lt;br&gt;</value>
+  </data>
+  <data name="168" xml:space="preserve">
+    <value>&lt;br&gt;Ракета блокирования - единственная вещь, которая может остановить врага, даже если запущены маршевые двигатели. &lt;br&gt;</value>
+  </data>
+  <data name="169" xml:space="preserve">
+    <value>&lt;br&gt;Плазменное и молекулярное оружие неэффективны против молекулярных щитов Ксеносов. Вам лучше использовать что-нибудь другое. &lt;br&gt;</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Данный логин существует&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="170" xml:space="preserve">
+    <value>&lt;br&gt;Тахионное и нейтронное оружие крайне неэффективны против Корсаров. У них позитронные щиты, которые только пополняют энергозапас в результате попаданий данных типов оружия. &lt;br&gt;</value>
+  </data>
+  <data name="171" xml:space="preserve">
+    <value>&lt;br&gt;Если вы попадете на территорию Изгоев, даже не пытайтесь использовать тахионное оружие или нейтронные пушки. Изгои пользуются позитронными щитами, а это оружие неэффективно против них. &lt;br&gt;</value>
+  </data>
+  <data name="172" xml:space="preserve">
+    <value>&lt;br&gt;Если вы ищете лучшие щиты, которые может предложить Свобода, берите гравитонные. Но будь я на вашем месте, я бы избегал Изгоев и Наемников. &lt;br&gt;</value>
+  </data>
+  <data name="173" xml:space="preserve">
+    <value>&lt;br&gt;Запомните, Хогоша оборудуют свои корабли молекулярными щитами, поэтому плазменное и молекулярное оружие против них неээфективны. Вам лучше приобрести другое оружие. &lt;br&gt;</value>
+  </data>
+  <data name="174" xml:space="preserve">
+    <value>&lt;br&gt;Юнкеры специально модифицировали свое фотонное оружие с целью увеличения уровня повреждений. &lt;br&gt;</value>
+  </data>
+  <data name="175" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что Хакеры используют гравитонные щиты, поэтому лазерное или фотонное оружие вам не подойдут. Возьмите другие образцы. &lt;br&gt;</value>
+  </data>
+  <data name="176" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что гравитонные щиты прекрасно защищают от энергетического оружия Бродяг. &lt;br&gt;</value>
+  </data>
+  <data name="177" xml:space="preserve">
+    <value>&lt;br&gt;Хакеры часто используют тахионное оружие, что делает их очень опасными. Помните об этом, отправляясь в Независимые Миры. &lt;br&gt;</value>
+  </data>
+  <data name="178" xml:space="preserve">
+    <value>&lt;br&gt;Если вы знаете, что столкнетесь с Бродягами Свободы, не используйте против них плазменное или молекулярное оружие. Эти образцы оружий бесполезны против молекулярных щитов.&lt;br&gt;</value>
+  </data>
+  <data name="179" xml:space="preserve">
+    <value>&lt;br&gt;Позитронные щиты прекрасно справляются с энергетическим оружием Гессианцев. &lt;br&gt;</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Статус создания профиля&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="180" xml:space="preserve">
+    <value>&lt;br&gt;Если вам придется столкнуться с Красными гессианцами, используйте тахионное или нейтронное оружие. Гессианцы предпочитают позитронные щиты, как и Корсары. &lt;br&gt;</value>
+  </data>
+  <data name="181" xml:space="preserve">
+    <value>&lt;br&gt;Не используйте плазму и молекулярное оружие протии Буншуг. Они пользуются молекулярными щитами, поэтому это оружие бесполезно. &lt;br&gt;</value>
+  </data>
+  <data name="182" xml:space="preserve">
+    <value>&lt;br&gt;И еще, Буншуг используют тахионное оружие. Если вы знаете, что столкнетесь с ними, установите соответствующие щиты. &lt;br&gt;</value>
+  </data>
+  <data name="183" xml:space="preserve">
+    <value>&lt;br&gt;У Наемников очень маневренные и проворные корабли, разработанные специально для стычек один на один. Если вы будете драться с ними, вам понадобится очень маневренный корабль, лучше купить его где-нибудь в Бретони. Таких кораблей больше нигде нет. &lt;br&gt;</value>
+  </data>
+  <data name="184" xml:space="preserve">
+    <value>&lt;br&gt;Если вы ищете тяжелый истребитель Наемников, очень далеко от Шикоку, направляйтесь в Куракао. &lt;br&gt;</value>
+  </data>
+  <data name="185" xml:space="preserve">
+    <value>&lt;br&gt;Кусари предъявили Наемникам некоторые ограничения. Если вы хотите купить тяжелый истребитель Наемников в этой части Сириуса, вам нужно лететь на Дешиму в системе Шикоку. &lt;br&gt;</value>
+  </data>
+  <data name="186" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что в Гильдии Наемников введены новые ограничения на продажу тяжелых истребителей во Фрейштадт. Если вам нужен такой корабль, вам туда. &lt;br&gt;</value>
+  </data>
+  <data name="187" xml:space="preserve">
+    <value>&lt;br&gt;Если вы окажетесь вне системы Рейнландии, и ищете тяжелый гражданский истребитель, вам все еще может повезти - просто летите на Курилы в системе Сигма-17. Я слышал, что там продают такие. &lt;br&gt;</value>
+  </data>
+  <data name="188" xml:space="preserve">
+    <value>&lt;br&gt;Если вы ищете легкий гражданский истребитель, летите на территорию Кусари. Только там вы сможете приобрести этот тип корабля. &lt;br&gt;</value>
+  </data>
+  <data name="189" xml:space="preserve">
+    <value>&lt;br&gt;Тяжелые гражданские истребители продаются только в Фрипорте-9, в системе Тета Омикрон. &lt;br&gt;</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ВНИМАТЕЛЬНО&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="190" xml:space="preserve">
+    <value>&lt;br&gt;Если вы хотите приобрести легкий истребитель Приграничных Миров, вам придется отправится в Буффало. Это единственное место, где их еще продают. &lt;br&gt;</value>
+  </data>
+  <data name="191" xml:space="preserve">
+    <value>&lt;br&gt;Когда вы будете готовы, то можете захотеть купить грузовое судно Приграничных Миров. Вы должны быть в хороших отношениях с Хакерами Лейна. &lt;br&gt;</value>
+  </data>
+  <data name="192" xml:space="preserve">
+    <value>&lt;br&gt;Если вы серьезно решили заняться торговлей и перевозками, покупайте грузовой корабль Приграничных Миров. Это лучший грузовик, доступный на рынке. &lt;br&gt;</value>
+  </data>
+  <data name="193" xml:space="preserve">
+    <value>&lt;br&gt;Если вы занялись охраной и защитой грузов, то вы должны знать, что чем тяжелее истребитель, тем лучше у него броня. &lt;br&gt;</value>
+  </data>
+  <data name="194" xml:space="preserve">
+    <value>&lt;br&gt;Есть вещи, которые просто необходимо знать. Например, легкий истребитель Пиратов и легкий истребитель Приграничных Миров - единственные легкие корабли, на которые устанавливаются турели. Смотрите. &lt;br&gt;</value>
+  </data>
+  <data name="195" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что через какие-то новые торговые каналы переправили несколько тяжелых истребителей Приграничных Миров, и теперь их можно купить на Киото в Кусари, а также на Брюшале в Ренйландии. &lt;br&gt;</value>
+  </data>
+  <data name="196" xml:space="preserve">
+    <value>&lt;br&gt;Если вы хотите купить тяжелый истребитель Приграничных миров, отправляйтесь на Вогланд или Мальту. &lt;br&gt;</value>
+  </data>
+  <data name="197" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что единственный способ заполучить тяжелый истребитель Корсаров, это сунуться на Леон или Крит. Это небезопасная поездка, но кто не рискует, тот не пьет шампанское. &lt;br&gt;</value>
+  </data>
+  <data name="198" xml:space="preserve">
+    <value>&lt;br&gt;Тяжелые истребители Кусари и Бретонии очень хорошие, надежные корабли. Но многие не любят их за то, что на них нет турелей. Все зависит только от цели приобретения. &lt;br&gt;</value>
+  </data>
+  <data name="199" xml:space="preserve">
+    <value>&lt;br&gt;Один из серьезных недостатков легких истребителей то, что на них нельзя установить торпеды. Однако на них, устанавливаются блокираторы движения, что дает неоспоримое преимущество. &lt;br&gt;</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ПРИНЯТЬ ПРИГЛАШЕНИЕ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="1" xml:space="preserve">
+    <value>&lt;br&gt;Недопустимый текст&lt;br&gt;</value>
+  </data>
+  <data name="200" xml:space="preserve">
+    <value>&lt;br&gt;Бретонские тяжелые истребители продаются только лицензированными дилерами на линокрах Бретони. Поэтому вам нужна хорошая репутация в Бретонских войсках, чтобы ваш заказ рассмотрели. &lt;br&gt;</value>
+  </data>
+  <data name="201" xml:space="preserve">
+    <value>&lt;br&gt;Трафальгар - единственное место, где можно купить легкий истребитель Корсаров. В Приграничных Мирах обычно используются более тяжелые классы. &lt;br&gt;</value>
+  </data>
+  <data name="202" xml:space="preserve">
+    <value>&lt;br&gt;Мне известно, что единственный способ, которым вы можете заполучить тяжелый истребитель Корсаров, - это слетать на Кадиз в Омеге-5. Это своеобразная Мекка для любителей таких кораблей, популярных во всех Приграничных Мирах Омеги.&lt;br&gt;</value>
+  </data>
+  <data name="203" xml:space="preserve">
+    <value>&lt;br&gt;Продажа тяжелых истребителей Кусари строго контролируется Военным флотом Кусари. Покупка возможна только через дилеров на линкорах Кусари. &lt;br&gt;</value>
+  </data>
+  <data name="204" xml:space="preserve">
+    <value>&lt;br&gt;Первое правило у пиратов гласит: «То, что позади вас не имеет значения, главное - впереди». Обратите внимание, что транспортный корабль Пиратов не снабжен турелями, но на носу у него установлено огромное количество всевозможных орудий. &lt;br&gt;</value>
+  </data>
+  <data name="205" xml:space="preserve">
+    <value>&lt;br&gt;Ищете пиратское оборудование? Вам нужен легкий истребитель Пиратов? Держите пусть на Рочестер. &lt;br&gt;</value>
+  </data>
+  <data name="206" xml:space="preserve">
+    <value>&lt;br&gt;Если вы ищете что-то, что даст вам преимущество, то, возможно, вам нужен тяжелый истребитель Пиратов. Отправляйтесь на Аранмор или Монтесуму, но, думаю, оно того стоит. &lt;br&gt;</value>
+  </data>
+  <data name="207" xml:space="preserve">
+    <value>&lt;br&gt;У вас есть товар, но ваш транспорт его не вмещает? Советую отправиться на Алькатрас и купить там пиратский грузовой корабль. Это самые вместительные грузовики.&lt;br&gt;</value>
+  </data>
+  <data name="208" xml:space="preserve">
+    <value>&lt;br&gt;Если вы хотите купить тяжелый истребитель Свободы, вам придется отправиться прямо в пасть дракона. Эти корабли продаются на линкорах Свободы. &lt;br&gt;</value>
+  </data>
+  <data name="209" xml:space="preserve">
+    <value>&lt;br&gt;«Валькирия» самый популярный рейнландский корабль. К счастью, я знаю, где его можно купить: линкор Вестфален. &lt;br&gt;</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ПРИНЯТЬ ЗАПРОС&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="210" xml:space="preserve">
+    <value>&lt;br&gt;Вы, по-видимому стремитесь к совершенству. Вы хотите летать лучше всех, а всем известно, что рейнландские «Баньши» - лучший легкий истребитель всех времен.&lt;br&gt;</value>
+  </data>
+  <data name="211" xml:space="preserve">
+    <value>&lt;br&gt;Не секрет, почему адмирал Шульцкий здесь. Канцлер Ниманн послал его, чтобы договориться с Президентом. Многие в парламенте полагают, что Ниманн стоит за нападением на Фрипорт-7. Шульцкий должен успокоить Свободу и Верховный Суд, в то время, как Рейнландия продолжает набеги на Приграничные Миры. Известно, что Рейнландия в течении нескольких последних недель нарушала границы. &lt;br&gt;</value>
+  </data>
+  <data name="212" xml:space="preserve">
+    <value>&lt;br&gt;Я получил известие из надежного источника, что канцлер Ниманн приказал атаковать Фрипорт-7. Мой информатор также сообщает, что это имеет отношение к археологическим находкам в Приграничных Мирах.&lt;br&gt;</value>
+  </data>
+  <data name="213" xml:space="preserve">
+    <value>&lt;br&gt;Это не лучший ход со стороны Свободы послать войска на Сигму, даже если в качестве охраны Фрипорт-7. Несмотря на наши добрые намерения, не все верят Свободе - особенно те, кто любит независимость - как Зонеры. Тем временем, огромное количество людей погибло во Фрипорте-7. Кто бы это ни сделал, их должны найти и уничтожить. Ни одна колония не будет безопасной. И я вам скажу, они получат по заслугам. &lt;br&gt;</value>
+  </data>
+  <data name="214" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что в СБС хотят ускорить расследование, опрашивая оставшихся в живых в Фрипорте-7 - даже смертельно раненных. Они собирались подождать, но в этом деле промедление смерти подобно. Я имею в виду, что могут им сказать эти люди? Многие из них с трудом держатся за жизнь. Я даже слышал, что в списках нет некоторых людей, которые тоже были там и все видели. Типичная работа правительства! &lt;br&gt;</value>
+  </data>
+  <data name="215" xml:space="preserve">
+    <value>&lt;br&gt;Многие говорят, что за нападением на Фрипорт-7 стоит Орден. Мне это кажется вполне разумным! Тот парень Ориллион и его головорезы были свергнуты после войны в Колониях. Взрыв нейтральной станции Зонеров – умный ход. Теперь каждая фракция обвиняет другую в этом инциденте. &lt;br&gt;</value>
+  </data>
+  <data name="216" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что вы были во Фрипорте-7, во время взрыва. Вы слышали последние сводки? 2600 погибших! Лучше вам смириться. Я слышал от своего друга из СБС, что все выжившие под наблюдением. Что-то происходит. Будьте осторожны. &lt;br&gt;</value>
+  </data>
+  <data name="217" xml:space="preserve">
+    <value>&lt;br&gt;На рынке сегодня было горячо. Секретность и безопасность на низшем уровне. Знаете, не то, чтобы я люблю получать прибыль от чужих неудач, но парень вроде вас мог бы воспользоваться случаем. Можно неплохо заработать. Тут очень много компаний и дельцов, которым нужна ваша помощь. &lt;br&gt;</value>
+  </data>
+  <data name="218" xml:space="preserve">
+    <value>&lt;br&gt;Говорят, что вы были во Фрипорет-7. На днях я разговаривал с пилотом Самуры, и он сказал мне, что его конвой покинул Фрипорт-7 за минуту до атаки. Он сказал, что на территории были замечены незнакомые корабли. Фрипорт-7 был незащищен, когда началась атака - они отослали все свои истребители. Я уверен, что те корабли напали на станцию. Парням Самуры повезло - они выбрались живыми. &lt;br&gt;</value>
+  </data>
+  <data name="219" xml:space="preserve">
+    <value>&lt;br&gt;От бармена я слышал, что вы собираетесь работать на Джунко Зейн. Я работал на нее несколько лет. Она жесткая, но честная женщина, и, что самое главное, всегда платит вовремя. &lt;br&gt;</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;НАЗАД&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="220" xml:space="preserve">
+    <value>&lt;br&gt;Люди говорят, что вы летите в Питсбург по делам СБС. Вы полетите с Майклом Кингом. Считайте, что вам повезло. Это лучший пилот СБС. Это повысит ваши шансы добраться до Питсбурга живым. Удачи, наемник. &lt;br&gt;</value>
+  </data>
+  <data name="221" xml:space="preserve">
+    <value>&lt;br&gt;Ходят слухи, что ты летал в Питсбург. Вчера Джуни попросила меня тоже туда слетать. Кажется, она, наконец, нашла дурака для расхлебывания каши, которую они с Кингом заварили. Полетишь на ее корабле. Будь осторожен, приятель, по этому кораблю давно уже свалка плачет.&lt;br&gt;</value>
+  </data>
+  <data name="222" xml:space="preserve">
+    <value>&lt;br&gt;Вы были с Кингом в том эскорте, не так ли? Вы там серьезно поработали. Эти Бродяги давно не давали нам покоя, но теперь СБС остановит их. Будь осторожен. Мы знаем, что у Бродяг есть защищенная база где-то недалеко от Питсбурга. &lt;br&gt;</value>
+  </data>
+  <data name="223" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали новости о Шульцком? На него напали прямо здесь в Свободе! Неважно, что нам сообщают СМИ, говорят, что СБС знает точно, кто сделал это, но не сообщает нам. Они, вероятно, также знают, кто разрушил Фрипорт-7. Интересно, что же они скрывают?&lt;br&gt;</value>
+  </data>
+  <data name="224" xml:space="preserve">
+    <value>&lt;br&gt;Вы знаете, что я слышал? Планетарная защитная сеть Манхеттена была саботирована. Так Орден сумел напасть на корабль Шульцкого. Пугает то, что эти люди могут снимать щиты. Должно быть у них агенты на планете. &lt;br&gt;</value>
+  </data>
+  <data name="225" xml:space="preserve">
+    <value>&lt;br&gt;Я никогда не слышал об Ордене до происшествия с Шульцким. Я не эксперт, но я не верю, что СБС, которая, как предполагается, защищает наши интересы и имеет много каналов получения информации, не знала ничего о нападении. Как они могли не знать? Хорошо, что, по крайней мере, они проучили Бродяг вокруг Питсбурга. Это уже кое-что. &lt;br&gt;</value>
+  </data>
+  <data name="226" xml:space="preserve">
+    <value>&lt;br&gt;Вы, наверное, тот парень, о котором говорил Кинг. Он сказал мне, что вы очень хороши. Лично у меня нет для вас задания, но на доске объявлений есть то, что вы ищете. Там должно быть много работы, которая вас заинтересуют. &lt;br&gt;</value>
+  </data>
+  <data name="227" xml:space="preserve">
+    <value>&lt;br&gt;Если вам нужна информация, то первым делом идите в бар. Бармены знают все, поэтому именно с ними нужно разговаривать, если хотите получить информацию. &lt;br&gt;</value>
+  </data>
+  <data name="228" xml:space="preserve">
+    <value>&lt;br&gt;Самый быстрый способ путешествовать через цивилизованные системы - это держаться торговых линий. Обычно линии, связаны вратами гипереперехода расположенными по всей системе. Они работают, как ворота: нацельтесь на кольцо, в которое вам нужно попасть, и смело жмите команду стыковки, автопилот направит вас куда нужно. &lt;br&gt;</value>
+  </data>
+  <data name="229" xml:space="preserve">
+    <value>&lt;br&gt;В течение битвы, если ваши щиты сбиты, и корабль терпит существенные повреждения, активизируйте наносистему. Крошечные автоматизированные роботы будут  ремонтировать ваш корабль в течение боя. Не забудьте купить больше роботов, если вы запасетесь ими впрок - они могут спасти вам жизнь. &lt;br&gt;</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Изменить информацию о герое&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="230" xml:space="preserve">
+    <value>&lt;br&gt;Если вы попали в область, в которой нет торговых линий, выберите цель и включите автопилот, нажав кнопку Лететь К. Как только бортовой компьютер активизирует маршевые двигатели, не волнуйтесь, ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ обнаруживает и огибает препятствия на вашем пути, включая астероиды. &lt;br&gt;</value>
+  </data>
+  <data name="231" xml:space="preserve">
+    <value>&lt;br&gt;Если вам не хватает денег, и вы ищете работу, просмотрите доски объявлений. Предприниматели размещают там заказы; они находятся в большинстве баров. Как только вы выполняете контракт, оплата автоматически переводится на ваш счет. &lt;br&gt;</value>
+  </data>
+  <data name="232" xml:space="preserve">
+    <value>&lt;br&gt;Многие бармены имеют связи с различными фракциями по всему Сириусу. Часто бармен может предложить повысить вашу репутацию для любой фракции за вознаграждение. Эта услуга может показаться дорогостоящей, но помните, что если ваша репутация высокая в какой-то группе, это может не нравиться другим. &lt;br&gt;</value>
+  </data>
+  <data name="233" xml:space="preserve">
+    <value>&lt;br&gt;Вы будете получать наиболее корректную информацию в тех фракциях, в которых вы имеете высокую репутацию. Если же вы им просто нравитесь, вам дадут только основную информацию или вообще ничего. &lt;br&gt;</value>
+  </data>
+  <data name="234" xml:space="preserve">
+    <value>&lt;br&gt;Все рыночные слухи относятся к выгодным маршрутам для поставок всевозможных товаров. &lt;br&gt;</value>
+  </data>
+  <data name="235" xml:space="preserve">
+    <value>&lt;br&gt;Дальние рейсы - лучший способ максимизировать прибыль от торговли. Короткие перелеты в пределах систем – заработок на карманные расходы. &lt;br&gt;</value>
+  </data>
+  <data name="236" xml:space="preserve">
+    <value>&lt;br&gt;Товары первой необходимости: еда, вода и кислород не рекомендуются для долгих рейсов, поскольку производятся во многих колониях. &lt;br&gt;</value>
+  </data>
+  <data name="237" xml:space="preserve">
+    <value>&lt;br&gt;Лучший способ получить больше прибыли, торговать предметами редкости. Чем дальше место покупки, тем выше прибыль. &lt;br&gt;</value>
+  </data>
+  <data name="238" xml:space="preserve">
+    <value>&lt;br&gt;Помните, что некоторые товары быстро портятся, например, деликатесы или инопланетные организмы; они начнут портиться, как только вы купите их, поэтому, планируйте короткий рейс, чтобы не понести убытки. &lt;br&gt;</value>
+  </data>
+  <data name="239" xml:space="preserve">
+    <value>&lt;br&gt;Если вы слышали о секретной дыре гиперперехода, тайной пиратской базе или месте кораблекрушения, ищите на вашей навигационной карте.&lt;br&gt;</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;СОЕДИНЕНИЕ;&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="240" xml:space="preserve">
+    <value>&lt;br&gt;Покупка информации - хороший способ выяснить местоположение дыр гиперперехода и скрытых систем. Вы можете услышать и сплетни о них, но на них нельзя полагаться полностью. &lt;br&gt;</value>
+  </data>
+  <data name="241" xml:space="preserve">
+    <value>&lt;br&gt;Вам могут предложить информацию об общедоступных базах в других системах. Покупка этой информации позволит вам получить данные о конъюнктуре рынка. Это очень полезно при планировании закупок товара. &lt;br&gt;</value>
+  </data>
+  <data name="242" xml:space="preserve">
+    <value>&lt;br&gt;Прежде чем собраться в путешествие на далекую базу, проверьте свою репутацию. Вы не можете приземлиться базе фракции, в которой у вас низкая репутация. &lt;br&gt;</value>
+  </data>
+  <data name="243" xml:space="preserve">
+    <value>&lt;br&gt;Преступную информацию о фракции можно получить на некоторых базах. Краткий обзор союзников этой группы, ее врагов и истории. &lt;br&gt;</value>
+  </data>
+  <data name="244" xml:space="preserve">
+    <value>&lt;br&gt;Покупка информации о дырах гиперперехода обычно не продается, если у вас низкая репутация. Однако,  вы можете услышать необходимую вам информацию в слухах. &lt;br&gt;</value>
+  </data>
+  <data name="245" xml:space="preserve">
+    <value>&lt;br&gt;Всякий раз, когда вы продаете или покупаете корабль, не забудьте снять с него все оборудование. Многие дилеры делают огромные деньги на запчастях, которые оставляют на корабле при продаже. &lt;br&gt;</value>
+  </data>
+  <data name="246" xml:space="preserve">
+    <value>&lt;br&gt;В бою на грузовом судне включите ведения огня в режим турели, держа наготове ускорители и обманки. Грузовые суда не предназначены для боя один на один, поэтому пусть турели делают свою работу. &lt;br&gt;</value>
+  </data>
+  <data name="247" xml:space="preserve">
+    <value>&lt;br&gt;Наемники сообщат вам, что дыры перехода встречаются по всему Сириусу. Это маленькие трещины в пространстве, которые могут перемещать ваш корабль на огромные расстояния очень быстро. Это объясняет то, как преступные фракции могут путешествовать между системами, не пользуясь вратами гиперперехода. &lt;br&gt;</value>
+  </data>
+  <data name="248" xml:space="preserve">
+    <value>&lt;br&gt;Команда Автопилот будет использовать навигационные системы корабля и определит лучший курс для вашего корабля, от вашей текущей позиции до конечного пункта назначения. Компьютер выведет несколько транзитных точек. &lt;br&gt;</value>
+  </data>
+  <data name="249" xml:space="preserve">
+    <value>&lt;br&gt;Всякий раз, когда вы обнаруживаете новую локацию или цель, это автоматически отображается на вашей карте. Вы сможете найти эти данные на навигационной карте. &lt;br&gt;</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;СОЗДАТЬ ПЕРСОНАЖ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="250" xml:space="preserve">
+    <value>&lt;br&gt;Каждый раз, когда вы знаете, что предстоит бой, не забудьте купить батареи для щитов и нанороботов. Если же вы отдаете предпочтение батареям и следите за своими щитами, то нанороботы вам не пригодятся. &lt;br&gt;</value>
+  </data>
+  <data name="251" xml:space="preserve">
+    <value>&lt;br&gt;Если вы висите на хвосте у врага в бою один на один, будьте осторожнее - хороший пилот сбросит мины. Конечно, если какой-то парень находится у вас хвосте, вы можете делать то же самое. &lt;br&gt;</value>
+  </data>
+  <data name="252" xml:space="preserve">
+    <value>&lt;br&gt;Если вы проигрываете бой и подумываете об отступлении, помните, что ваши щиты будут опущены на завершающей стадии стыковки. Ваш корабль может не выдержать эти последние несколько секунд. &lt;br&gt;</value>
+  </data>
+  <data name="253" xml:space="preserve">
+    <value>&lt;br&gt;Убедитесь, что  установили купленное оборудование на ваш корабль прежде, чем уйти с рынка оборудования. Новое оружие не поможет, если будет валяться в трюме. &lt;br&gt;</value>
+  </data>
+  <data name="254" xml:space="preserve">
+    <value>&lt;br&gt;Многие дельцы болтаются в барах каждый день. Находчивый наемник может легко найти работу, разговаривая с представителями компаний. Наиболее успешные наемники это те, кто идут в бар в поисках работы, а не пива. &lt;br&gt;</value>
+  </data>
+  <data name="255" xml:space="preserve">
+    <value>&lt;br&gt;Часто при взрыве корабля остаются неповрежденные компоненты. Целое оборудование будет находиться вместе взрыва, не забывайте подбирать его. &lt;br&gt;</value>
+  </data>
+  <data name="256" xml:space="preserve">
+    <value>&lt;br&gt;Ракеты очень быстры, но неповоротливы. Вам нужно выбрать правильную дистанцию и повернуться к противнику под правильным углом. Ракета должна лететь к цели по прямой - это залог успеха. &lt;br&gt;</value>
+  </data>
+  <data name="257" xml:space="preserve">
+    <value>&lt;br&gt;Если вам нужно быстро отступить, турели могут быть очень полезны. Они стреляют автономно. И пока противник уклоняется от их огня, вы сможете включить ускорители. Точно также вы сможете держать нужную вам дистанцию, и враг не сможет выстрелить ракетой блокирования. &lt;br&gt;</value>
+  </data>
+  <data name="258" xml:space="preserve">
+    <value>&lt;br&gt;Если вы не можете стряхнуть врага с хвоста, может помочь следующая тактика: включите ускорение на несколько секунд, и вы с легкостью оторветесь от противника, а потом просто зайдите ему в хвост. &lt;br&gt;</value>
+  </data>
+  <data name="259" xml:space="preserve">
+    <value>&lt;br&gt;Если вам нужно получить информацию по вашему текущему местоположению, просто кликните на знаке вопроса на приборной панели. &lt;br&gt;</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ВЫБРАТЬ КОРАБЛЬ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="260" xml:space="preserve">
+    <value>&lt;br&gt;Лететь через туманности может быть опасно - многие из них радиоактивны или содержат  газовые карманы, которые могут детонировать от выхлопов двигателя. Когда вы входите в новую туманность, убедитесь, что учли все варианты. &lt;br&gt;</value>
+  </data>
+  <data name="261" xml:space="preserve">
+    <value>&lt;br&gt;Используйте группировку оружия, для повышения эффективности и снижения энергозатрат. Можно сгруппировать дальнобойные пушки со скорострельными, Чтобы пробить щиты и повредить корабль. Создайте отдельную группу из тяжелого плазменного оружия, и используйте ее, когда вы находитесь близко к цели. Сохраненная энергия позволит вам сдерживать огонь противника гораздо дольше. &lt;br&gt;</value>
+  </data>
+  <data name="262" xml:space="preserve">
+    <value>&lt;br&gt;Хороший пилот знает, как пользоваться списком контактов ИЛС. Это список объектов вроде ближайших систем, утерянной амуниции, кораблей или прочего. К списку можно применять фильтр, который отобразит необходимые вам объекты. &lt;br&gt;</value>
+  </data>
+  <data name="263" xml:space="preserve">
+    <value>&lt;br&gt;Это подходит не каждому, но это реальный способ заработать приличные деньги: добывать или собирать металл. Если вы включите фильтр, то ваша карта покажет вам некоторые области в пределах систем, в которых можно добывать руду. &lt;br&gt;</value>
+  </data>
+  <data name="264" xml:space="preserve">
+    <value>&lt;br&gt;Пираты вообще плохо организованы - они не создают формирований, и бегут рассеяно, если им приходится трудно в бою. Но даже в этом случае их нельзя недооценивать, они могут быть весьма опасны. &lt;br&gt;</value>
+  </data>
+  <data name="265" xml:space="preserve">
+    <value>&lt;br&gt;Оценка крутизны врага показана на вашем ИЛС, а также в скобках прицела и на самом прицеле. Очень важно знать врага, когда выбираешь миссию. &lt;br&gt;</value>
+  </data>
+  <data name="266" xml:space="preserve">
+    <value>&lt;br&gt;Если вы собираетесь сбить канонерку. Старайтесь не попадать под прицельный огонь. Огневая мощь канонерки сконцентрирована на носу, так что не подлетайте к канонерке с фронта. &lt;br&gt;</value>
+  </data>
+  <data name="267" xml:space="preserve">
+    <value>&lt;br&gt;Вход в атмосферу планеты уничтожит ваш корабль, если вы не пройдете через планетарное стыковочное кольцо. Космические корабли не могут входить в атмосферу без экранирования, которое обеспечивает стыковочное кольцо. &lt;br&gt;</value>
+  </data>
+  <data name="268" xml:space="preserve">
+    <value>&lt;br&gt;Используйте маневровые двигатели, чтобы не подорваться на минах корабля, который вы преследуете. Постарайтесь следовать не слишком близко, иначе не успеете и глазом моргнуть, как взорвется ваш корабль. &lt;br&gt;</value>
+  </data>
+  <data name="269" xml:space="preserve">
+    <value>&lt;br&gt; Всегда думайте. Ваша репутация может увеличиваться в какой-то фракции, вы должны знать, что их враги станут вашими врагами, и ваша репутация понизится в других фракциях. &lt;br&gt;</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ОТКЛОНИТЬ ПРИГЛАШЕНИЕ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="270" xml:space="preserve">
+    <value>&lt;br&gt;Самые умные пираты пользуются грузовым сканером, чтобы выяснить, что находится внутри их потенциальной жертвы. Нет никакого смысла в нападении на транспорт, если груз не стоит риска. &lt;br&gt;</value>
+  </data>
+  <data name="271" xml:space="preserve">
+    <value>&lt;br&gt;Если вы собираетесь атаковать кольцо торговых линий, имейте в виду, что на них установлены автоматические турели. Это делает их гораздо опаснее, чем кажется. &lt;br&gt;</value>
+  </data>
+  <data name="272" xml:space="preserve">
+    <value>&lt;br&gt;Всегда безопаснее путешествовать по несколько кораблей; поэтому, если вы видите дружественный патруль или обоз, идущий тем же маршрутом, что и вы, то целесообразно присоединиться к ним.  Просто выберите один из кораблей и нажмите кнопку Формация. &lt;br&gt;</value>
+  </data>
+  <data name="273" xml:space="preserve">
+    <value>&lt;br&gt;Если вы летите в районе, где нет врат перехода, включите ваши маршевые двигатели на максимальную скорость. &lt;br&gt;</value>
+  </data>
+  <data name="274" xml:space="preserve">
+    <value>&lt;br&gt;Маневровые двигатели - одно из самых полезных устройств, необходимых для корабля. Большинство пилотов полагает, что они абсолютно бесполезны. Маневровые двигатели помогут вам  избежать ракет и мин. &lt;br&gt;</value>
+  </data>
+  <data name="275" xml:space="preserve">
+    <value>&lt;br&gt;Следите за количеством нанороботов и батарей щитов на панели ИЛС. Если вы летите мимо дружественной базы, не забудьте пополнить запасы. &lt;br&gt;</value>
+  </data>
+  <data name="276" xml:space="preserve">
+    <value>&lt;br&gt;Преступники предпочитают занимать зоны, где их сложно найти, так что будьте осторожны, если летите к астероидам, или в область обломков - там вы можете наткнуться на неприятеля. &lt;br&gt;</value>
+  </data>
+  <data name="277" xml:space="preserve">
+    <value>&lt;br&gt;Если ваш корабль получил серьезные повреждения, вроде потери крыла или стабилизирующего хвоста, вам придется приземлиться на ближайшей базе. Нанороботы не смогут устранить такие повреждения. &lt;br&gt;</value>
+  </data>
+  <data name="278" xml:space="preserve">
+    <value>&lt;br&gt;Режим Турели полезен, даже если на вашем корабле не установлена турель. Камеры турели будут все равно работать и помогут вам лучше осмотреться и найти друзей или врагов. &lt;br&gt;</value>
+  </data>
+  <data name="279" xml:space="preserve">
+    <value>&lt;br&gt;Если на вашем хвосте враг, попробуйте резко остановить двигатели. Тогда враг пролетит мимо, а у вас будет возможность сесть ему на хвост.&lt;br&gt;</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ОТКЛОНИТЬ ЗАПРОС&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="280" xml:space="preserve">
+    <value>&lt;br&gt;Хороший наемник - это проинформированный наемник. Говорите со всеми и они расскажут вам, что они знают. Но самый лучший источник информации это продавцы новостей, не брезгуйте их услугами. &lt;br&gt;</value>
+  </data>
+  <data name="281" xml:space="preserve">
+    <value>&lt;br&gt;Если вы купили новую установку или оружие, не забудьте установить на корабль.&lt;br&gt;</value>
+  </data>
+  <data name="282" xml:space="preserve">
+    <value>&lt;br&gt;Вы можете оснащать ваш корабль оборудованием из разных концов Сириуса, но помните, что неопытный пилот не сможет пользоваться сложными образцами оружия. Некоторые товары продаются только опытным пилотам и наемникам. &lt;br&gt;</value>
+  </data>
+  <data name="283" xml:space="preserve">
+    <value>&lt;br&gt;Проадвая товар, обратите внимание на его оценку – зеленый говорит о прибыли; красный товар, лучше продать в другом месте. То же самое можно сказать и о покупке, если индикатор зеленый, цена хорошая, красный – вы переплачиваете. Имейте в виду, что эти индикаторы отражают только рыночную цену. &lt;br&gt;</value>
+  </data>
+  <data name="284" xml:space="preserve">
+    <value>&lt;br&gt;Не стесняйтесь приветствовать дружественных пилотов в космосе. Они расскажут о себе и дадут несколько советов о данном участке космоса.&lt;br&gt;</value>
+  </data>
+  <data name="285" xml:space="preserve">
+    <value>&lt;br&gt;Хотя вы можете знать о секретных дырах перехода, старайтесь все же избегать их. Если такие дыры и есть, то там полно преступников. &lt;br&gt;</value>
+  </data>
+  <data name="286" xml:space="preserve">
+    <value>&lt;br&gt;Некоторые миссии, очень опасны. Очень внимательно читайте условия миссии, прежде чем взяться за дело. &lt;br&gt;</value>
+  </data>
+  <data name="287" xml:space="preserve">
+    <value>&lt;br&gt;Некоторые пилоты настолько хороши, что умеют уничтожать направленные на них мины и ракеты. У вас должны быть стальные нервы, чтобы самому научится так делать. &lt;br&gt;</value>
+  </data>
+  <data name="288" xml:space="preserve">
+    <value>&lt;br&gt;Если вы хотите быть в курсе происходящих событий, продавцы новостей обеспечат вас текущей информацией о самых последних событиях в Сириусе. &lt;br&gt;</value>
+  </data>
+  <data name="289" xml:space="preserve">
+    <value>&lt;br&gt;Для управления камерой на площадке дилера, нажмите стрелки вправо и влево, чтобы рассмотреть корабль со всех сторон. &lt;br&gt;</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;УДАЛИТЬ ИГРУ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="290" xml:space="preserve">
+    <value>&lt;br&gt;Независимо от того, сколько фракций может ненавидеть вас, их дилеры все равно будут торговать с вами. Деньги не пахнут. &lt;br&gt;</value>
+  </data>
+  <data name="291" xml:space="preserve">
+    <value>&lt;br&gt;Манхеттен самое оживленное место Свободы. Сюда приезжает много народу - торговцы, Наемники, полиция, военные, корпоративные работники - все едут сюда. &lt;br&gt;</value>
+  </data>
+  <data name="292" xml:space="preserve">
+    <value>&lt;br&gt;Можно заработать неплохие деньги, просто летая вокруг Манхеттена и собирая металлолом. Вы должны уметь выбирать: ценными являются только небольшие обломки, которые можно легко транспортировать. Этим можно заработать на карманные расходы. &lt;br&gt;</value>
+  </data>
+  <data name="293" xml:space="preserve">
+    <value>&lt;br&gt;Когда вы в баре, очень легко определить, кто что вам может предложить - значок доллара значит, что они предложат продажу чего-то, облачко диалога означает, что вы услышите сплетню, а чемоданчик свидетельствует о миссии. &lt;br&gt;</value>
+  </data>
+  <data name="294" xml:space="preserve">
+    <value>&lt;br&gt;Если ваш корабль поврежден, и вы приземлились на базе для починки, ремонт производится щелчком на кнопки Гаечный ключ. Это самый быстрый способ починки. &lt;br&gt;</value>
+  </data>
+  <data name="295" xml:space="preserve">
+    <value>&lt;br&gt;Будьте осторожнее при установке мин. Не лучшая идея отстреливать несколько мин - они могут повредить и дружественные корабли. &lt;br&gt;</value>
+  </data>
+  <data name="296" xml:space="preserve">
+    <value>&lt;br&gt;Всякий раз, когда вы исследуете новые области космоса, ваша карта автоматически обрабатывает данные и запоминает их, чтобы потом показать вам полезную информацию, включая заминированные зоны, политическое преобладание в области и патрульные пути любой зоны. &lt;br&gt;</value>
+  </data>
+  <data name="297" xml:space="preserve">
+    <value>&lt;br&gt;Если у вас есть грузовой отсек, вы можете узнать, какие предметы там находятся и занимаемое место, просто перемещая ваш курсор по ним. На дисплее будет отображена информация по выбранному предмету. &lt;br&gt;</value>
+  </data>
+  <data name="298" xml:space="preserve">
+    <value>&lt;br&gt;Вы можете отправляться в дальние рейсы прямо с карты. Сначала щелкните по объекту вашей карты, а потом по кнопке Цель. &lt;br&gt;</value>
+  </data>
+  <data name="299" xml:space="preserve">
+    <value>&lt;br&gt;Некоторые тяжелые истребители могут нести торпеды. Торпеды слишком медленные, чтобы использовать против легких кораблей, но незаменимы против линкоров и баз. Очень дорогое, но крайне эффективное оружие. &lt;br&gt;</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;УДАЛИТЬ ПЕРСОНАЖ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>&lt;br&gt;Имя профиля: &lt;br&gt;</value>
+  </data>
+  <data name="300" xml:space="preserve">
+    <value>&lt;br&gt;В общем, обманка эффективна только против одной ракеты - так что, если в вас запущено несколько ракет, вам придется выпускать сразу несколько обманок, чтобы сбить ракеты. &lt;br&gt;</value>
+  </data>
+  <data name="301" xml:space="preserve">
+    <value>&lt;br&gt;Если вы не можете найти объект на карте, попробуйте разные фильтры; это может помочь вам. &lt;br&gt;</value>
+  </data>
+  <data name="302" xml:space="preserve">
+    <value>&lt;br&gt;Если стычка происходит возле планеты, заманите противника в атмосферу, но убедитесь, что не пострадаете при этом сами. &lt;br&gt;</value>
+  </data>
+  <data name="303" xml:space="preserve">
+    <value>&lt;br&gt;Если вам нужно быстро убраться с астероидного поля, спрячьтесь за одним из астероидов и попробуйте включить маршевые двигатели. Астероид защитит вас от вражеских попаданий. &lt;br&gt;</value>
+  </data>
+  <data name="304" xml:space="preserve">
+    <value>&lt;br&gt;Всегда очень важно помнить о своей репутации. Если вы вдруг окажетесь вне закона, то одна из фракций обязательно вас поддержит. &lt;br&gt;</value>
+  </data>
+  <data name="305" xml:space="preserve">
+    <value>&lt;br&gt;Если у вас все еще нет хорошего оружия, возвращайтесь к дилеру оборудования. Ведь ваш опыт повысился &lt;br&gt;</value>
+  </data>
+  <data name="306" xml:space="preserve">
+    <value>&lt;br&gt;Самый эффективный способ перехватить транспорт - это разрушить кольцо перехода. При разрушении кольца транспорт автоматически вылетит из гипера. &lt;br&gt;</value>
+  </data>
+  <data name="307" xml:space="preserve">
+    <value>&lt;br&gt;Луч захвата входит в стандартный набор каждого корабля. Использование возможно при полете на обычной скорости для подбора оборудования, обломков и прочее. &lt;br&gt;</value>
+  </data>
+  <data name="308" xml:space="preserve">
+    <value>&lt;br&gt;Кольца перехода связывают воедино все системы Сириуса. Вскоре вы поймете, что это самый безопасный и экономный способ перемещения. &lt;br&gt;</value>
+  </data>
+  <data name="309" xml:space="preserve">
+    <value>&lt;br&gt;Основная стратегия Корсаров состоит в том, что пока вы сражаетесь с их арьергардом, остальные отстреливают мины и окружают вас, чтобы потом навалиться всем скопом. &lt;br&gt;</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Пригласить в группу&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="310" xml:space="preserve">
+    <value>&lt;br&gt;Всякий раз, когда вы входите на склад баз, вам предоставляется список товаров на продажу. &lt;br&gt;</value>
+  </data>
+  <data name="311" xml:space="preserve">
+    <value>&lt;br&gt;Когда вы просматриваете последние новости, не забудьте посмотреть цены. На нем указаны последние рыночные цены на разные товары. &lt;br&gt;</value>
+  </data>
+  <data name="312" xml:space="preserve">
+    <value>&lt;br&gt;Скоро вы научитесь различать представителей разных фракций. Обратите внимание на одежду. &lt;br&gt;</value>
+  </data>
+  <data name="313" xml:space="preserve">
+    <value>&lt;br&gt;Ключевые точки очень полезны. С их помощью вы можете обозначить необходимые районы. Устанавливайте ключевые точки, щелкая по навигационной карте. &lt;br&gt;</value>
+  </data>
+  <data name="314" xml:space="preserve">
+    <value>&lt;br&gt;Если вы получили новое задание, находясь на базе, Нейросеть после взлета будет содеражть последние обновления информации. &lt;br&gt;</value>
+  </data>
+  <data name="315" xml:space="preserve">
+    <value>&lt;br&gt;Не пропускайте задания и выполняйте их до конца. Если вы кого-то кидаете, ваша репутация может существенно испортиться. Многие больше не захотят иметь с вами дела. &lt;br&gt;</value>
+  </data>
+  <data name="316" xml:space="preserve">
+    <value>&lt;br&gt;Все предметы в космосе имеют цветовое обозначение. Эти значки могут быть разноцветными: дружественные - зеленые, вражеские - красные, а нейтральные - белые. Это поможет вас.&lt;br&gt;</value>
+  </data>
+  <data name="317" xml:space="preserve">
+    <value>&lt;br&gt;Если вам нужно покинуть торговую линию, воспользуйтесь кнопкой Свободный полет. &lt;br&gt;</value>
+  </data>
+  <data name="318" xml:space="preserve">
+    <value>&lt;br&gt;Как только цель попадает в радиус поражения вашего оружия, появляется красная рамка и прицел наведения. &lt;br&gt;</value>
+  </data>
+  <data name="319" xml:space="preserve">
+    <value>&lt;br&gt;Цвет рамок различаются: красные - для врагов, зеленые - для друзей. &lt;br&gt;</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Присоединиться к группе&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="320" xml:space="preserve">
+    <value>&lt;br&gt;Маневровые двигатели не являются необходимостью, но очень полезны. Их можно использовать, чтобы избегать мин и астероидов. Но помните, что при работе ускорителей растет потребление энергии. &lt;br&gt;</value>
+  </data>
+  <data name="321" xml:space="preserve">
+    <value>&lt;br&gt;Помните: три главных индикатора - это энергия оружия, состояние щита и состояние. Они расположены в нижней части ИЛС, и соответственно представлены желтой, синей и красной полосами. &lt;br&gt;</value>
+  </data>
+  <data name="322" xml:space="preserve">
+    <value>&lt;br&gt;Щелкните по карте Вселенной, расположенной над навигационной картой, что получить информацию о каждой звездной системе, знакомой. Для масштабирования изображения используйте маркер системы. &lt;br&gt;</value>
+  </data>
+  <data name="323" xml:space="preserve">
+    <value>&lt;br&gt;Вселенная довольно велика, но вы всегда можете узнать свое местоположение, ваш корабль обозначен мигающим индикатором. Если у вас открыта карта другой карты, нажмите кнопку Положение игрока, расположенную сверху Карты, чтобы сфокусироваться на вашем корабле. &lt;br&gt;</value>
+  </data>
+  <data name="324" xml:space="preserve">
+    <value>&lt;br&gt;Список контактов разделен на пять категории: важные объекты, корабли, звезды, трофеи и все.  Для выбора категории щелкните по соответствующей кнопке. &lt;br&gt;</value>
+  </data>
+  <data name="325" xml:space="preserve">
+    <value>&lt;br&gt;Чтобы просмотреть цели задания или изменения, нажмите звездообразную кнопку в верхнем правом углу экрана. &lt;br&gt;</value>
+  </data>
+  <data name="326" xml:space="preserve">
+    <value>&lt;br&gt;Если у вас есть миссия, то на карте появится путь к точке назначения. Вы также можете обозначить на карте несколько точек, в которых вам хотелось бы побывать. &lt;br&gt;</value>
+  </data>
+  <data name="327" xml:space="preserve">
+    <value>&lt;br&gt;При передаче сообщения по рации, вы услышите сигнал. Если корабль этого пилота в это время выделен рамкой, то рамка изменит свой цвет на желтый. Это относится как к дружественным, так и к вражеским кораблям.&lt;br&gt;</value>
+  </data>
+  <data name="328" xml:space="preserve">
+    <value>&lt;br&gt;Размещение всех вражеских кораблей за пределами дисплея показано маленькими стрелками по краям экрана, выделенный вражеский корабль будет обозначен такой же стрелкой, но в несколько раз больше. &lt;br&gt;</value>
+  </data>
+  <data name="329" xml:space="preserve">
+    <value>&lt;br&gt;Все новое оружие дезактивируется при установке на корабль. Так что каждый раз, когда покидаете планету, убедитесь, что все оружие активировано. &lt;br&gt;</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ПОКИНУТЬ ГРУППУ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="330" xml:space="preserve">
+    <value>&lt;br&gt;Чтобы выжить, молодые пилоты должны уметь пользоваться ускорителями. Эти двигатели резко увеличивают скорость, но очень быстро истощают батарею, данные о батарее показаны внизу экрана. &lt;br&gt;</value>
+  </data>
+  <data name="331" xml:space="preserve">
+    <value>&lt;br&gt;Информация на карте подскажет откуда и куда ведет торговый путь. Если вам нужно другое направление, воспользуйтесь маршевыми двигателями. &lt;br&gt;</value>
+  </data>
+  <data name="332" xml:space="preserve">
+    <value>&lt;br&gt;Чтобы получить информацию о корабле, или о предмете в космосе, или о враге, щелкните по кнопке Информация (знак вопроса) вверху экран. &lt;br&gt;</value>
+  </data>
+  <data name="333" xml:space="preserve">
+    <value>&lt;br&gt;Каждый корабль оснащен отверстиями, называемыми креплениями корпуса. Подобные крепления рассчитаны на определенные виды вооружения. Это значит, что вы не можете установить генератор щита вместо оружия. Также вы не можете установить мощное оружие  на место легкого.&lt;br&gt;</value>
+  </data>
+  <data name="334" xml:space="preserve">
+    <value>&lt;br&gt;Враги, с которыми вам придется столкнуться в случайных миссиях, обычно являются сильнейшими в своей фракции и поэтому их оборудование очень дорогостоящее. Поэтому после боя не забывайте собирать трофеи. &lt;br&gt;</value>
+  </data>
+  <data name="335" xml:space="preserve">
+    <value>&lt;br&gt;Существует независимая группа под названием Комиссия полетов. Они следят за выполнений двумя сторонами обязательств, в том числе контролируют перечисление денег за выполненные задания. &lt;br&gt;</value>
+  </data>
+  <data name="336" xml:space="preserve">
+    <value>&lt;br&gt;Сразу получения задания, Комиссия полетов контролирует ваши действия. Им нет дела до того, сколько времени займет у вас миссия, но они настаивают на точном исполнении инструкций клиента. Если миссия не выполнена, у вас портится репутация, и вы несете убытки. &lt;br&gt;</value>
+  </data>
+  <data name="337" xml:space="preserve">
+    <value>&lt;br&gt;Если ваша миссия состоит только в уничтожении корабля или группы кораблей, попытайтесь увести вашего противника от больших крейсеров и защитных кораблей. Так вы снизите вероятность серьезных повреждений вашего корабля. &lt;br&gt;</value>
+  </data>
+  <data name="338" xml:space="preserve">
+    <value>&lt;br&gt;Чтобы выделить врага и нацелиться на него, нажмите кнопку Ближайший враг или горячую клавишу, назначенную на это действие.&lt;br&gt;</value>
+  </data>
+  <data name="339" xml:space="preserve">
+    <value>&lt;br&gt;Оружие не может вращаться, следуя за врагом, это для вашей же безопасности, поскольку свободны вращающее оружие может запросто попасть по кораблю, на котором установлено. &lt;br&gt;</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ДИАЛОГОВЫЙ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="340" xml:space="preserve">
+    <value>&lt;br&gt;Если по вашему кораблю попали, вы сможете увидеть откуда нанесен удар. На вашем экране появится красная дуга как раз с той стороны, откуда стрелял враг.&lt;br&gt;</value>
+  </data>
+  <data name="341" xml:space="preserve">
+    <value>&lt;br&gt;Использование кнопки Формация поможет вам присоединиться к другой группе кораблей. После соединения ваш корабль переключится на автопилот и будет следовать за формированием. Если вы хотите отделиться, нажмите кнопку свободного полета. &lt;br&gt;</value>
+  </data>
+  <data name="342" xml:space="preserve">
+    <value>&lt;br&gt;На больших целях вы можете выбрать подцели. Лучше всего это работает на больших кораблях или станциях. Чтобы выбрать подцель, нажмите кнопку прицеливания и стрелками выберите интересующую подцель. Тогда у вас будет показан весь корабль и его подцель.&lt;br&gt;</value>
+  </data>
+  <data name="343" xml:space="preserve">
+    <value>&lt;br&gt;Почти каждая фракция может предложить вам задание, если конечно вы находитесь с ней в хороших отношениях. Тип задания, которое вы можете взять, конечно, зависит от типа фракции, на которую вы работаете. Вы можете брать любые задание - от возврата захваченной собственности до убийств. Если вы устали от перевозок товаров - для вас найдется и другая работа. &lt;br&gt;</value>
+  </data>
+  <data name="344" xml:space="preserve">
+    <value>&lt;br&gt;Благодаря технологическому прогрессу в квантовом сжатии товаров, грузовой трюм корабля может теперь нести огромное количество товаров. Естественно, легкие истребители не могут вместить столько, сколько тяжелые истребители; но ничто не превзойдет грузоподъемности грузового судна. &lt;br&gt;</value>
+  </data>
+  <data name="345" xml:space="preserve">
+    <value>&lt;br&gt;Если вы собираетесь воевать с большой базой, то сначала попытайтесь уничтожить ее защитные корабли и пушечные установки, а уж потом займитесь непосредственно базой.&lt;br&gt;</value>
+  </data>
+  <data name="346" xml:space="preserve">
+    <value>&lt;br&gt;Вам придется по-настоящему подружиться с фракцией, чтобы купить у нее лучшее оружие. &lt;br&gt;</value>
+  </data>
+  <data name="347" xml:space="preserve">
+    <value>&lt;br&gt;Если вы по натуре авантюрист, попробуйте поискать древние корабли. На таких кораблях часто встречается дорогое оборудование. &lt;br&gt;</value>
+  </data>
+  <data name="348" xml:space="preserve">
+    <value>&lt;br&gt;Относительно безопасности: если вы сбросили мину, держитесь от нее подальше, у мин большой радиус поражения. &lt;br&gt;</value>
+  </data>
+  <data name="349" xml:space="preserve">
+    <value>&lt;br&gt;Помните, что хороший ускоритель быстрее любой ракеты. &lt;br&gt;</value>
+  </data>
+  <data name="34" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ЗАГРУЗИТЬ ПЕРСОНАЖ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="350" xml:space="preserve">
+    <value>&lt;br&gt;Тактическая подсказка: если перед вами мина или на хвосте ракета – резко руль вправо или влево. &lt;br&gt;</value>
+  </data>
+  <data name="351" xml:space="preserve">
+    <value>&lt;br&gt;Когда вы думаете, какое оружие выбрать - помните, что турельное оружие обладает повышенной эффективной дальностью по сравнению со стандартными образцами оружия.&lt;br&gt;</value>
+  </data>
+  <data name="352" xml:space="preserve">
+    <value>&lt;br&gt;Выстрел по врагу импульсным оружием, когда щиты уже вырублены, отключит энергию двигателей, и у вас мгновенно появится преимущество в бою. &lt;br&gt;</value>
+  </data>
+  <data name="353" xml:space="preserve">
+    <value>&lt;br&gt;Если реактор вашего корабля не может позволить стрелять из всех пушек одновременно, то вам нужно отключить какое-то орудие. Чтобы больше не сталкиваться с этим, попробуйте купить энергоустановку, обеспечивающую потенциально необходимую мощность. Единственное «но» - это ее высокая цена. &lt;br&gt;</value>
+  </data>
+  <data name="354" xml:space="preserve">
+    <value>&lt;br&gt;Технология щита - забавная вещь; щиты работают только на истребителях и грузовых кораблях. Но на чем-то большем, вроде крейсера или космопоезда, не помогут. &lt;br&gt;</value>
+  </data>
+  <data name="355" xml:space="preserve">
+    <value>&lt;br&gt;Я был на XT-19, когда на него напали. У нас были серьезные неприятности, когда подоспели вы, парни. Спасибо вам за помощь. У нас были пожары на нескольких палубах, но нам удалось отогнать XT-19 назад на Питсбург. Я рад, что вы разгромили Бродяг. Это убавит их пыл на долгое время. &lt;br&gt;</value>
+  </data>
+  <data name="356" xml:space="preserve">
+    <value>&lt;br&gt;Это вы тот парень, который летал с Кингом и разнес базу Бродяг? Я знаю Кинга целую вечность! Он сражается с Бродягами с тех пор, как вступил в СБС много лет назад. Кинг очень эксцентричный, но приятный в общении и работе парень. Я бы хотел с ним полетать. &lt;br&gt;</value>
+  </data>
+  <data name="357" xml:space="preserve">
+    <value>&lt;br&gt;Президент вызвал начальника СБС, чтобы разобраться с ситуацией Шульцкого. Канцлер в бешенстве, думает, что мы виноваты в смерти Шульцкого. Ходят слухи, что они знают об Ордене гораздо больше, чем сообщают.&lt;br&gt;</value>
+  </data>
+  <data name="358" xml:space="preserve">
+    <value>&lt;br&gt;Только что стали известны результаты расследования происшествия во Фрипорте-7. Оказывается система защиты была заблокирована, радар не показал приближения чужого флота и орудия молчали. Говорят, на станции был предатель. &lt;br&gt;</value>
+  </data>
+  <data name="359" xml:space="preserve">
+    <value>&lt;br&gt;Вы, Трент, работаете на СБС, да? Вы подходите под описание. У меня есть для вас сообщение от Джунко Зейн. Она сказала, что я могу найти вас здесь. Джунко ждет вас на Манхеттене. У нее есть задание для вас. На вашем месте я бы не заставлял ее ждать. Знаете, она страшна в гневе. &lt;br&gt;</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ГЛАВНОЕ МЕНЮ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="360" xml:space="preserve">
+    <value>&lt;br&gt;Мой друг медик сказал мне, что ПС задержала выживших с Фрипорта-7 для допроса в СБС. Он также сказал, что разговаривал с двумя выжившими. Мужчина по имени Лонниган сказал, что на базу напали очень странные с виду корабли, не виданные ранее.  Странно, да? Он также говорил, что «за всем этим» стоит правительство. А тот парень, Лонниган был в очень плохом состоянии - но кто знает, возможно это правда.&lt;br&gt;</value>
+  </data>
+  <data name="361" xml:space="preserve">
+    <value>&lt;br&gt;Мой хороший друг из СБС сказал мне, что за нападением на Фрипорт-7 стоит Орден. Он сказал, что они опросили всех выживших, и все указывают на Орден. &lt;br&gt;</value>
+  </data>
+  <data name="362" xml:space="preserve">
+    <value>&lt;br&gt;Рад видеть вас, Трент. Я друг Майкла Кинга, которого вы хорошо знаете. Он хвастал, как сам справился с базой Бродяг около Питсбурга. Вы же знаете, он очень тщеславный. Он послал меня, чтобы сообщить, что вы ему нужны. Он ждет вас на Манхеттене. Похоже, ему все-таки нужна помощь! &lt;br&gt;</value>
+  </data>
+  <data name="363" xml:space="preserve">
+    <value>&lt;br&gt;Со времени нападения на Адмирала Шульцкого, флот разместил линкоры у врат гиперперехода. Сканируют каждый корабль, входящий или выходящий из системы Нью-Йорк. &lt;br&gt;</value>
+  </data>
+  <data name="364" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали о запрете оборота артефактов? Якоби утверждает, что это делается ради безопасности, но на самом деле, это просто очередная попытка Свободы завладеть рынком, на который они так сильно хотят пробиться. Если запрет вступит в силу, и они введут налоги, у них будет прекрасный шанс.&lt;br&gt;</value>
+  </data>
+  <data name="365" xml:space="preserve">
+    <value>&lt;br&gt;Говорят, Орден атаковал снова, на этот раз напали на один из кораблей! Вы можете убить всех парней Рейнландии, это как хотите, но если вы начнете убивать наших парней - берегитесь. Как они могли сначала попасть в Зону-21, а потом на крейсер? У них должна была быть информация. Чувствую, у нас завелся стукач. &lt;br&gt;</value>
+  </data>
+  <data name="366" xml:space="preserve">
+    <value>&lt;br&gt;Я знаю медсестру в медицинском центре Уильямс-Крик. Вы, наверное, слышали, что уцелевшие во Фрипорте-7 умерли за последние несколько дней, возможно от серьезных повреждений. Так эта медсестра сказала мне, что она ухаживала за одним из умерших и он был в прекрасной форме; доктор даже готовил документы на выписку. А на следующий день она зашла к нему, тот уже был мертв. Не было никакого объяснения причин смерти, кроме «несовместимых с жизнью».  Его тело забрали до того, как она успела его обследовать, и даже карточку унесли парни из СБС. Я вам говорю, они все держат в секрет.&lt;br&gt;</value>
+  </data>
+  <data name="367" xml:space="preserve">
+    <value>&lt;br&gt;Я думаю, что вы слышали, что Якоби приказала СБС исследовать зону катастрофы Фрипорта-7. Команда провела расследование, совершенно стандартная процедура. Они проверили структуру частиц оружия. И они выяснили, что кто бы это ни был, но это не пираты. &lt;br&gt;</value>
+  </data>
+  <data name="368" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали, что в Зоне-21 было совершено нападение? Сначала флот отрицал это, но потом они признали, Что Орден захватил один из их крейсеров на выходе из Зоны. Становится не по себе, если организация типа Ордена может причинить столько вреда. &lt;br&gt;</value>
+  </data>
+  <data name="369" xml:space="preserve">
+    <value>&lt;br&gt;Вы были с группой истребителей, которые бывали здесь и раньше, не так ли? От имени всего населения Пуэбло, спасибо вам. За вашу помощь я расскажу вам наш маленький секрет. Здесь в Колорадо, на некоторых полях есть огромное количество серебра. Если вам нужны деньги, то это способ их заработать, не подвергая себя особой опасности. &lt;br&gt;</value>
+  </data>
+  <data name="36" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;НОВЫЙ ПЕРСОНАЖ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="370" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что сегодня Бродяги атаковали Форт Буш. Это впервые за много лет они решились атаковать такой большой военный центр. Офицер Полиции Свободы сказал мне, что они пытались освободить заключенного - как я понял, контрабандиста артефактов. &lt;br&gt;</value>
+  </data>
+  <data name="371" xml:space="preserve">
+    <value>&lt;br&gt;Ваш друг недавно искал вас. Его имя Лонниган. Он не оставил сообщения, но сказал, что найдет вас. Думаю, у него к вам дело. Ему бы к врачу, он неважно выглядел. &lt;br&gt;</value>
+  </data>
+  <data name="372" xml:space="preserve">
+    <value>&lt;br&gt;Один друг сказал мне, что слухи о выживших во Фрипорте-7, которые потом умерли - чистая выдумка. В новостях говорят, что они умерли от травм, но я слышал, что это неправда. Мой друг сказал мне, что одному из выживших удалось бежать из больницы. &lt;br&gt;</value>
+  </data>
+  <data name="373" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что вы летите в систему Калифорния. Туда легко добраться, и это недалеко. Воспользуйтесь вратами гиперперехода отсюда до Вестпойнта, а оттуда к вратам Калифорнии. Единственные, кого вам нужно остерегаться это Хакеров, они что-то уж чересчур активны и могут на вас напасть.&lt;br&gt;</value>
+  </data>
+  <data name="374" xml:space="preserve">
+    <value>&lt;br&gt;Бармен сказал мне, что вы один из счастливчиков, которые выжили во Фрипорте-7. Вы уже второй выживший, с кем я сегодня разговариваю. Несколько часов назад здесь был парень по имени Брэндон Роулетт. Он искал вас, мистер Трент. &lt;br&gt;</value>
+  </data>
+  <data name="375" xml:space="preserve">
+    <value>&lt;br&gt;Знаете, что я слышал? Помните, говорили, что Рейнландия нашла планету, полную артефактов инопланетян? (Это не просто безделушки, некоторые говорят, что они до сих пор работают.) Говорят, что Фрипорт-7 был уничтожен, потому что Рейнландия завезла туда несколько таких артефактов. Интересно, не правда ли?&lt;br&gt;</value>
+  </data>
+  <data name="376" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что конвой был атакован на пути к Барерра. Скорее всего, это была тайная операция правительства. Они должны были сообщить нам, что отлавливают там контрабандистов и пиратов. Даже не могу представить, почему они это сделали. &lt;br&gt;</value>
+  </data>
+  <data name="377" xml:space="preserve">
+    <value>&lt;br&gt;Здесь недавно был ваш друг - Майкл Кинг. Он сказал, что скоро с вами свяжется. &lt;br&gt;</value>
+  </data>
+  <data name="378" xml:space="preserve">
+    <value>&lt;br&gt;Говорите, что угодно об их методах и политике, но флот - внушительная организация. Они проследили за всеми выжившими во Фрипорте-7. Последнее сообщение было о том, что они выследили человека по имени Брэндон Роулетт. Он пытался скрыться, но пилоты Свободы - одни из самых лучших в системе. У него не было шансов. &lt;br&gt;</value>
+  </data>
+  <data name="379" xml:space="preserve">
+    <value>&lt;br&gt;Очень странно. Мой кузен, который прослужил в южном секторе Калифорнии почти 10 лет, был только что переведен без уведомления. Это очень необычная для флота вещь; я никогда не слышал, что кого-то могут перевести без уведомления о причине и предупреждения.&lt;br&gt;</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;НЕ ДИАЛОГОВЫЙ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="380" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что Уокер предложил вам свою помощь. Это самый уважаемый офицер на всем флоте Свободы. Это капитан Юты на протяжении пяти последних лет. Линкор дислоцирован в Лос-Анджелесе, но часто патрулируют этот участок, чтобы отловить местных пиратов.&lt;br&gt;</value>
+  </data>
+  <data name="381" xml:space="preserve">
+    <value>&lt;br&gt;Слышал информацию, что военные корабли Рейнландии вошли в систему. Не знаю правда, или нет, но это прямое нарушение условий соглашения. Сообщение не подтвердилось. Но все равно, будьте осторожнее.&lt;br&gt;</value>
+  </data>
+  <data name="382" xml:space="preserve">
+    <value>&lt;br&gt;Люди, с которыми вы сюда прилетели, Джунко Зейн и капитан Уокер, они сейчас разговаривают с нашим командиром базы. Точно не знаю, что происходит, но там очень шумно - кричат. В конце концов, они отправили срочное сообщение на Манхеттен. Что-то происходит, это точно.&lt;br&gt;</value>
+  </data>
+  <data name="383" xml:space="preserve">
+    <value>&lt;br&gt;Многие полагают, что корабли Рейнландии были посланы сюда прямым приказом канцлера Нимана. Он, конечно же, отрицает это, но не может же целый военный флот действовать на территории Свободы, а их главнокомандующий об этом не знать.&lt;br&gt;</value>
+  </data>
+  <data name="384" xml:space="preserve">
+    <value>&lt;br&gt;Что-то странное происходит на флоте и в СБС. Я слышал, что людей внезапно переводят, а то и вообще снимают с должностей. Это непривычно для высшего командования делать такие вещи исподтишка. Возможно, это имеет какое-то отношение к предателю, которого они ищут. &lt;br&gt;</value>
+  </data>
+  <data name="385" xml:space="preserve">
+    <value>&lt;br&gt;Что-то странное происходит на флоте и в СБС. Я слышал, что людей внезапно переводят, а то и вообще снимают с должностей. Это непривычно для высшего командования делать такие вещи исподтишка. Возможно, это имеет какое-то отношение к предателю, которого они ищут. &lt;br&gt;</value>
+  </data>
+  <data name="386" xml:space="preserve">
+    <value>&lt;br&gt;Что происходит? Почему Рейнландия на нас напала? Мы научная станция! Слава богу, у нас есть вы. Я больше не буду утверждать, что армия тратит многоденег. Если бы не флот, нас бы уже не было. &lt;br&gt;</value>
+  </data>
+  <data name="387" xml:space="preserve">
+    <value>&lt;br&gt;Я не могу поверить, что Рейнландия добралась даже до Калифорнии. О чем они думают? Конечно, президент Якоби этого не потерпит, но ведь есть еще и Сенат. Они только время тянут, но ничего не решают.&lt;br&gt;</value>
+  </data>
+  <data name="388" xml:space="preserve">
+    <value>&lt;br&gt;Флот наконец-то нашел запись из Фрипорта-7. Она была повреждена, но нам удалось восстановить почти всю информацию. Теперь мы знаем, кто был на станции. Кто-то изнутри отключил систему защиты базы. Имеются данные, что этот человек выжил. Сейчас его ищут все колонии. &lt;br&gt;</value>
+  </data>
+  <data name="389" xml:space="preserve">
+    <value>&lt;br&gt;Что-то серьезное происходит с расследованием инциндента на Фрипорте-7. Мой брат - офицер Полиции Свободы, сказал мне, что полиция и СБC проверяют всех и каждого, кто был тогда на станции и остался в живых. Он также сказал, что несколько людей были схвачены и теперь допрашиваются, в общем, как всегда. Это все, что он мог сказать. Это для моей же собственной безопасности, так он сказал.&lt;br&gt;</value>
+  </data>
+  <data name="38" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;СОЗДАТЬ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="390" xml:space="preserve">
+    <value>&lt;br&gt;Вас действительно зовут Трент? Интересно. Очень много людей ищут парня по имени Эдисон Трент. Этот человек бы на Фрипорте-7 во время нападения, и должен знать, кто нападал. &lt;br&gt;</value>
+  </data>
+  <data name="391" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали разговоры об Ордене? Мой коллега несколько месяцев назад вступил в Орден, тогда он только-только начал образовываться. &lt;br&gt;</value>
+  </data>
+  <data name="392" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что крейсер покинул свой пост несколько дней назад. Они просто взяли корабль и исчезли бесследно. Как можно было спрятать огромный крейсер? Такой корабль нелегко спрятать. Военных должно задеть, что их корабли исчезают бесследно. &lt;br&gt;</value>
+  </data>
+  <data name="393" xml:space="preserve">
+    <value>&lt;br&gt;У меня есть друг не крейсере «Независимость». Несколько дней назад капитан корабля был найден мертвым. Вскрытие показало, что у него отсутствовало сердце и мозг! Вы можете в такое поверить?&lt;br&gt;</value>
+  </data>
+  <data name="394" xml:space="preserve">
+    <value>&lt;br&gt;Я только недавно разговаривал с парнем по имени Сид. Он сказал мне, что у него есть артефакт, который и является причиной всех недавних катастроф. Думаете, он сумасшедший, но мне он показался вполне серьезным и уверенным в своих словах.&lt;br&gt;</value>
+  </data>
+  <data name="395" xml:space="preserve">
+    <value>&lt;br&gt;Я не знаю, что происходит, но сейчас флот Свободы сходит с ума. У них у всех крыша потекла! Я всегда думал, что они разумные и миролюбивые. Но потом что-то случилось, и теперь они арестовывают каждого, кто связан с артефактами. Я даже слышал, что Рейнландия продвигается к Зоне-21 с согласия Свободы! &lt;br&gt;</value>
+  </data>
+  <data name="396" xml:space="preserve">
+    <value>&lt;br&gt;Почти все Наемники этой системы ищут вас. Вас разыскивают за убийство, контрабанду артефактами, измену и разгром Фрипорта-7. Впечатляющий список,  я вам скажу. У вас почти никаких шансов уцелеть. Лучше купите себе новый корабль - и поскорее! &lt;br&gt;</value>
+  </data>
+  <data name="397" xml:space="preserve">
+    <value>&lt;br&gt;Мы слышали, что один из исчезнувших крейсеров Свободы атаковал линкор «Единство». Я еще ни разу не видел, как стреляют крейсеры. Наверное, захватывающее зрелище. Сомневаюсь, что это можно увидеть с планеты.&lt;br&gt;</value>
+  </data>
+  <data name="398" xml:space="preserve">
+    <value>&lt;br&gt;Очевидно вся Свобода теперь ищет беглецов. Что эти парни сделали, в конце концов? Из того, что мы слышали, следует, что они прошли через Зону-21 и разрушили какую-то станцию, перед тем, как отправиться сюда. Чтобы сделать это, они должны быть или глупыми, или действительно крутыми. Но их репутация безнадежно испорчена.&lt;br&gt;</value>
+  </data>
+  <data name="399" xml:space="preserve">
+    <value>&lt;br&gt;Я только что вернулся из Фрипорта-4. Все что я могу сказать: флот Свободы там повсюду! Когда я улетал, туда прибыла еще одна эскадрилья крейсеров. Что, черт возьми, случилось в Свободе? Такое впечатление, что взорвали целую планету. &lt;br&gt;</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ОБНОВИТЬ СПИСОК&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Защитите этот профиль паролем&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="400" xml:space="preserve">
+    <value>&lt;br&gt;Все Наемники в этой системе ищут парня по имени Трент … Думаю, это вы. Слушайте, за вашу голову правительство Свободы обещает … 1 миллион кредитов! Вам бы лучше спрятаться. Купите себе новый корабль и имя, если хотите выжить. &lt;br&gt;</value>
+  </data>
+  <data name="401" xml:space="preserve">
+    <value>&lt;br&gt;Все Наемники Бретони ищут офицера СБС - ее имя Джунко Зейн. Не знаю, какое преступление она совершила, но правительство Свободы назначило за ее голову 1 миллион кредитов! Здесь есть объявление! Дайте мне знать, если натолкнетесь на нее, тогда мы поделим вознаграждение.&lt;br&gt;</value>
+  </data>
+  <data name="402" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, вы ищете доктора Рональда Квинтейна. Я знаю его уже двадцать лет. Он заслуженный профессор археологии и колонизации в Кембридже. Его основным занятием является изучение древних артефактов. Многие считают его ведущим специалистом в этой области. Я не видел его уже почти две недели, но я просто уверен, что сейчас профессор копается в каких-нибудь руинах в Приграничных Мирах.&lt;br&gt;</value>
+  </data>
+  <data name="403" xml:space="preserve">
+    <value>&lt;br&gt;Говорят, вы ищете Квинтейна? Будьте осторожны, профессор, кажется, нажил могущественных врагов. Его лаборатория была уничтожена, его самого никто не видел уже пару недель. Я опасаюсь худшего. &lt;br&gt;</value>
+  </data>
+  <data name="404" xml:space="preserve">
+    <value>&lt;br&gt;Эй, давно не виделись! Разве вы не решили оставить Лидс и попытать удачи в Приграничных Мирах? Тобиас был очень опечален, когда вы уехали! ВЫ для него, как сын. Он здесь до сих пор торгует оборудованием. Вы легко его найдете, он много работает в последнее время. Отправляйтесь на рынок: он точно там. &lt;br&gt;</value>
+  </data>
+  <data name="405" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали последние новости? Кажется, Свобода направила свою политику против всех инопланетных артефактов. Многие уже арестованы. Это только дело времени, вскоре Президент Якоби начнет искать артефакты по всем колониям. &lt;br&gt;</value>
+  </data>
+  <data name="406" xml:space="preserve">
+    <value>&lt;br&gt;Слышал, что Рейнландия рассредоточила корабли по всему Магеллановому облаку. Но это не похоже на флот вторжения. Это больше похоже на небольшую операцию. Они там что-то ищут. Я даже слышал, что они напали на базу Хакеров, но это еще не подтверждено. &lt;br&gt;</value>
+  </data>
+  <data name="407" xml:space="preserve">
+    <value>&lt;br&gt;Тобиас и Трент? Вы имеете ввиду Эдди. Да они уже ушли. Когда Эдди был маленьким, его родители погибли в катастрофе на Лидсе. Тобиас был другом семьи и с тех пор воспитывал мальчишку. Оочень забавно. Тобиас никогда не был хорошим отцом. Он всегда был бабником. Да, возраст меняет людей, и не всегда к лучшему. &lt;br&gt;</value>
+  </data>
+  <data name="408" xml:space="preserve">
+    <value>&lt;br&gt;Я помню, там была та девчонка, Ванесса - прекрасное длинноногое создание. К тому же умная. Она студентка Кембриджа. Раньше встречалась с этим стихийным бедствием по имени Трент. Я думаю, что он порвал с ней из-за того, что больше всего любит свободу. Какой идиот. Деньги приходят и уходят, а хорошую девушку так сложно найти.&lt;br&gt;</value>
+  </data>
+  <data name="409" xml:space="preserve">
+    <value>&lt;br&gt;Как насчет вашего срока службы? Я же говорил вам не слушать того хитрого ублюдка, но НЕТ, вы решили выйти в космос. В следующий раз слушайте меня. Пойдем, я хочу выпить. Говорят, в баре появился новый сорт пива. &lt;br&gt;</value>
+  </data>
+  <data name="40" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Сменить профиль&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="410" xml:space="preserve">
+    <value>&lt;br&gt;В последнее время у нас напряженные отношения с Рейнландией, а недавно я сам видел двоих рейнландцев в баре. Они искали двух беглецов, видимо скрывшихся от Свободы. Я не помню их имена, но недавно о них говорили в новостях. &lt;br&gt;</value>
+  </data>
+  <data name="411" xml:space="preserve">
+    <value>&lt;br&gt;Ситуация действительно выходит из-под контроля. Люди говорят, что крейсеры Рейнландии были замечены чуть ли не во всех системах колоний, и Ниман смеет отрицать причастность флота Рейнландии. Теперь они, кажется, направились в Приграничные Миры. Это ведет нас к войне, я так думаю.&lt;br&gt;</value>
+  </data>
+  <data name="412" xml:space="preserve">
+    <value>&lt;br&gt;Я видел, как вы разговаривали с Вэнсом. Этот парень был лучшим боевым пилотом, но его уволили. Теперь он работает на транспорте, возит людей.&lt;br&gt;</value>
+  </data>
+  <data name="413" xml:space="preserve">
+    <value>&lt;br&gt;Вы прилетели с Джунко Зейн? Она была здесь некоторое время, искала Профессора Квинтейна. Будьте осторожны. На этой планете даже у стен есть уши. Многие люди искали профессора. Несколько часов назад несколько рейнландцев спрашивали. Сказали, что они из Новоберлинского музея, но были совсем не похожи на ученых.&lt;br&gt;</value>
+  </data>
+  <data name="414" xml:space="preserve">
+    <value>&lt;br&gt;Вэнс сказал мне, что вы ищете профессора Квинтана. Я работал на него семь лет. Я продолжил его работу, а сам профессор улетел отсюда пару недель назад. С тех пор я затаился. Кто-то идет за профессором, но не знаю кто. Наша лаборатория была разрушена, а вся документация похищена. Если встретите его, то скажите, что от его вещей ничего не осталось, но зато с его сотрудниками все в порядке. &lt;br&gt;</value>
+  </data>
+  <data name="415" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что вы работаете на научно-исследовательский институт Хаммера и летите на их участок на Спрагу. Я был около Омеги-3 несколько дней назад. Это недалеко отсюда - Сначала летите в Норфолк, а потом через врата гиперперхода на Омегу-3. Оттуда можно полететь на Фрипорт-1, а оттуда на Спрагу. Но будьте осторожны, там было замечено много рейнландских кораблей. &lt;br&gt;</value>
+  </data>
+  <data name="416" xml:space="preserve">
+    <value>&lt;br&gt;Мы слышали, что недавно Рейнландия уничтожила планету Спрага! Не понимаю! Там ведь была только небольшая кучка помешанных археологов? Что они сделали Рейнландии? &lt;br&gt;</value>
+  </data>
+  <data name="417" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали? Исследовательскую станцию Бакстера уничтожили! Не могу поверить, что я там раньше работал. Слышал, это дело рук Рейнландии, но думаю, что многие сплетни врут. Кто мог это видеть? Та станция покинута уже много лет, зачем Рейнландииее взрывать?&lt;br&gt;</value>
+  </data>
+  <data name="418" xml:space="preserve">
+    <value>&lt;br&gt;Мне сказали, что крейсер Вотан уничтожен! Не деятельность ли это флота Рейнландии? Интересно, как это случилось. У нас не так много крейсеров такого класса. &lt;br&gt;</value>
+  </data>
+  <data name="419" xml:space="preserve">
+    <value>&lt;br&gt;Технология стелс? Сказки! Годы исследований это подтверждают. Они занимались только фактом невидимости, но для этого нужна энергия в 10 крейсерских реакторов! Возможно, какие-то инопланетные артефакты и могли бы вам помочь, но человеческая техника пока на такое не способна. &lt;br&gt;</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;ОТМЕНА&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="420" xml:space="preserve">
+    <value>&lt;br&gt;Ховис? Да, я знаю его. Он непобедим в соревнованиях. Это единственное, что он может. Его выгнали из Свободы за то, что в покер проиграл одну из бомб крейсера. А это был еще и корабль сенатора, где капитаном был сын того же сенатора. С тех пор он живет здесь. Он очень любит гонки, но еще больше любит выигрывать, и его ничто не остановит.&lt;br&gt;</value>
+  </data>
+  <data name="421" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали, Рейнландия взорвала базу Победа на Дублине? Она была почти заброшенной. В принципе, она всегда была кучей металлолома. &lt;br&gt;</value>
+  </data>
+  <data name="422" xml:space="preserve">
+    <value>&lt;br&gt;Я не могу в это поверить! Пари всей жизни! Шансы были 10000 к 1. Странно, но нет ни имени, ни координат того, кто победил Ховиса! Никто не знает, кто он, кроме того, что он участвовал под именем Трент. Если вы его увидите, попросите его вернуться, я поставлю на него в следующий раз! &lt;br&gt;</value>
+  </data>
+  <data name="423" xml:space="preserve">
+    <value>&lt;br&gt;Из системы Дублина поступили сообщения о кораблях Рейнландии. Я не сомневаюсь, что это были те ублюдки, которые разнесли Победу. У меня там были друзья, надеюсь, они выжили.&lt;br&gt;</value>
+  </data>
+  <data name="424" xml:space="preserve">
+    <value>&lt;br&gt;Мистер Трент?! Слава Богу! Спасибо вам за все. Вы спасли мне жизнь! Простите, мне нечем вам заплатить, все взорвалось! &lt;br&gt;</value>
+  </data>
+  <data name="425" xml:space="preserve">
+    <value>&lt;br&gt;Я пытался добраться сюда с Тау-23! Эти ублюдки из Рейнландии заблокировали врата гиперперехода, поэтому пришлось искать подходящую дыру гиперперехода. Слава Богу, за космические аномалии. Такое впечатление, что эти гады заблокировали все выходы. Нужно было мне остаться на Тау-23, но моя семья здесь. &lt;br&gt;</value>
+  </data>
+  <data name="426" xml:space="preserve">
+    <value>&lt;br&gt;Фантомы, которые стали часто появляться? Это невидимые корабли, которые значат только одно. Рейнландия. Слышал, что их много развелось в последнее время. Сначала они хотели атаковать нас, но потом появился слух, что они нападут на Лидс. &lt;br&gt;</value>
+  </data>
+  <data name="427" xml:space="preserve">
+    <value>&lt;br&gt;За Лидс была жаркая битва! Я не могу поверить! Рейнландия умудрилась зайти территорию Бретони. Но когда стало совсем плохо, появился тот парень, кажется, Тобиас. Он сам сбил крейсер и долго держал корабли Рейнландии на дистанции, пока не подошел Королевский Флот Бретони. Лидсу крупно повезло. &lt;br&gt;</value>
+  </data>
+  <data name="428" xml:space="preserve">
+    <value>&lt;br&gt;Это ужасно. Аванпост Холман был разрушен Рейнландией! Я не могу поверить. Они были беззащитны, а Рейнландия просто взорвала их пост. Эти ублюдки заплатят за это! &lt;br&gt;</value>
+  </data>
+  <data name="429" xml:space="preserve">
+    <value>&lt;br&gt;Ах, да - Крес. Он оставил для вас сообщение на этом планшете. Оно зашифровано, но он сказал, что Квинтейн знает ключ. Хороший парень, с ним было несколько ужасных телохранителей. Надеюсь, они ему помогут.&lt;br&gt;</value>
+  </data>
+  <data name="42" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;СМЕНИТЬ СЕРВЕР&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="430" xml:space="preserve">
+    <value>&lt;br&gt;Несколько моих друзей налетели на один из этих фантомных кораблей. Флот Рейнландии сейчас где-то на Тау-29. На вашем месте, я был бы осторожнее в той области.&lt;br&gt;</value>
+  </data>
+  <data name="431" xml:space="preserve">
+    <value>&lt;br&gt;Говорят, что Рейнландии удалось диcлоцировать свои войска во всех колониях. Их военная техника на грани фантастики. Они должно быть все свои ресурсы тратят только на военную промышленность. Даже если они победят, это все равно будет проигрыш. &lt;br&gt;</value>
+  </data>
+  <data name="432" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал о парне, который выжил в разрушенном контейнере Фрипорта-7, у которого была кипа артефактов и миллионы на счету. Я бы раньше сказал, что он оказался в нужном месте в нужное время, но откуда столько денег? Я считаю, что парни из СБС тоже думают, что это странно и считают, что это парень из Ордена.&lt;br&gt;</value>
+  </data>
+  <data name="433" xml:space="preserve">
+    <value>&lt;br&gt;Мне говорили, что СБС взяла контроль над Бродягами около Питсбурга; они даже не дали им шанса сдаться. Им этого никто не приказывал, но они используют ситуацию с Орденом, чтобы очистить систему. &lt;br&gt;</value>
+  </data>
+  <data name="434" xml:space="preserve">
+    <value>&lt;br&gt;Вы знаете, что после запрета на артефакты они нашли еще два места, где было много артефактов и сожгли их дотла. Полиция говорит, что там все было очень странно - планеты сгорели, а артефакты целехоньки.&lt;br&gt;</value>
+  </data>
+  <data name="435" xml:space="preserve">
+    <value>&lt;br&gt;Теперь они хотят конфисковать артефакты по всей Свободе. Знаете, как раз перед установлением запрета какой-то парень - предполагают, что он из Рейнландии, - скупио все на аукционе. Купил целую партию и уехал, до того, как его успели сфотографировать. Оказалось, что его имя было выдуманным, зато деньги настоящими. Странно, да? &lt;br&gt;</value>
+  </data>
+  <data name="436" xml:space="preserve">
+    <value>&lt;br&gt;До Ордена, я слышал, Ориллион был ренегатом из Приграничных Миров. Он вырезал всех мирных жителей на нескольких базах, пока до него добрались войска. Когда они туда прилетели, там уже ничего не оставалось. Живых там не было, и он сам, как сквозь землю провалился. А теперь он на нас нападает.&lt;br&gt;</value>
+  </data>
+  <data name="437" xml:space="preserve">
+    <value>&lt;br&gt;В Рейнландии настали смутные времена. Канцлер говорит, что президент и Верховный Суд бездействуют по отношению к Ордену. Он предполагает, что Кусари сговорились с ним и теперь, из-за нашего бездействия, он начинает подумывать, что в это втянута Свобода. &lt;br&gt;</value>
+  </data>
+  <data name="438" xml:space="preserve">
+    <value>&lt;br&gt;Я видел недавно двух парней, рассказывающих, что Орден захватил еще один наш корабль. Не знаю, где это было, но те парни, по-видимому, были из спасательно-поисковой группы и видели, как это случилось. Ничего не осталось. Послушайте - наши парни расшифровали их переговоры и теперь говорят, что целью был не корабль, а человек: генерал по имени Эванс - Уолтер Эванс. Никогда о нем раньше не слышал. Если все это правда, то он для них очень важен, это не шутка - разбить целый флот, чтобы поймать одного человека. То, что они говорили, не думаю, что это попадет в новости.&lt;br&gt;</value>
+  </data>
+  <data name="439" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что СБC намерена просканировать Свободу в поисках Орилльона, они думают, что он с нами связан. Они сформировали элитную группу, так называемых “специальных агентов” , чтобы выявлять людей, которые состоят в Ордене или имеют к ниму какое-то отношение. &lt;br&gt;</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;УСТАНОВИТЬ ФИЛЬТР &lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="440" xml:space="preserve">
+    <value>&lt;br&gt;Я думаю, что это противостояние между Рейнландией и Кусари в Приграничных Мирах меньше всего похоже на настоящее противостояние. Это видно даже невооруженным глазом. Там закон не играет большой роли. Если ты можешь что-то взять и защитить это -  оно твое. Но все это происходит за глазами и никто из них этого не признает. &lt;br&gt;</value>
+  </data>
+  <data name="441" xml:space="preserve">
+    <value>&lt;br&gt;Это только слух, но я слышал, что есть новый артефакт, который поисковая команда Рейнландии нашла в Приграничных Мирах. Артефакт очень необычен. Как вы, наверное, знаете, многие артефакты это просто остатки технологий, разработанных расой людей, живших на Сириусе тысячи лет назад. Некоторые из них действительно прекрасны, кристаллы, которые генерируют музыку, переливы цветов и другие энергии. Многие из них продаются, как произведения искусства, но Рейнландия случайно наткнулась на особенный артефакт, пытаясь тайно его перевезти и сохранить только для себя.&lt;br&gt;</value>
+  </data>
+  <data name="442" xml:space="preserve">
+    <value>&lt;br&gt;Не верьте новостям. Я слышал, что Ориллион не мертв; он живет где-то во внешнем космосе и управляет всем оттуда. Тем временем, я думаю, что СБС недооценила и его, и Орден. Я слышал, что Ориллион всегда прячется, и даже из его приближенных никто никогда не видел его лица. И не думайте, что Орден пострадает, если его объявят вне закона. Под их влиянием находятся все преступные организации в колониях, а также все рынки и даже правительство. Некоторые люди даже не знают, что помогают Ордену. Ориллион точно стоит за всей этой организацией - и тот парень, которого убила СБС был просто одним из его подручных. Я полагаю, что у него множество таких «двойников». Есть один вопрос, почему мы так мало слышим об Ордене в новостях?&lt;br&gt; [/af1]Это слэнговое выражение&lt;br&gt; [kw2]я не могу найти значения для этого термина.&lt;br&gt;</value>
+  </data>
+  <data name="443" xml:space="preserve">
+    <value>&lt;br&gt;-Знаете, после всех этих нападений мои доверенные люди в Рейнландии больше не отвечают мне. Это правительство, рабочие, пилоты; непохоже, что они залегли на дно. &lt;br&gt;</value>
+  </data>
+  <data name="444" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что корабли Рейнландии появились на трассах и нападают на всех возле врат на Новый Берлин. Кажется, у них что-то случилось, но об этом только между нами. Что, интересно, там происходит? &lt;br&gt;</value>
+  </data>
+  <data name="445" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали новости? Плохие новости. Я знаю, что Канцлер подозревает, что кто-то из его собственного парламента передает важную информацию Кусари, используемую против него. Говорю вам, его паранойя растет с каждым днем. &lt;br&gt;</value>
+  </data>
+  <data name="446" xml:space="preserve">
+    <value>&lt;br&gt;Я не студент-историк, но даже я понимаю, что все это началось с тех пор, как первые люди Свободы прибыли в эту систему и обосновались здесь. Соглашение было подписано, тогда все понимали, что должны избежать ошибки, которую они совершили в прошлом, на Земле.&lt;br&gt;</value>
+  </data>
+  <data name="447" xml:space="preserve">
+    <value>&lt;br&gt;Вы знаете, это плохо влияет на бизнес, но, к счастью, Свобода все еще следит за колониями посредством Верховного Суда. Но я слышал, в правительстве считают, что канцлер совсем выжил из ума, легко может напасть на Кусари, мы не успеем его остановить. Поэтому сейчас мы должны находиться в полной боевой готовности. Я знаю, что Президент знает, что делает и мы с ней солидарны.&lt;br&gt;</value>
+  </data>
+  <data name="448" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали новости? Какую же партию играет канцлер? Мы все эти годы оставались его союзниками. Даже Кабинет молчит, а они привыкли действовать незамедлительно. Неважно, безумец он или нет, Королева просто ничего не заметит.&lt;br&gt;</value>
+  </data>
+  <data name="449" xml:space="preserve">
+    <value>&lt;br&gt;Переговоры - это плохая идея. Парень, они убили Квигли! Я слышал, что за этим стоит Орден. И к тому же, я не верю, что Орден мог добиться всего сам. Им кто-то помогал, но они упорно скрывают, кто. Так я думаю. Сначала они убивали людей Свободы, а теперь принялись за нас. Что помешает им устроить переполох на переговорах?&lt;br&gt;</value>
+  </data>
+  <data name="44" xml:space="preserve">
+    <value>&lt;br&gt;КАНАЛЫ&lt;br&gt;</value>
+  </data>
+  <data name="450" xml:space="preserve">
+    <value>&lt;br&gt;В Рейнландии становится жарко. Я только что вернулся с Гамбурга и там «агитаторы» все еще склоняют людей против Кусари. И у них хорошо получается. А тем временем канцлер объявил всеобщую мобилизацию. Каждый день он набирает сотни рекрутов. Они говорят, что это для обороны! &lt;br&gt;</value>
+  </data>
+  <data name="451" xml:space="preserve">
+    <value>&lt;br&gt;Я бы на вашем месте поостерегся сейчас соваться на границу. Если раньше Приграничные Миры были опасными, то сейчас туда лучше вообще не летать. Там орудуют не только корабли Рейнландии, недавно там видели корабль-фантом, это могло быть плодом пьяного воображения, но его видели многие пилоты. Все, кто хотел посмотреть на корабль поближе, так и не вернулись.&lt;br&gt;</value>
+  </data>
+  <data name="452" xml:space="preserve">
+    <value>&lt;br&gt;Слава Богу, с Королевой ничего не случилось на Куракао. Сейчас она находится в своих покоях в ожидании нового Совета. Я слышал, что поймали Гантера Обста - без боя - невообразимо. Впервые наши военные захватили  живого парня из Ордена, но у него точно были причины на то, чтобы сдаться без боя. &lt;br&gt;</value>
+  </data>
+  <data name="453" xml:space="preserve">
+    <value>&lt;br&gt;Что вы думаете о Свободе и запрете на артефакты? Ну, вы же знаете Свободу - кредиты, кредиты, кредиты. Я считал, что они пускали пыль в глаза, но теперь я в этом не уверен. Президент говорил с Королевой насчет важности артефактов и защиты Бретони; теперь она тоже хочет ввести запрет. Не волнуйтесь, Королева хоть и молода, но умна и у нее хорошие советчики. Если возникнет опасность, она начнет действовать первой. &lt;br&gt;</value>
+  </data>
+  <data name="454" xml:space="preserve">
+    <value>&lt;br&gt;Если целью Ордена было сорвать переговоры, у них это получилось, хоть они и потеряли Обста. Теперь он утверждает, что Кусари пытаются его убить? Но парень, которого они поймали, умер в своей камере - не стал ждать допроса, ввел яд прямо в сердце. Странно, но перед этим его обыскивали и ничего не нашли. Жаль. Я хотел узнать, какие связи у Кусари с Орденом.&lt;br&gt;</value>
+  </data>
+  <data name="455" xml:space="preserve">
+    <value>&lt;br&gt;Знаете, здесь есть целая группа людей с Кусари - торговцы, пилоты, наемники - их задержали на Рейнландии и не позволяют вернуться домой. За ними следит полиция. Их незаконно задержали, допросили, обыскали, а их имущество конфисковали. А канцлер теперь в каждом видит шпиона; он ищет шпионов даже в своей семье.&lt;br&gt;</value>
+  </data>
+  <data name="456" xml:space="preserve">
+    <value>&lt;br&gt;Я считаю правильным утверждение, что Кусари с кем-то связаны. Известно, что шпионы Кусари выкрали секретную технологию кораблей из лабораторий Рейнландии. Этого никто не мог предвидеть, но меня это не удивило. Кусари очень любят приобретать новые игрушки для своих военных целей. &lt;br&gt;</value>
+  </data>
+  <data name="457" xml:space="preserve">
+    <value>&lt;br&gt;Ситуация с Рейнландией все время ухудшается. Бедные Кусари. И теперь еще президент сует свой длинный нос в эти дела. Я рад, что у нас есть мозги, и мы решили, что не хотим быть «миротворцами».  Я имею в виду злобу и завышенное самомнение Свободы. Соглашение нарушено. Каждая колония должна делать то, что считает правильным. К счастью, наш путь ясен. По крайней мере, мы все еще в хороших отношениях с Рейнландией. &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="458" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что в развалинах медицинского транспорта Кусари нашли бомбу. Это было сделано специально. Вместо простого уничтожения цели, бомба убивает всю органику в радиусе и надолго заражает целую область. Это был не простой медицинский рейс. Они целились во что-то крупное. &lt;br&gt;</value>
+  </data>
+  <data name="459" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что Ниман сказал своим людям, что они больше не подчиняются Верховному Суду. Это так странно, когда-то он был нашим союзником и торговал с нами. Я всегда думал, что этот парень любит свободу и справедливость, но теперь он ведет себя, как последний ублюдок. &lt;br&gt;</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>&lt;br&gt;ГРУППА&lt;br&gt;</value>
+  </data>
+  <data name="460" xml:space="preserve">
+    <value>&lt;br&gt;Если вы собираетесь отправиться в Рейнландию в ближайшее время, будьте осторожны. Я слышал, что сейчас там очень много полиции и военных, и они очень нетерпимы, даже с гражданскими. Говорят даже, что это они заминировали некоторые системы Приграничных Миров. Готовится что-то крупное - я только надеюсь, что не против нас.&lt;br&gt;</value>
+  </data>
+  <data name="461" xml:space="preserve">
+    <value>&lt;br&gt;Хорошо, что правительство наконец взялось за урегулирование ситуации в колониях. Больше не будет таких больших беспорядков. Ни Рейнландия (и уж точно не Кусари) больше нам не помешают.&lt;br&gt;</value>
+  </data>
+  <data name="462" xml:space="preserve">
+    <value>&lt;br&gt;Это очень серьезно пошатнет рынок, скажу я вам. Торговцы - не только здесь, но и повсюду - уже начали это чувствовать. Раньше все было так хорошо сбалансировано между колониями. Теперь это небольшое противостояние превратилось в глобальный разлад, который может вернуть всех наск тому месту, с какого мы начинали.&lt;br&gt;</value>
+  </data>
+  <data name="463" xml:space="preserve">
+    <value>&lt;br&gt;Они не договаривают нам того, что Рейнландия не только рассылает повсюду свои  суда. Они разработали новый корабль - невидимку. Мне об этом говорили. Брат моего друга работает на правительство. Он говорит, что верхушка взволнована. Это новейшее и мощнейшее оружие. Вот вам и «сюрприз».&lt;br&gt;</value>
+  </data>
+  <data name="464" xml:space="preserve">
+    <value>&lt;br&gt;Единственным, кто смог бы заставить президента посмотреть на вещи с нашей стороны, является губернатор Текаги. Вы слышали, какие слухи распространял Ниман: он говорил, что мы помогаем Ордену? Мы же делали все возможное, чтобы уничтожить Орден! У нас не было с ними проблем и стычек только из-за структуры нашего общества, не потому, что мы им помогали. У каждого здесь есть свое место; своя цель. На нас не действует заграничный образ жизни - у наших граждан высокое самосознание.&lt;br&gt;</value>
+  </data>
+  <data name="465" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что несколько торговцев из Рейнландии удачно перевезли несколько наших людей. Они говорят, что там ужасно - некоторые из них ушли на допрос, но так и не вернулись. Они не знают, что с ними случилось. &lt;br&gt;</value>
+  </data>
+  <data name="466" xml:space="preserve">
+    <value>&lt;br&gt;Знаете, здесь есть несколько людей Рейнландии и они чувствуют себя не лучше, чем люди Кусари. Канцлер не угомонился. Эта атмосфера недоверия отнюдь не упрощает ситуацию в колонии. &lt;br&gt;</value>
+  </data>
+  <data name="467" xml:space="preserve">
+    <value>&lt;br&gt;Кое-кто сообщает мне, что мы так обеспокоены своей безопасностью не только из-за Ордена, но еще и потому, что недавно в свите Королевы были заменены два главных советника. Я долго анализировал и понял, что эти люди не были переназначены, они просто исчезли. Конечно, они попытались не замечать это, но все равно это взволновало Королеву. Если это - правда, как кто-то может гарантировать безопасность наших людей и информации, которой они владеют?&lt;br&gt;</value>
+  </data>
+  <data name="468" xml:space="preserve">
+    <value>&lt;br&gt;Я больше не верю Свободе. Я слышал, что они тайно работают с Рейнландией и пытаются разделить нас на два лагеря, а потом высосать из нас все ресурсы и средства. Это совершенно не соответствует соглашению - но им ничего не стоит нарушить все законы. Они стоят над законом, который служит их интересам. Я даже слышал, что они похищали наших лучших ученых и заставляли их работать над своими проектами.&lt;br&gt;</value>
+  </data>
+  <data name="469" xml:space="preserve">
+    <value>&lt;br&gt;Знаете, несмотря на всю эту панику в Свободе и по поводу запрета артефактов, такое впечатление, что правительство это делает только затем, чтобы заработать еще немного кредитов. До того, как моего знакомого из Свободы перевели, я слышал о целых «залежах» артефактов где-то в Зоне-21, где их серьезно исследуют ученые. Кажется, они ищут что-то особенное, очень нужное им. Это объясняет строгий запрет.&lt;br&gt;</value>
+  </data>
+  <data name="46" xml:space="preserve">
+    <value>&lt;br&gt;ИГРОК&lt;br&gt;</value>
+  </data>
+  <data name="470" xml:space="preserve">
+    <value>&lt;br&gt;Я в это не верю. Кажется, губернатор собирается встретиться с этим животным из Рейнландии! Почему он так убежден, что его не схватят, когда он влетит на территорию Рейнландии? Я слышал, что канцлер дошел до того, что заперся в укрепленной комнате и окружил себя охраной, впускают туда только его приближенных. Безумие - лететь туда.&lt;br&gt;</value>
+  </data>
+  <data name="471" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что у канцлера есть умные советники, которые предвидят любую опасность. Они также проверяют людей в свите Канцлера! Они чувствуют любого, кто плохо думает о нем. Их методы все время меняются.&lt;br&gt; [kw1]Что это значит?&lt;br&gt; [/af2]Это очень не похоже на экстрасенсорику или телекинез.&lt;br&gt;</value>
+  </data>
+  <data name="472" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что Сегун принимает запрет на артефакты, но он не принимает в этом никакого участия. Президент много заплатил за их поддержку. Я уверен, что с Бретонью поступили так же...Президент и Нийман два сапога пара. &lt;br&gt;</value>
+  </data>
+  <data name="473" xml:space="preserve">
+    <value>&lt;br&gt;Губернатор и канцлер встречаются за закрытыми дверями! Никто не вошел и не вышел с тех пор, как они начали. Охрана губернатора отказалась есть и спать, пока они не закончат, они стоят возле дверей вместе с охраной Канцлера. &lt;br&gt;</value>
+  </data>
+  <data name="474" xml:space="preserve">
+    <value>&lt;br&gt;Из новостей вы можете узнать, что с нашими людьми обращались ужасно. У Рейнландии нет стыда. Многие из них были правительственными чиновниками или наемными рабочими - они себя не помнят после того, через что они прошли. Учитывая их положение, я считаю, что наше правительство уверено, что их заставили все рассказать... &lt;br&gt;</value>
+  </data>
+  <data name="475" xml:space="preserve">
+    <value>&lt;br&gt;Слухи об Ордене снова начинают появляться в колониях. Я слышал, что Сегун увеличил количество своей личной охраны и охраны губернатора. Странно, я ни разу не слышал, что Орден работает в Кусари, или угрожает их правительству. Но понятно, что он осторожничает сейчас, когда колонии ведут переговоры.&lt;br&gt;</value>
+  </data>
+  <data name="476" xml:space="preserve">
+    <value>&lt;br&gt;Вы слышали? Это война! Канцлер надул нас! Он собрал войска и блокирует любые новости или информацию с Рейнландии. Мы ничего не можем ни ввезти, ни вывезти оттуда, особенно это касается торговцев оружием. Как мы были слепы.&lt;br&gt;</value>
+  </data>
+  <data name="477" xml:space="preserve">
+    <value>&lt;br&gt;Многие жители Рейнландии перепуганы тем, что случилось... никто не ожидал, что так будет, что Канцлер действительно развяжет войну. И теперь потеряна связь с Рейнландии, а ведь наши люди все еще там, внутри. &lt;br&gt;</value>
+  </data>
+  <data name="478" xml:space="preserve">
+    <value>&lt;br&gt;Мне сказали, что глава СБС отсутствовал несколько дней. Никто из верховного командования Свободы не знает, где он был, а сам он никому не говорит. С ним что-то случилось. Возможно, Орден наконец победил своего злейшего врага. &lt;br&gt;</value>
+  </data>
+  <data name="479" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что Бретонь играет как раз на руку канцлеру - он знает, насколько там все серьезно. Когда-то ему удалось подавить восстание рабочих без использования силы и теперь колония полностью в его руках. Если начнется война, уже ничего не удержит систему от разрушения. Канцлер может запугать Бретонь настолько, что та сдастся без единого выстрела. &lt;br&gt;</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>&lt;br&gt;РАНГ&lt;br&gt;</value>
+  </data>
+  <data name="480" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал странный слух о Бретони. Они сообщают, что корабли-невидимки захватили грузовой корабль с конфискованными артефактами возле Лидса. Ученые Бретони собирались их исследовать. Говорят, что эти корабли с Рейнландии.&lt;br&gt;</value>
+  </data>
+  <data name="481" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что в нескольких колониях люди вышли пикетировать улицы, а в некоторых даже нападают на людей Рейнландии. Канцлер ошибся, нельзя держать всех людей в «ежовых рукавицах».&lt;br&gt;</value>
+  </data>
+  <data name="482" xml:space="preserve">
+    <value>&lt;br&gt;Мой брат только что вернулся из торгового рейса в Свободу, и он говорит, что все намного хуже, чем мы ожидали - Президент пытается сохранить власть над колониями, в то время как несколько глав других колоний собирают армию для войны.&lt;br&gt;</value>
+  </data>
+  <data name="483" xml:space="preserve">
+    <value>&lt;br&gt;Послушайте, я вам этого не говорил, но думаю, что канцлер сошел с ума. Он открыто нападает на членов своей семьи, подвергая сомнению их преданность, и пытаясь найти предателя, в существование которого уже никто не верит. &lt;br&gt;</value>
+  </data>
+  <data name="484" xml:space="preserve">
+    <value>&lt;br&gt;Знаете, так никогда раньше не было... С нами что-то случилось. Рейнландия была благородным местом - полным культурного наследия. Но теперь страна стоит на пути войны и насилия. На вашем месте я бы побыстрее убирался отсюда. &lt;br&gt;</value>
+  </data>
+  <data name="485" xml:space="preserve">
+    <value>&lt;br&gt;Я слышал, что военная полиция не доверяет даже верным Рейнландии ученых и предупреждает персонал о возросшем воровстве... из государственной научной лаборатории. Мне кажется, что так и есть. Возможно, снова проделки Кусари. Они годами обкрадывали нас. &lt;br&gt;</value>
+  </data>
+  <data name="486" xml:space="preserve">
+    <value>&lt;br&gt;Мне сказали, что Свобода разработала бомбы, которые за одну минуту могут превратить планету в пыль. В Зоне-21 они всегда разрабатывали секретное оружие. Канцлер говорит, что они используют это оружие против нас - они не лучше Ордена. Их нужно остановить... Убьем, пока е убили нас, верно? &lt;br&gt;</value>
+  </data>
+  <data name="487" xml:space="preserve">
+    <value>&lt;br&gt;Сейчас в Свободе происходит военный переворот, но никто этого не признает. Я думаю, наш президент очень сильна, но, судя по разговорам, ее противники все-таки до нее добрались.&lt;br&gt;</value>
+  </data>
+  <data name="488" xml:space="preserve">
+    <value>&lt;br&gt;Свобода в руках флота, Бретонь в растерянности, канцлер Рейнландии сошел с ума, а Кусари готовит атомные бомбы. Это был план Странников - внезапная война в колониях. И вот сейчас это, кажется, происходит. Если сейчас вырвется вся эта боевая мощь, я не знаю, останется ли кто-то в живых - Даже если мы победим Странников.&lt;br&gt;</value>
+  </data>
+  <data name="489" xml:space="preserve">
+    <value>&lt;br&gt;Сейчас в Свободе происходит военный переворот, но никто этого не признает. Я думаю, наш президент очень сильна, но, судя по разговорам, ее противники все-таки до нее добрались.&lt;br&gt;</value>
+  </data>
+  <data name="48" xml:space="preserve">
+    <value>&lt;br&gt;СИСТЕМА&lt;br&gt;</value>
+  </data>
+  <data name="490" xml:space="preserve">
+    <value>&lt;br&gt;Буншуг сообщают, что они уничтожили потенциальное опасное оружие в системе Франкфурт. Сообщение очень неточно, но ходят слухи, что они уничтожили прототип нового линкора Странников. &lt;br&gt;</value>
+  </data>
+  <data name="491" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Примечание: В режиме сетевой игры опыт игрока может меняться.&lt;/align&gt;&lt;br&gt;&lt;br&gt;Вы подтверждаете и соглашаетесь, что многопользовательская игра не осуществляется при поддержке и под контролем Microsoft. Вы подтверждаете и соглашаетесь,  что Microsoft не отвечает за ваш опыт и его изменение в результате многопользовательской игры, или за содержание информации и данных, которые вы можете создать, получить или столкнуться, включая чат, в течение многопользовательской игры.&lt;br&gt;Вы хотите продолжить?&lt;br&gt;</value>
+  </data>
+  <data name="492" xml:space="preserve">
+    <value>&lt;br&gt;ИНТЕРНЕТ&lt;br&gt;</value>
+  </data>
+  <data name="493" xml:space="preserve">
+    <value>&lt;br&gt;СЕТЬ&lt;br&gt;</value>
+  </data>
+  <data name="494" xml:space="preserve">
+    <value>&lt;br&gt;Игры по локальной сети и в Интернет&lt;br&gt;</value>
+  </data>
+  <data name="495" xml:space="preserve">
+    <value>&lt;br&gt;Только игры в локальной сети&lt;br&gt;</value>
+  </data>
+  <data name="496" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;В какую сетевую игру вы хотели бы поиграть?&lt;/align&gt;&lt;br&gt;&lt;br&gt; &lt;br&gt;Выбор СЕТЬ найдет в локальной сети (если он у вас есть) игровой сервер.&lt;br&gt;Выбор ИНТЕРНЕТ загрузит список доступных игровых серверов с глобального сервера.&lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>&lt;br&gt;Отправить сообщение:&lt;br&gt;</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;СОЗДАТЬ&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="50" xml:space="preserve">
+    <value>&lt;br&gt;ИСТОРИЯ СООБЩЕНИЙ&lt;br&gt;</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>&lt;br&gt;ИГРОКОВ ОНЛАЙН&lt;br&gt;</value>
+  </data>
+  <data name="52" xml:space="preserve">
+    <value>&lt;br&gt;СОЗДАТЬ НОВЫЙ ПЕРСОНАЖ&lt;br&gt;</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>&lt;br&gt;Переключить канал&lt;br&gt;</value>
+  </data>
+  <data name="54" xml:space="preserve">
+    <value>&lt;br&gt;Групповой канал&lt;br&gt;</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>&lt;br&gt;Локальный канал&lt;br&gt;</value>
+  </data>
+  <data name="56" xml:space="preserve">
+    <value>&lt;br&gt;Переключение&lt;br&gt;</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>&lt;br&gt;Группа&lt;br&gt;</value>
+  </data>
+  <data name="58" xml:space="preserve">
+    <value>&lt;br&gt;Локальный&lt;br&gt;</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>&lt;br&gt;Система&lt;br&gt;</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Данные о профиле&lt;/align&gt;&lt;br&gt;&lt;br&gt;&lt;align=left&gt;    Данные о вашем профиле показаны ниже. Эти данные используются, чтобы идентифицировать ваших персонажей на всех серверах, на которых вы играли во Freelancer.&lt;/align&gt;&lt;br&gt;&lt;br&gt;     Вам также могут понадобиться эти данные, если вы захотите переустановить Freelancer.  В главном меню Freelancer появится ярлык, который выведет ваши данные для распечатки или копирования.&lt;br&gt;    Если у вас уже есть профиль (например, если вы играете в первый раз после переустановки игры), введите их ниже, заменив текущие данные.&lt;br&gt;    Закончив ввод, нажмите кнопкуСОЗДАТЬ. Чтобы отменить действие и вернуться в главное меню нажмите кнопку ГЛАВНОЕ  МЕНЮ.&lt;br&gt;</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>&lt;br&gt;Вселенная&lt;br&gt;</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>&lt;br&gt;Канал системы&lt;br&gt;</value>
+  </data>
+  <data name="62" xml:space="preserve">
+    <value>&lt;br&gt;Канал области&lt;br&gt;</value>
+  </data>
+  <data name="63" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;FREELANCER&lt;/align&gt;&lt;br&gt;&lt;br&gt;&lt;align=left&gt; DIGITAL ANVIL STUDIO, MICROSOFT&lt;/align&gt;&lt;br&gt;&lt;br&gt;КОМАНДА РАЗРАБОТКИ&lt;br&gt;Продюсер: Филл Ваттенбаргер&lt;br&gt;Ведущий дизайнер: Джорг Ньюман&lt;br&gt; &lt;br&gt;Ведущий программист: Пол Айзек&lt;br&gt; Ведущий программист: Эд Марэ&lt;br&gt; Ведущий программист: Тони Бреттон&lt;br&gt;Художественный руководитель: Брюс Лемонс&lt;br&gt;Звукорежиссер: Мартин Галвей&lt;br&gt;Арт-директор: Гарри Джарвис&lt;br&gt;Руководитель тестирования: Эван Бренд&lt;br&gt; &lt;br&gt;АЛГОРИТМ&lt;br&gt;Арон Отстотт&lt;br&gt;Гэри Скотт Смит&lt;br&gt;Марк Несс&lt;br&gt;Скотт Стивенс&lt;br&gt;Саймон Трэвис&lt;br&gt;Брэд Трифт (Volt)&lt;br&gt; &lt;br&gt;ПРОГРАММИРОВАНИЕ ИГРЫ&lt;br&gt;Эндрю Сега&lt;br&gt;Брэндон Роулетт&lt;br&gt;Джоэль Виллард&lt;br&gt;Тэйлор Браун&lt;br&gt;Питер Картер (Volt)&lt;br&gt; &lt;br&gt;ПРОГРАММИРОВАНИЕ СЕТЕВОЙ ИГРЫ&lt;br&gt;Стефан Николс&lt;br&gt; &lt;br&gt;ХУДОЖНИКИ&lt;br&gt;Боб Фрай&lt;br&gt;Джохари Темплин&lt;br&gt;Джон П. Фанк&lt;br&gt;Стив Питч&lt;br&gt;Стивен Стеллберг&lt;br&gt;Вэйд Муллерн&lt;br&gt;Ведущий аниматор: Эрик Лалюмьер&lt;br&gt;Фрэнк Бонивель&lt;br&gt;Майкл Пирс&lt;br&gt;Криспин Бродхерст (Volt)&lt;br&gt; &lt;br&gt;Дизайн&lt;br&gt;Адам Фошко&lt;br&gt;Брайен Хаккерт&lt;br&gt;Дэвид Чанг&lt;br&gt;Дастин Крайер&lt;br&gt;Яков Кроу&lt;br&gt;Уилл Догерти&lt;br&gt;Эрик Уилмор (VMC Consulting Corp)&lt;br&gt;Джон Срипан (VMC Consulting Corp)&lt;br&gt;Скотт Шелтон (VMC Consulting Corp)&lt;br&gt;Тодд Дигани (VMC Consulting Corp)&lt;br&gt;Крис Тодд (Murder of Crows)&lt;br&gt;Джесси Бенитэз-Штайнер (Volt)&lt;br&gt; &lt;br&gt;ИГРОВЫЕ РОЛИКИ&lt;br&gt;Адам Эн. Джозеф – Руководитель отдела&lt;br&gt;Бадди Малдаван (VMC Consulting Corp)&lt;br&gt;Джон Алдерсон (VMC Consulting Corp)&lt;br&gt;Кэтти Бэйтмен (VMC Consulting Corp)&lt;br&gt;Милена Грозева (VMC Consulting Corp)&lt;br&gt;Патрик Санчез (VMC Consulting Corp)&lt;br&gt;Пол Хьюмет (VMC Consulting Corp)&lt;br&gt;Рэй Кобо (VMC Consulting Corp)&lt;br&gt;Рэй Барерра (VMC Consulting Corp)&lt;br&gt;Рик Хартман (VMC Consulting Corp)&lt;br&gt;Симус Рейл (VMC Consulting Corp)&lt;br&gt; &lt;br&gt;ЗВУК&lt;br&gt;Билл Маньон (Volt) &lt;br&gt;Кларк Кроуфорд (Volt) &lt;br&gt;Эрик Фрэнд (Volt) &lt;br&gt;Джэфф Шумахер(Volt) &lt;br&gt;Кайл Скрибнер (Volt) &lt;br&gt;Лиза Элиот (Volt)&lt;br&gt;Марк Пакард (Volt) &lt;br&gt;Мэт Митчелл (Volt) &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="64" xml:space="preserve">
+    <value>&lt;br&gt;СТАРТОВЫЙ РОЛИК&lt;br&gt;Крис Оливия&lt;br&gt;Дин МакКолл&lt;br&gt;Джон Соммер&lt;br&gt;Марк Голдворси&lt;br&gt;Паулин Сааб&lt;br&gt;Ретт Беннат&lt;br&gt;Скотт Петерсон&lt;br&gt;Сарма Вангури&lt;br&gt;Куртис Нилл - режиссер&lt;br&gt;Марк Бард - сценарист&lt;br&gt; &lt;br&gt;ИДЕЯ ИГРЫ&lt;br&gt;Крис Робертс&lt;br&gt;Филл Уотенбергер&lt;br&gt; &lt;br&gt;СЦЕНАРИЙ&lt;br&gt;Адам Фошко&lt;br&gt;Джорг Ньюман&lt;br&gt; &lt;br&gt;КОМАНДА ОБРАБОТКИ&lt;br&gt;Джэми Гиббс&lt;br&gt;Брюс Роджерс (Volt)&lt;br&gt;Крис Паркер (Volt)&lt;br&gt;Коди Томас (Volt)&lt;br&gt;Эрик Элисон (Volt)&lt;br&gt;Ли Боубелл (Volt)&lt;br&gt;Майк Вебер (Volt)&lt;br&gt;Марк Ричардс (Volt) &lt;br&gt;Найджел Кенди (Volt) &lt;br&gt;Ричард Норт (Volt) &lt;br&gt;Стив Фернандез (Volt) &lt;br&gt; &lt;br&gt;РУКОВОДИТЕЛЬ СТУДИИ&lt;br&gt;Алан Хартнер&lt;br&gt; &lt;br&gt;КОРРЕКТОР&lt;br&gt;Рэй Кобо (VMC Consulting Corp)&lt;br&gt; &lt;br&gt;РАЗВИТИЕ СЮЖЕТА&lt;br&gt;Пол Блейш&lt;br&gt;Ючи Ито&lt;br&gt;Майк Стембера (Volt)&lt;br&gt;Тим Перри (Volt)&lt;br&gt; &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="65" xml:space="preserve">
+    <value>&lt;br&gt;СТУДИЯ MICROSOFT GAMES&lt;br&gt;ПЛАНИРОВАНИЕ&lt;br&gt;Джон Кимич&lt;br&gt; &lt;br&gt;ПРОГРАММА УСТАНОВКИ&lt;br&gt;Робби Бутт&lt;br&gt;Джули МакКормак&lt;br&gt;Дэн Уоллес (Siemens Business Services Inc)&lt;br&gt;Джэйсон Браун (Siemens Business Services)&lt;br&gt; &lt;br&gt;УПРАВЛЕНИЕ МАРКЕТИНГОМ&lt;br&gt;Рик Мехлер&lt;br&gt;Даррен Тренчер&lt;br&gt;Крис Де Сезар&lt;br&gt; &lt;br&gt;СВЯЗЬ С ОБЩЕСТВЕННОСТЬЮ&lt;br&gt;Майкл Джэкоб&lt;br&gt;Кристэн МакЭнтайр&lt;br&gt;Женевье Остергард&lt;br&gt;Дана Труилло (Kelly Services Inc) &lt;br&gt;Брайен Кемп (Edelman PR Worldwide)&lt;br&gt;Вебке Валентин (AEG)&lt;br&gt; &lt;br&gt;МАКЕТ УПАКОВКИ&lt;br&gt;Лиза Крост&lt;br&gt;Эли Фридман&lt;br&gt; &lt;br&gt;WEB-сайт MICROSOFT &lt;br&gt;Брэдли Шелтон&lt;br&gt;Кортни Бэйли&lt;br&gt;Том Браш (Volt)&lt;br&gt; &lt;br&gt;МЕЖДУНАРОДНЫЙ МАРКЕТИНГ&lt;br&gt;Питер Кинсли&lt;br&gt;Стефани Петерсон&lt;br&gt; &lt;br&gt;МЕНЕДЖЕР ПО ПРОДАЖAM&lt;br&gt;Крис Блэк&lt;br&gt;Стив Леви&lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="66" xml:space="preserve">
+    <value>&lt;br&gt;ТЕСТИРОВАНИЕ&lt;br&gt;Аарон Коннерс&lt;br&gt;Алан Терер&lt;br&gt;Брэнт Мэткалф&lt;br&gt;Джон Пикорелли (Volt)&lt;br&gt;Кэвин Райт (Volt)&lt;br&gt; &lt;br&gt;ПЕЧАТНАЯ ПРОДУКЦИЯ&lt;br&gt;Джэнни Виорин&lt;br&gt;Крис Бернс (Art Source)&lt;br&gt; &lt;br&gt;ЛОКАЛИЗАЦИЯ - РЕДМОНД&lt;br&gt;Лайф Томпсон - руководитель проекта&lt;br&gt;Казуюки Шибуйя - специалист по программам проекта&lt;br&gt; &lt;br&gt;ЛОКАЛИЗАЦИЯ - ИРЛАНДИЯ&lt;br&gt;Питер Фицпатрик - руководитель проекта&lt;br&gt;Бернард Морган - тестирование&lt;br&gt;Дэвид Фостер - тестирование&lt;br&gt;Джон Твуми -  специалист по программам&lt;br&gt;Веро Лавенте -  специалист по программам&lt;br&gt;Стив Бэлтон - аудиоредактор&lt;br&gt;Эйлис O'Хаган - документация &lt;br&gt;Барри Комин - упаковка &lt;br&gt; &lt;br&gt;ЛОКАЛИЗАЦИЯ - КОРЕЯ&lt;br&gt;Чаэ Сионг Лим - руководитель проекта&lt;br&gt;Юххи Джанг - руководитель проекта локализации&lt;br&gt;Сэнг Ку Ри - специалист по программам-тестер &lt;br&gt;Сак Хун Йи - руководитель проекта&lt;br&gt; &lt;br&gt;ЛОКАЛИЗАЦИЯ  - ТАЙВАНЬ&lt;br&gt;Лана Пенг - руководитель проекта&lt;br&gt;Кристин Лин - руководитель проекта локализации&lt;br&gt;Вэн-Чин Дэнг - тестирование&lt;br&gt;Лилия Ли – тестирование качества&lt;br&gt; &lt;br&gt;ПОДДЕРЖКА ПРОГРАММЫ&lt;br&gt;Грэг Франковик&lt;br&gt;Диана Леон &lt;br&gt;Лонни Вошберн&lt;br&gt; &lt;br&gt;ЛИЦЕНЗИЯ&lt;br&gt;Губерт Ченг&lt;br&gt;Джама Кантрел&lt;br&gt;Сью Стикни&lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="67" xml:space="preserve">
+    <value>&lt;br&gt;КОНТРОЛЬ КАЧЕСТВА MGS &lt;br&gt;Мэтт Грэндволл&lt;br&gt;Скотт Гирч&lt;br&gt; &lt;br&gt;ГРУППА ТЕСТЕРОВ&lt;br&gt;Маркус Нуньес-Уено - группа тестирования продукта&lt;br&gt;Майкл Мэдлок - руководитель группы&lt;br&gt;Кэвин Кикер, Билл Фултон - менеджеры тестирования&lt;br&gt;Рамон Ромэро, Марк Бурдик, Кэвиг Гобель(Volt), Дэвид Квироз(Siemens Business Services Inc) - ассистенты&lt;br&gt; &lt;br&gt;Группа бета-тестирования&lt;br&gt;Мэтт Плойар&lt;br&gt;Мэтт Олдерман&lt;br&gt;Фонда Варнки&lt;br&gt;Бэрни Стокс(VMC Consulting Corp)&lt;br&gt;Участники бета-тестирования&lt;br&gt; &lt;br&gt;Команда проверки RECON &lt;br&gt;Крейг Маршалл&lt;br&gt;Джон Поттер(Volt), Лэнс Роули(Volt), Мори Маркхани(Volt), Джэймс Эванс(Volt), Роберт Минек(Volt), Винсент Луйян(Volt), Блэйк Додсон (Volt), Майкл Робинсон (Volt), Тимоти Вильямс(Volt), Джэреми Морган (Volt), Дэвид Грин (Volt), Крис Грин (Volt), Джозеф Эйзель (Volt), Брэндон Бейкер (Volt) &lt;br&gt; &lt;br&gt;КОМАНДА ТЕСТИРОВАНИЯ СЕТЕВОЙ ИГРЫ&lt;br&gt;Ти Джей Туэз&lt;br&gt;Брэт Фэнтон (Volt)&lt;br&gt;Джэйсон Вофейл (Volt)&lt;br&gt;Шон Джонсон(Volt)&lt;br&gt; &lt;br&gt;ТЕСТИРОВАНИЕ КОНФИГУРАЦИЙ ПК&lt;br&gt;Джэйсон Манголд&lt;br&gt;Патрик Асколезэ&lt;br&gt;Дэн Хичкок (Volt) &lt;br&gt;Джэф Фэлькер (Volt)&lt;br&gt;Якоб Бэнтли (Volt)&lt;br&gt;Эрик Джонсон (VMC Consulting Corp)&lt;br&gt; &lt;br&gt; СЕРВЕР MGS И РАБОТА С СЕТЬЮ&lt;br&gt;Дженнифер Харрисон&lt;br&gt;Шейн Нельсон &lt;br&gt;Джейсон Рейнер &lt;br&gt;Джадд O'Баннон (VMC Consulting Services) &lt;br&gt;Джэфф Симан (VMC Consulting Services) &lt;br&gt;Роб Маркосик (VMC Consulting Services) &lt;br&gt;Кэвин Куиллард (VMC Consulting Services) &lt;br&gt;Дэн Грант (Siemens Business Services)&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="68" xml:space="preserve">
+    <value>&lt;br&gt;АУТСОРСИНГ&lt;br&gt;КОНЦЕПТ-АРТ&lt;br&gt;Адам Медхест – арт-директор/дизайнер&lt;br&gt;Гарольд Белькер - дизайнер космических обьектов&lt;br&gt;Карлос Эскверра - персонажи и костюмы&lt;br&gt;Крейг Мулленс - художник&lt;br&gt;Джэймс Дох - архитектурные обьекты&lt;br&gt;Джон Блад - архитектурные обьекты&lt;br&gt; &lt;br&gt;ЛАНДШАФТЫ - ИЛЛЮСТРАЦИИ И ДИЗАЙН&lt;br&gt;Digital Firepower&lt;br&gt; &lt;br&gt;ДИЗАЙН ПОМЕЩЕНИЙ&lt;br&gt;Luminosity Entertainment / Boston Animation&lt;br&gt;Александр Чайка - 3D-дизайнер / менеджер проекта&lt;br&gt;Ярослав Грабовский - 3D-дизайнер/ художник&lt;br&gt;Татьяна Пивень - прорисовка текстур/ Художник&lt;br&gt;Владимир Друзенк, Игорь Горбунов, Ольга Малько, Александр Компанец, Виталий Дорохов - 3D-дизайн&lt;br&gt;Андрей Диденко, Юрий Пульков, Алексей Лучко, Ярослав Логинский, Олег Корейба, Виктор Онищенко, Олег Васянович - художники текстур&lt;br&gt;  &lt;br&gt; ЗАХВАТ ДВИЖЕНИЯ &lt;br&gt;The Jim Henson Company&lt;br&gt;House of Moves Motion Capture Studios, LLC &lt;br&gt;Locomotion Studios&lt;br&gt;Motion Analysis Studios&lt;br&gt;Pyros Pictures, Inc &lt;br&gt; &lt;br&gt;МУЗЫКА&lt;br&gt;Джэймс Ханниган&lt;br&gt;Эндрю Сега (The Alpha Conspiracy)&lt;br&gt; &lt;br&gt;«Zeno's Paradox», созданный Alpha Conspiracy приносит благодарность студии Diffusion Records.&lt;br&gt; &lt;br&gt; Visual Music &lt;br&gt;Том Сефер - режиссер/композитор&lt;br&gt; Cato &lt;br&gt;Тим Келли&lt;br&gt;Дин Грисфендель&lt;br&gt;Осаму Китайома&lt;br&gt; &lt;br&gt;ЗВУК И ОБРАБОТКА&lt;br&gt;Soundelux DMG &lt;br&gt;Скотт Марин Гершин - звукорежиссер&lt;br&gt;Бэкки Аллен - продюсер&lt;br&gt;Алан Ранки, Брайен Селлано, Брайен Баун, Датч Хилл, Глинна Гримала, Питер Зинда - композиторы&lt;br&gt; &lt;br&gt; Scorpio Sound &lt;br&gt;Грэгори Джэй Хайнер - режиссер&lt;br&gt;Майк Риган - режиссер&lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="69" xml:space="preserve">
+    <value>&lt;br&gt;ДИАЛОГИ&lt;br&gt;Кароль Роггер - режиссер вокала&lt;br&gt;Джули Моргави - режиссер музыки&lt;br&gt;Питер Марквард(Volt) - режиссер вокала&lt;br&gt; &lt;br&gt;Soundelux DMG&lt;br&gt;Аманда Войт - менеджер проекта&lt;br&gt;Лисли Энгли, Том Озаних - звукозапись&lt;br&gt;Джэймс Табб, Сара Хадлстон, Джастин Лангли - режиссура&lt;br&gt; &lt;br&gt; Screen Music Studios &lt;br&gt;Вики Спенсьери – руководитель студии&lt;br&gt;Пол Эндрюс – ведущий звукорежиссер&lt;br&gt; &lt;br&gt;АКТЕРЫ&lt;br&gt;Адам Дудли&lt;br&gt;Бэн Паско&lt;br&gt;Бернадет Нейсон&lt;br&gt;Брайен Кастон&lt;br&gt;Чарльз Чаунесси&lt;br&gt;Кристофер Ли&lt;br&gt;Кори Бертон&lt;br&gt;Кри Саммер&lt;br&gt;Эрик Хеншоу&lt;br&gt;Фрэд Баллард&lt;br&gt;Гарри Питерс&lt;br&gt;Джордж Такей&lt;br&gt;Грег Дорчак&lt;br&gt;Хейзел Бизли&lt;br&gt;Ян Зиринг&lt;br&gt;Джэй C. Шекспир&lt;br&gt;Джеймс Хоран&lt;br&gt;Джэфф Гленн Беннет&lt;br&gt;Дженнифер Хейл&lt;br&gt;Джессика Робертсон&lt;br&gt;Джон Финен&lt;br&gt;Джон Хоран&lt;br&gt;Джон Кэссир &lt;br&gt;Джон Крис Дэвис&lt;br&gt;Кэтрин Кэтмол&lt;br&gt;Кэтрин Уиллис&lt;br&gt;Кэтрин Феллер&lt;br&gt;Кэннет Марс&lt;br&gt;Кевин М. Ричардсон&lt;br&gt;Марк Менчака&lt;br&gt;Марко Нойолла&lt;br&gt;Мари Маршалл&lt;br&gt;Моррис Ламарш&lt;br&gt;Майкл Фостер&lt;br&gt;Майкл Вейс &lt;br&gt;Митч Диаз&lt;br&gt;Фил Моррис&lt;br&gt;Филлип Овенс &lt;br&gt;Роб Паулсен&lt;br&gt;Роберт Ньюэлл &lt;br&gt;Риун Юу&lt;br&gt;Стефан Сандерс &lt;br&gt;Сюзан Блекли &lt;br&gt;Тони Джей &lt;br&gt;Трэвис Дин &lt;br&gt;Ксандер Беркли&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Логин&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="70" xml:space="preserve">
+    <value>&lt;br&gt;ОСОБАЯ БЛАГОДАРНОСТЬ&lt;br&gt;Крис Робертс &lt;br&gt; &lt;br&gt;БЛАГОДАРНОСТЬ&lt;br&gt;Алекс Тоадер&lt;br&gt;Андрэ Гарсиа&lt;br&gt;Эндрю Франклин&lt;br&gt;Энди O'Брайен&lt;br&gt;Эйприл МакКи&lt;br&gt;Арт ДиБианка&lt;br&gt;Арви Гардэ&lt;br&gt;Бен Хансон&lt;br&gt;Бет Феарстоун&lt;br&gt;Эд Фрайз&lt;br&gt;Джейк Роджерс&lt;br&gt;Джеймс Митчелл&lt;br&gt;Джаред Карр&lt;br&gt;Джейсон Енавайн&lt;br&gt;Джэй Данн&lt;br&gt;Джефф Дэвис&lt;br&gt;Джим Магилл&lt;br&gt;Джон Томас&lt;br&gt;Джонни Квентселл&lt;br&gt;Кэти Мери&lt;br&gt;Келси Прайвет&lt;br&gt;Кент Рафтрей&lt;br&gt;Кэвин Альберс&lt;br&gt;Ядро Фриленсер&lt;br&gt;Лиз Беккер&lt;br&gt;Лорин Джэймсон&lt;br&gt;Мэтью Харрел&lt;br&gt;Марк Томас&lt;br&gt;Пол Бернштайн&lt;br&gt;Пит Пирсонз&lt;br&gt;Рич Лоуренс&lt;br&gt;Сэм Йетс&lt;br&gt;Стюарт Маулдер&lt;br&gt;ТиДжей O'Лири&lt;br&gt; &lt;br&gt;Abrams Artists &lt;br&gt; Acclaim Talent Agency Austin &lt;br&gt;Ассоциации художников&lt;br&gt;Barbara Gray Talent Austin  &lt;br&gt;Студии озвучивания&lt;br&gt;Innovative Artists L.A. &lt;br&gt;International Creative Management L.A. &lt;br&gt;Sutton, Barth &amp; Vennari &lt;br&gt;VOX U.S.A. &lt;br&gt;Агенство Вильяма Морриса&lt;br&gt; &lt;br&gt;Хавок&lt;br&gt;Луа&lt;br&gt; &lt;br&gt;Киото&lt;br&gt;Лас Манитас&lt;br&gt; &lt;br&gt;Нашим женам, друзьям и детям! &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;1 Февраля 2003 года миссия космического шаттла «Колумбия»  STS-107 постигла трагедия. Команда разработчиков выражает свои соболезнования семьям семи астронавтов, потерявших свои жизни. Их имена: Риу Хазбенд, Вильям МакКулл, Майкл Андерсон, Калпана Чавла, Дэвид Браун, Лорел Кларк и Илан Реймон. Также мы бы хотели выразить наше восхищение всем храбрым пионерам мировой космической программы, которые вдохновили всех нас на воплощение нашей мечты. </value>
+  </data>
+  <data name="71" xml:space="preserve">
+    <value>&lt;br&gt;</value>
+  </data>
+  <data name="72" xml:space="preserve">
+    <value>&lt;br&gt;</value>
+  </data>
+  <data name="73" xml:space="preserve">
+    <value>&lt;br&gt;ЛОКАЦИЯ&lt;br&gt;</value>
+  </data>
+  <data name="74" xml:space="preserve">
+    <value>&lt;br&gt;ТИП КОРАБЛЯ&lt;br&gt;</value>
+  </data>
+  <data name="75" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;База: &lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="76" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Имя:&lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="77" xml:space="preserve">
+    <value>&lt;br&gt;&lt;align=center&gt;Фракция: &lt;/align&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="78" xml:space="preserve">
+    <value>&lt;br&gt;ВЫБРАТЬ ПЕРСОНАЖ&lt;br&gt;</value>
+  </data>
+  <data name="79" xml:space="preserve">
+    <value>&lt;br&gt;Новое партнерство: &lt;br&gt;</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>&lt;br&gt;НОВОСТИ СЕРВЕРА&lt;br&gt;</value>
+  </data>
+  <data name="80" xml:space="preserve">
+    <value>&lt;br&gt;Потерянное партнерство: &lt;br&gt;</value>
+  </data>
+  <data name="81" xml:space="preserve">
+    <value>&lt;br&gt;Игрок погиб: &lt;br&gt;</value>
+  </data>
+  <data name="82" xml:space="preserve">
+    <value>&lt;br&gt;Новый игрок: &lt;br&gt;</value>
+  </data>
+  <data name="83" xml:space="preserve">
+    <value>&lt;br&gt;Отправление игрока: &lt;br&gt;</value>
+  </data>
+  <data name="84" xml:space="preserve">
+    <value>&lt;br&gt;Нет&lt;br&gt;</value>
+  </data>
+  <data name="85" xml:space="preserve">
+    <value>&lt;br&gt;Соединение с сервером установлено.&lt;br&gt;Интернет-игра доступна.&lt;br&gt;</value>
+  </data>
+  <data name="86" xml:space="preserve">
+    <value>&lt;br&gt;Соединение с сервером не удалось!&lt;br&gt;</value>
+  </data>
+  <data name="87" xml:space="preserve">
+    <value>&lt;br&gt;Соединение с сервером...&lt;br&gt;</value>
+  </data>
+  <data name="88" xml:space="preserve">
+    <value>&lt;br&gt;Разрыв соединения.&lt;br&gt;Интернет-игра недоступна.&lt;br&gt;</value>
+  </data>
+  <data name="89" xml:space="preserve">
+    <value>&lt;br&gt;Ваша группа укомплектована. Вы больше не можете принимать игроков.&lt;br&gt;</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>&lt;br&gt;Готов создать новый профиль.&lt;br&gt;</value>
+  </data>
+  <data name="90" xml:space="preserve">
+    <value>&lt;br&gt;Вы не можете принять еще одного игрока в вашу группу: &lt;br&gt;</value>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>&lt;br&gt;Вы не можете сами себя пригласить в группу.&lt;br&gt;</value>
+  </data>
+  <data name="92" xml:space="preserve">
+    <value>&lt;br&gt;Простите, но данная группа уже укомплектована: &lt;br&gt;</value>
+  </data>
+  <data name="93" xml:space="preserve">
+    <value>&lt;br&gt;Вы уже состоите в группе: &lt;br&gt;</value>
+  </data>
+  <data name="94" xml:space="preserve">
+    <value>&lt;br&gt;Вы не можете присоединиться к собственной группе.&lt;br&gt;</value>
+  </data>
+  <data name="95" xml:space="preserve">
+    <value>&lt;br&gt;Вы не можете покинуть группу, поскольку в ней не состоите.&lt;br&gt;</value>
+  </data>
+  <data name="96" xml:space="preserve">
+    <value>&lt;br&gt;Вы должны прервать или выполнить текущую миссию, прежде чем присоединиться к другой группе.&lt;br&gt;Если вам нужна помощь, то вы можете пригласить других игроков в группу.&lt;br&gt;</value>
+  </data>
+  <data name="97" xml:space="preserve">
+    <value>&lt;br&gt;Этот игрок не закончил свою миссию, и сейчас не может присоединиться к вашей группе: &lt;br&gt;</value>
+  </data>
+  <data name="98" xml:space="preserve">
+    <value>&lt;br&gt;Вы не получили приглашения: &lt;br&gt;</value>
+  </data>
+  <data name="99" xml:space="preserve">
+    <value>&lt;br&gt;СТАРТОВЫЕ ДЕНЬГИ:&lt;br&gt;</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>&lt;br&gt;Пожалуйста, введите имя пользователя для нового профиля.&lt;br&gt;</value>
+  </data>
+</root>

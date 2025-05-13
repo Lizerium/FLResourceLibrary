@@ -1,0 +1,3 @@
+[FactionGood]
+[BaseGood]
+[Good]

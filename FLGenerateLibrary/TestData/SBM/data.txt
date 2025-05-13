@@ -1,0 +1,925 @@
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1, 	"Воин"
+  2, 	"Cylon Raider"
+  3, 	"Огненный поцелуй"
+  4, 	"Starfury"
+  5, 	"Убийца Звезд"
+  6, 	"Galaxy Lifter"
+  7, 	"Убийца Звезд"
+  8, 	"Dropship"
+  9, 	"Уничтожитель"
+  10, 	"Phoenix"
+  11, 	"Крон"
+  12, 	"Nial Drail"
+  13, 	"Золотой червь MKIII"
+  14, 	"Nial Usiel"
+  15, 	"Турель транспорта"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  17, 	"Сикер MKII"
+  19, 	"Люгер Тип D"
+  21, 	"Змей MKII"
+  23, 	"ФЕНИКС"
+  25, 	"Турель канонерки"
+  27, 	"Турель линкора кусари"
+  29, 	"Орудие теней"
+  31, 	"Небесное сияние"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  32, 	"Небесное сияние"
+  33, 	"Турель Лайнера"
+  35, 	"Закат солнца"
+  37, 	"Орудие беженцев"
+  39, 	"Ангел"
+  41, 	"Маскитон"
+  43, 	"Маскитон MKII"
+  45, 	"Турель Сикер"
+  47, 	"Турель \"Маскитон\""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  49, 	"Оптимум"
+  51, 	"Планета Оптимум"
+  53, 	"Станция Аурилия"
+  55, 	"Турель линкора Осириса"
+  57, 	"Сикер"
+  59, 	"МАГИЧЕСКИЙ ШАР"
+  60, 	"Гипертоннель"
+  61, 	"Гипертоннель"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  65, 	"Лазурит MKI"
+  67, 	"Лазурит MKII"
+  69, 	"Щит \"Орканиус\""
+  71, 	"Кара"
+  73, 	"Щит \"Эрагон\""
+  75, 	"Мезоструктурная броня \"Крепчак\""
+  77, 	"Maledict Burst Cannon"
+  79, 	"Турель Сикер"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  81, 	" "
+  83, 	"Нанохитиновая броня \"Бронинг\""
+  85, 	"Миоплазменная броня \"Скала\""
+  87, 	"Броня Амазанок \"Вивьера\""
+  89, 	"АМАЗОНИТ"
+  91, 	"Броня Охотников на Амазонок \"Бригантин\""
+  93, 	"Турель \"Хронтан\""
+  95, 	"Mercury Mine Dropper"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  97, 	"Protoss Cannon"
+  99, 	"Закат солнца МКII"
+  101, 	"BFG"
+  103, 	"Гелиодор"
+  105, 	"Лазер теней"
+  107, 	"Щит линкора теней"
+  109, 	"Турель Турмалин"
+  111, 	"Assault Cannon"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  113, 	"Assault Cannon Turret"
+  115, 	"Hookah"
+  117, 	"Hookah Turret"
+  119, 	"Harquebus"
+  121, 	"Harquebus Turret"
+  123, 	"Охотники на Амазонок"
+  125, 	"Galactic Flagellator Turret"
+  127, 	"Артиллерия ада (Кл10)"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  129, 	"МАГИЧЕСКИЙ ШАР"
+  131, 	"Защитник Мк IV"
+  133, 	"Носовая пушка крейсера кусари"
+  135, 	"Harbinger II Torpedo"
+  137, 	"Moray Missile"
+  139, 	"Moray Missile Launcher"
+  141, 	"Миномет \"Разрушитель\""
+  143, 	" "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  144, 	"Ensnare Missile"
+  145, 	"Установка \"Алькатрас\""
+  147, 	"Т-установка \"Армагеддон\""
+  149, 	"Блокиратор движения \"Ронкар\""
+  151, 	"Нарфон MKI"
+  153, 	"Главная пушка канонерки"
+  155, 	"Ускоритель Охотников на Амазонок"
+  157, 	"Nut Buster Turret"
+  159, 	" "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  161, 	" "
+  163, 	"Mercury Missile"
+  165, 	"МАГИЧЕСКИЙ ШАР"
+  167, 	"Турель Сикер"
+  169, 	"Неизвестное орудие"
+  171, 	"Нарфон MKII"
+  173, 	"C-4 Enema Launcher"
+  175, 	"Турель \"Ластирикс\""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  177, 	"EL Toro Launcher"
+  179, 	"Щит \"Циклоп\""
+  181, 	"Skipper Missile Torp Launcher"
+  183, 	"Турель \"Хризопраз\""
+  185, 	"The Big Kahuna Launcher"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1176, 	"ОБСИДИАН"
+  1178, 	"Training Thruster"
+  1180, 	"Recon Thruster"
+  1182, 	"Combat Thruster"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1184, 	"Усиленный ускоритель (y)"
+  1186, 	"Пульсар"
+  1196, 	"Турель Лабрадор"
+  1198, 	"Stage 1 Decoy Chucker"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1200, 	"Stage 2 Decoy"
+  1202, 	"Stage 2 Decoy Chucker"
+  1204, 	"Stage 3 Decoy"
+  1206, 	"Stage 3 Decoy Chucker"
+  1210, 	"DragonFly Missile"
+  1212, 	"DragonFly Cruise Disruptor"
+  1214, 	"Stinger Missile"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1216, 	"Stinger Cruise Disruptor"
+  1218, 	"Ensnare Missile"
+  1220, 	"Ensnare Cruise Disruptor"
+  1222, 	"Щит \"Соран\""
+  1224, 	"Щит \"Рубис\""
+  1230, 	"Беженцы"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1232, 	"Grand Armor"
+  1234, 	"RAF Armor"
+  1236, 	"Shark Armor"
+  1238, 	"Lancers Armor"
+  1240, 	"Demon Armor"
+  1242, 	"Black Shark Armor"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1255, 	"Light Fighter1 engine"
+  1257, 	"Light Fighter2 engine"
+  1259, 	"Fighter engine"
+  1261, 	"Fighter2 engine"
+  1263, 	"Fighter3 engine"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1265, 	"Ultra Fighter engine"
+  1267, 	"Freighter engine"
+  1269, 	"Freighter2 engine"
+  1271, 	"Freighter3 engine"
+  1273, 	"Cruiser engine"
+  1275, 	"Bomber engine"
+  1277, 	"Battleship engine"
+  1279, 	"Battleship2 engine"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1296, 	"Light Fighter1 Power"
+  1298, 	"Light Fighter2 Power"
+  1300, 	"Fighter Power"
+  1302, 	"Ultra Fighter Power"
+  1304, 	"Freighter Power"
+  1306, 	"Cruiser Power"
+  1308, 	"Battleship Power"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1326, 	"Феба Mk I "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1328, 	"Феба Mk II "
+  1330, 	"Щит \"Орифия\""
+  1332, 	"Т-установка \"Фалестрида\""
+  1334, 	"Турель \"Закат солнца\""
+  1336, 	"Щит Странников"
+  1338, 	"Freighter Shield"
+  1340, 	"Дредноут Бретони"
+  1342, 	"Турель \"Небесное сияние\""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1344, 	"Небесное сияние МКII"
+  1346, 	"Щит Администрации"
+  1348, 	"Centaurian Light Fighter Shield MKII"
+  1350, 	"Щит Грузовика"
+  1352, 	"Centaurian Heavy Fighter Shield MKII"
+  1354, 	"Centaurian Freighter Shield"
+  1356, 	"Голубой контейнер"
+  1358, 	"Амазонки"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1360, 	"Щит Странников"
+  1362, 	"Щит \"Агава\""
+  1364, 	"Турель \"Андромаха\""
+  1366, 	"Щит \"Алкиппа\""
+  1368, 	"Щит \"Алкибия\""
+  1370, 	"Ускоритель Амазонок"
+  1372, 	"Арето Mk II"
+  1374, 	"Арето Mk I"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1376, 	"Антандра"
+  1378, 	"Mega Light Fighter Shield"
+  1380, 	"Мина \"Главка\""
+  1382, 	"Миномет \"Главка\""
+  1384, 	"Light Mega Fighter Shield"
+  1386, 	"Блокиратор движения \"Кима\""
+  1388, 	"Сбрасыватель обманок КМ-4"
+  1390, 	"Щит Лайнера"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  1392, 	"Установка \"Профоя\""
+  1394, 	"Турель \"Астерия\""
+  1396, 	"Щит линкора"
+  1398, 	"Bonetti's Defense Fighter Shield"
+  1400, 	"Bonetti's Freighter Shield"
+  1402, 	"Щит Отважный"
+  1404, 	"Щит крейсера"
+  1406, 	"Щит канонерки"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10175, 	"JSN BH Elite Light hull"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10176, 	"BH Elite Light"
+  10185, 	"BH Elite Heavy Fighter Hull"
+  10186, 	"Ворон"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10265, 	"Leviathan Hull"
+  10266, 	"Стальной Молот"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10275, 	"Wasp Hull"
+  10276, 	"Паладин"
+  10285, 	"Scavenger Hull"
+  10286, 	"Гладиатор"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10295, 	"Soul Train Hull"
+  10296, 	"Такшип-3200"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  10305, 	"Pack Rat Hull"
+  10306, 	"Ака-666"
+  10315, 	"Scrounge Hull"
+  10316, 	"Шторм"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11176, 	"Бегемот"
+  11181, 	"Fighter power"
+  11183, 	"Battleship Power"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11186, 	"Валькирия MK II"
+  11191, 	"Rykengoll Elite shield"
+  11193, 	"Merchant Elite shield"
+  11195, 	"Necromonger Elite shield"
+  11197, 	"Furyan Elite shield"
+  11199, 	"Elemental Elite shield"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11201, 	"Ultra fighter Power"
+  11203, 	"Battleship shield"
+  11205, 	"Cruiser shield"
+  11206, 	"Arcudia"
+  11207, 	"Advanced Freighter Shield"
+  11209, 	"Freighter Shield"
+  11211, 	"Light Freighter Shield"
+  11213, 	" "
+  11215, 	"Щит грузовика"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11217, 	"Щит Админа"
+  11219, 	"Centaurian Freighter Shield"
+  11221, 	"Centaurian Heavy Fighter Shield MKII"
+  11223, 	"Centaurian Light Fighter Shield MKII"
+  11225, 	"Голубой контейнер"
+  11227, 	"Щит Странников"
+  11229, 	"Sioux Light Fighter Shield"
+  11231, 	"Щит Странников"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11233, 	"Interdimensional shield"
+  11235, 	"Interdimensional Fighter shield"
+  11237, 	"Interdimensional Light Fighter shield"
+  11239, 	"Interdimensional Large shield"
+  11241, 	"Iroquois Fighter Shield"
+  11243, 	"Iroquois Light Fighter Shield"
+  11245, 	"Iroquois Freighter Shield"
+  11247, 	"Мина \"Главка\""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11249, 	"Mega Light Fighter Shield"
+  11251, 	"Mega Freighter Shield"
+  11253, 	"Light Mega Fighter Shield"
+  11255, 	"Mega Ultra Light Fighter Shield"
+  11257, 	"Light Mega Freighter Shield"
+  11259, 	"RAF Fighter Shield"
+  11261, 	"Щит Лайнера"
+  11263, 	"RAF Freighter Shield"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11265, 	"Bonetti's Defense Fighter Shield"
+  11267, 	"Щит линкора"
+  11269, 	"Bonetti's Freighter Shield"
+  11271, 	"Armor"
+  11273, 	"Grand Armor"
+  11275, 	"RAF Armor"
+  11277, 	"Shark Armor"
+  11279, 	"Lancers Armor"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11281, 	"Demon Armor"
+  11285, 	"Black Shark Armor"
+  11287, 	"Fighter engine"
+  11289, 	"Large Cruiser Engine"
+  11291, 	"Battleship Engine"
+  11292, 	"Battle ship engine"
+  11293, 	"Ultra Fighter engine"
+  11295, 	"Light Fighter engine"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11297, 	"Cruiser Power"
+  11299, 	"Щит крейсера"
+  11301, 	"Щит Отважный"
+  11303, 	" "
+  11306, 	"Игла"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11316, 	"Bmw"
+  11321, 	"Battle ship engine"
+  11322, 	"Battle ship engine"
+  11326, 	"Dark Angel"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11336, 	"\xC9p\xE9e"
+  11341, 	"Bomber Engine"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11346, 	"Черный дракон"
+  11356, 	"Игла"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11366, 	"Camara"
+  11371, 	"Freighter Engine"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11376, 	"АКА-2"
+  11386, 	"Saucer"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11396, 	"Invincible"
+  11406, 	"Бронепоезд"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11416, 	"Мьельнир"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11426, 	"Истребитель беженцев"
+  11436, 	"Shipkiller"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11446, 	"Тени"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11456, 	"Информация отсутствует"
+  11466, 	"Тени"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11476, 	"Яростный дракон"
+  11486, 	"Кровавый дракон"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11496, 	"Бесстыжий"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11506, 	"Демон"
+  11516, 	"Command"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11526, 	"Тяньлун"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11536, 	"Лайнер"
+  11546, 	"Мьелнир МКII"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11556, 	"Дредноут Кусари"
+  11566, 	"Йормунг"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11576, 	"Афина"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11586, 	"Афродита"
+  11596, 	"Кувалда"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11606, 	"Линкор Свободы"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11616, 	"Крейсер Свободы"
+  11626, 	"Крейсер Свободы"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11636, 	"Линкор Свободы"
+  11646, 	"Хеймдалль"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11656, 	"МС-80"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11666, 	"АКА-777"
+  11676, 	"Волк"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11686, 	"Пенелопа"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11696, 	"Краб"
+  11701, 	"Battleship Engine"
+  11704, 	"Fighter engine"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11716, 	" "
+  11718, 	" "
+  11720, 	" "
+  11722, 	" "
+  11724, 	" "
+  11726, 	" "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11728, 	" "
+  11730, 	" "
+  11732, 	" "
+  11734, 	" "
+  11736, 	" "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11746, 	"Стрела"
+  11756, 	"Острие лезвия"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11766, 	"Острие"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11776, 	"Дредноут Рейнландии"
+  11786, 	"Разрушитель"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11796, 	"Острие лезвия МКII"
+  11806, 	"Небулон-Б EF76"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11816, 	"Бомбардировщик \"GTR-600\""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11826, 	"ARC-170"
+  11836, 	"Нострик"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11846, 	"Бомбардировщик \"GTR-600\""
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11856, 	"Нострик"
+  11866, 	"ARC-170"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11876, 	"\"Терронс\" XI-5000"
+  11886, 	"Пэллаеон"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11896, 	"Звезда"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11906, 	"\"Келлерс\" XI-1500"
+  11916, 	"Хищник"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11926, 	"Истребитель странников"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11936, 	"Крейсер Кусари"
+  11946, 	"Сколопендра"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11956, 	"\"Терронс\" XI-2500"
+  11966, 	"\"Близерс\" XI-2000"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11976, 	"Dreadnaught"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  11986, 	"Перехватчик"
+  11996, 	"Канонерка Странников"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12006, 	"Ворганиус"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12016, 	"MkIII"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12036, 	"Хронфаус"
+  12046, 	"Армстронг"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12056, 	"ОНХ-008"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12066, 	"Охотник"
+  12076, 	"MGS-225"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12086, 	"Носитель Е-2003"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12096, 	"\"Ронникс\" XI-6000"
+  12106, 	"Гром"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12116, 	"Канонерка Свободы"
+  12126, 	"Динамик"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12136, 	"Тайгер"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12146, 	"Имперский"
+  12156, 	"Звезда"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12166, 	"Титан MKII"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12176, 	"Сабля MKII"
+  12186, 	"Носорог MKII"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12196, 	"ИЛЛЮЗИЯ"
+  12206, 	"Пэллаеон MKIII"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12216, 	"Нострик"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12226, 	"Пэллаеон MKII"
+  12236, 	"Баррамунди"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12246, 	"Орел MKII"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12256, 	"Пустельга"
+  12266, 	"Звездопас"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12276, 	"Tranquilizer"
+  12286, 	"Канюк"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12296, 	"Лунь"
+  12301, 	" "
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12306, 	"Нова"
+  12311, 	"Канонерка Свободы"
+  12316, 	"Артемида"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12321, 	"Purple Pyro"
+  12326, 	"Magnum"
+  12331, 	"Phoenix"
+  12332, 	"Сектор теней"
+}
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  12336, 	"Линкор"
+  12341, 	"Истребитель"
+  12346, 	"Молот MKII"
+  12347, 	"Станция Мигорикс"
+  12348, 	"Загружаю местоположение дыры гиперперехода Омега-5 в вашу навигационную систему"
+  12349, 	"Паук"
+  12350, 	"Щит теней"
+  12351, 	"Ускоритель теней"
+}

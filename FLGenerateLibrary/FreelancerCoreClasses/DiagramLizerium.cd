@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="FLGenerateLibrary.EffectMain">
+    <Position X="58.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAABCBAAAAAACAAACAAAABAAAACAAAAAAQAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\EffectMain.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="EffectType" />
+      <Field Name="SndEffect" />
+      <Field Name="VisBeam" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.SoundBase">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAIQAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.SoundStats">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.SoundAmbienceStats">
+    <Position X="20.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundAmbienceStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.SoundEngineStats">
+    <Position X="18.25" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundEngineStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.SoundGfStats">
+    <Position X="16" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundGfStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.SoundMusicStats">
+    <Position X="25.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundMusicStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.BeamStats">
+    <Position X="60.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAhAAAGAAAAgAAAABAEAAIBAAGACEAQQAAAAAAQA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\BeamStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="HeadTexture" />
+      <Field Name="TrailTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.SimpleStats">
+    <Position X="56.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAAAAAAAIAAAABAAACAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\SimpleStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ExplosionArch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.ExplosionStats">
+    <Position X="51.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAEAAAAgAQAAAAgAEABQAQADAQQAAAEAAAAAAAQA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\ExplosionStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Process" />
+      <Field Name="Effect" />
+      <Field Name="CriticalHit" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="InnardsDebrisObject" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.CriticalHitSt">
+    <Position X="49.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\CriticalHitSt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.DebrisStats">
+    <Position X="60" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAAAAAAAAAAAEAgAAAAAAAEIAgAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\DebrisStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DeathMethod" />
+      <Field Name="Trail" />
+      <Field Name="Explosion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.DebrisTypeSt">
+    <Position X="64.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\DebrisTypeSt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.EffectExplosionSt">
+    <Position X="64.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\EffectExplosionSt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.WeaponTypeStats">
+    <Position X="32.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\WeaponTypeStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ShieldMod" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.ShieldMod">
+    <Position X="32.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\ShieldMod.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shieldType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.VoiceProps" Collapsed="true">
+    <Position X="14.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\VoiceProps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gender" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.CloakStats">
+    <Position X="20" Y="22.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAiBAAQAEAAAAAAAAAAAAAAAAiAIBAgAAAJRYACAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\CloakStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CloakinFX" />
+      <Field Name="CloakinOutFX" />
+      <Field Name="CloakinFXMy" />
+      <Field Name="CloakinOutFXMy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.CloakinFX">
+    <Position X="15.75" Y="22.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EABAAIAAQAAAAAAAAAAAAQQAgAAAAAAAAAAAAAQAgAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\CloakinFX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.Equipment">
+    <Position X="21.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\Equipment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="IdsData" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.NamesResourcesDLL">
+    <Position X="21.5" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAIAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\NamesResourcesDLL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DllIdsName" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Descriptions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.NamesResourcesDescDLL">
+    <Position X="24.75" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\NamesResourcesDescDLL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DllIdsInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.Item">
+    <Position X="19.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Rarity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.EngineStats">
+    <Position X="26.75" Y="22.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QACDABQkEASIAIIAIoZABCIKASEAAJBSAAZAAAKACQA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\EngineStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CharacterLoopSound" />
+      <Field Name="RumbleSound" />
+      <Field Name="FlameEffect" />
+      <Field Name="TrailEffect" />
+      <Field Name="TrailEffectPlayer" />
+      <Field Name="CharacterStartSound" />
+      <Field Name="EngineKillSound" />
+      <Field Name="CruiseStartSound" />
+      <Field Name="CruiseLoopSound" />
+      <Field Name="CruiseStopSound" />
+      <Field Name="CruiseDisruptSound" />
+      <Field Name="CruiseBackfireSound" />
+      <Field Name="CruiseDisruptEffect" />
+      <Field Name="HpMountGroup" />
+      <Field Name="ExplosionArch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.LootCrateStats">
+    <Position X="39.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACJAAQAEAAAQAAAAAAAAAAAAAAAAIAAAAJAAACAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\LootCrateStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ExplosionArch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.MotorStats">
+    <Position X="23.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAIIAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\MotorStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.MunitionStats">
+    <Position X="33" Y="22.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gwSJAAIA0CAEQAAACAAAAAQgEAAAAIIAQEJAAECgYAQ=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\MunitionStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ExplosionArch" />
+      <Field Name="LootAppearance" />
+      <Field Name="HpType" />
+      <Field Name="OneShotSound" />
+      <Field Name="GfOneShotSound" />
+      <Field Name="Motor" />
+      <Field Name="ConstEffect" />
+      <Field Name="Seeker" />
+      <Field Name="WeaponType" />
+      <Field Name="MunitionHitEffect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.MineStats">
+    <Position X="43.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQJAAQEEEAAQAAACAAAIAAAEAAAAIIAAEJEAACAIAQ=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\MineStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ExplosionArch" />
+      <Field Name="LootAppearance" />
+      <Field Name="OneShotSound" />
+      <Field Name="ConstEffect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.GunStats">
+    <Position X="47.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBICQFkAEAYACCACAMAAAAACAAAAgACAJQBBGAJEA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\GunStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="HpGunType" />
+      <Field Name="ProjectileArchetype" />
+      <Field Name="DryFireSound" />
+      <Field Name="SeparationExplosion" />
+      <Field Name="FlashParticleName" />
+      <Field Name="LightAnim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.LightAnimStats">
+    <Position X="55" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\LightAnimStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Frame" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.FraneLA">
+    <Position X="55" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\FraneLA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.MineDropperStats">
+    <Position X="52.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBIAQAEAEAIACCAAAMAAAAACAAAAgAAAJABAGAIEA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\MineDropperStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="ProjectileArchetype" />
+      <Field Name="DryFireSound" />
+      <Field Name="SeparationExplosion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.ScannerStats">
+    <Position X="13" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAEAAACAAAAAAAAAAAAAAAAAAACAJAAACAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\ScannerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.ShieldBatteryStats">
+    <Position X="10.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAIAAACAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\ShieldBatteryStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.TractorStats">
+    <Position X="7.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACJAAAAEAAAEAAAAAAAgAAAAAAAAAAAAAJQgACAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\TractorStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="OperatingEffect" />
+      <Field Name="TractorCompleteSnd" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.RepairKitStats">
+    <Position X="5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAIAAACAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\RepairKitStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="LootAppearance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.PowerStats">
+    <Position X="55.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAEAAAAAQAQAAAAAACAAAAAAAAAApAAACAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\PowerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.CounterMeasureStats">
+    <Position X="59" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAEEAAASBAACAAAAAAAEAAAAAIAAEJAAACAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\CounterMeasureStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="LootAppearance" />
+      <Field Name="OneShotSound" />
+      <Field Name="ConstEffect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.CounterMeasureDropperStats">
+    <Position X="62" Y="22.25" Width="1.5" />
+    <AssociationLine Name="FlashParticleName" Type="FLGenerateLibrary.EffectMain" ManuallyRouted="true">
+      <Path>
+        <Point X="62" Y="25.19" />
+        <Point X="62" Y="22.873" />
+        <Point X="60.75" Y="22.873" />
+        <Point X="60.75" Y="18.066" />
+        <Point X="60.411" Y="18.066" Type="JumpStart" />
+        <Point X="60.245" Y="18.066" Type="JumpEnd" />
+        <Point X="60.156" Y="18.066" />
+        <Point X="60.156" Y="14.94" />
+        <Point X="59.325" Y="14.94" Type="JumpStart" />
+        <Point X="59.159" Y="14.94" Type="JumpEnd" />
+        <Point X="58.609" Y="14.94" />
+        <Point X="58.609" Y="14.565" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACBIAAEkAAAYACCAAAMAAAEACAAAAgAAAJAABGAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\CounterMeasureDropperStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="FlashParticleName" />
+      <Field Name="LightAnim" />
+      <Field Name="ProjectileArchetype" />
+      <Field Name="SeparationExplosion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.ArmorStats">
+    <Position X="64.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAEEAAAAAAAAAAAAAAAAAAAAIgAAAJAAACBCAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\ArmorStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Category" />
+      <Field Name="ExplosionArch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.AttachedFXStats">
+    <Position X="41.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\AttachedFXStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Particles" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.InternalFXStats">
+    <Position X="48" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\InternalFXStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="UseSound" />
+      <Field Name="UseAnimation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.CargoPodStats">
+    <Position X="69.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAQAEAAAAAAAAAAEAAAAAAAAAIgQAABAAAGAIAA=</HashCode>
+      <FileName>FreelancerCoreClasses\CargoPodStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="ExplosionArch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.ShieldStats">
+    <Position X="72.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\ShieldStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.ShieldHitEffectsSt">
+    <Position X="78.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FreelancerCoreClasses\ShieldHitEffectsSt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLGenerateLibrary.ShieldGeneratorStats">
+    <Position X="74.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCBIUQEEAEAAAgDAACMAAAAIAAIAAiAAAJAAKGgoAA=</HashCode>
+      <FileName>FreelancerCoreClasses\ShieldGeneratorStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="ShieldCollapseSound" />
+      <Field Name="ShieldCollapseParticle" />
+      <Field Name="ShieldRebuiltSound" />
+      <Field Name="ShieldType" />
+      <Field Name="HpType" />
+      <Field Name="SeparationExplosion" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="ShieldHitEffects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FLGenerateLibrary.ThrusterStats">
+    <Position X="81.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACJIAQAEAAACAACAAAMAAAAACEAAAgAAAJAAAGAKAA=</HashCode>
+      <FileName>FreelancerCoreClasses\ThrusterStats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DebrisType" />
+      <Field Name="Particles" />
+      <Field Name="SeparationExplosion" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="FLGenerateLibrary.ExplosionEffectType">
+    <Position X="58" Y="16" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAASIAAAEAAgAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\ExplosionEffectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.SoundType">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\SoundType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.HeadTextureType" Collapsed="true">
+    <Position X="64.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\HeadTextureType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.TrailTextureType" Collapsed="true">
+    <Position X="64.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\TrailTextureType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.DeathMethod">
+    <Position X="60.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\DeathMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.ExpProcessType">
+    <Position X="51.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Effects\ExpProcessType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.ShieldType">
+    <Position X="32.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DgAAAAAAAAAAAAAAAAAAAAECAAAEAAAAAAAQBAAAAMA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\ShieldType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.TypeGender" Collapsed="true">
+    <Position X="12.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Sounds\TypeGender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.TypeResourcesDllInfo">
+    <Position X="25" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAABQAAAQAAAgAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\TypeResourcesDllInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.Rarity">
+    <Position X="18.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAAACAAAAQAAAAAAAAgAAMAAAQAAACAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\Rarity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.HpMountGroup" Collapsed="true">
+    <Position X="30" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\HpMountGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.SeekerType" Collapsed="true">
+    <Position X="37.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\SeekerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.MunitionHpType" Collapsed="true">
+    <Position X="37.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\MunitionHpType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.HpGunType">
+    <Position X="50" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAPwHQAAAAEAAEAAAAAAA0D0AAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\HpGunType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.CategoryType">
+    <Position X="67.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreelancerCoreClasses\Equipments\CategoryType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.TypeResourcesDllName">
+    <Position X="25.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgABAAAAAAAACAAAAAAABAAAAAAAAAAgAQA=</HashCode>
+      <FileName>FreelancerCoreClasses\TypeResourcesDllName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FLGenerateLibrary.ShieldGeneratorType">
+    <Position X="78.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAABIgBAAAACAAAAAAABAABAAAQAgAACECAAAmAA=</HashCode>
+      <FileName>FreelancerCoreClasses\ShieldGeneratorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
