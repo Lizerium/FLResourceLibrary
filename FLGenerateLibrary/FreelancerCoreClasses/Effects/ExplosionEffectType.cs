@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://sites.google.com/view/dvurechensky
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 14 октября 2025 10:15:10
- * Version: 1.0.50
+ * Last Updated: 15 октября 2025 10:50:02
+ * Version: 1.0.51
  */
 
 namespace FLGenerateLibrary
