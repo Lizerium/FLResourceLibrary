@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://sites.google.com/view/dvurechensky
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 30 октября 2025 17:07:29
- * Version: 1.0.66
+ * Last Updated: 31 октября 2025 06:52:14
+ * Version: 1.0.67
  */
 
 using UnityEngine.VFX;
