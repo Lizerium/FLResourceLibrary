@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://sites.google.com/view/dvurechensky
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 20 марта 2026 06:52:21
- * Version: 1.0.206
+ * Last Updated: 21 марта 2026 07:33:34
+ * Version: 1.0.207
  */
 
 //------------------------------------------------------------------------------
