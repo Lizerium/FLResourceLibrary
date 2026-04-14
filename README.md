@@ -1,149 +1,202 @@
 <p align="center">✨Dvurechensky✨</p>
 
-<h1 align="center"> Обработчик файлов инфокарт из игры 💤 Freelancer Rebirth 💤 </h1>
+<h1 align="center"> Infocard File Processor for 💤 Freelancer Rebirth 💤 </h1>
+
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
+
+---
 
 > [!NOTE]
-> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+> This project is part of the **Lizerium** ecosystem and belongs to the following direction:
 >
-> * [`Lizerium.Tools.Structs`](https://github.com/Lizerium/Lizerium.Tools.Structs)
+> - [`Lizerium.Tools.Structs`](https://github.com/Lizerium/Lizerium.Tools.Structs)
 >
-> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
+> If you are looking for related engineering and supporting tools, start there.
 
-# ✨ Оглавление
+# ✨ Table of Contents
 
-- [✨ Оглавление](#-оглавление)
-  - [Что делает❓](#что-делает)
-    - [💥 Главное 💥](#-главное-)
-    - [🌟 Порядок извлечения файлов из `dll` с помощью `Resource Hacker` 🌟](#-порядок-извлечения-файлов-из-dll-с-помощью-resource-hacker-)
-    - [😈 Командная оболочка 😈](#-командная-оболочка-)
+- [✨ Table of Contents](#-table-of-contents)
+  - [What does it do❓](#what-does-it-do)
+    - [💥 Core 💥](#-core-)
+    - [🌟 Extracting files from `dll` using `Resource Hacker` 🌟](#-extracting-files-from-dll-using-resource-hacker-)
+    - [😈 Command Shell 😈](#-command-shell-)
 
-## Что делает❓
+---
 
-### 💥 Главное 💥
+## What does it do❓
 
-- Формирует выгрузку **`FLResources`** на `NET 3.5` совместимую с `Unity`
-  ![alt text](Media/dlls.png) - Класс к которому обращаемся при подключении библиотеки к проекту - `ResControl` - Она имеет такое API для взаимодействия: - `Dictionary<string, int> LoadIds(int ids)` - подаём число из INI файла для ids_name или ids_info - получаем имя DLL файла и индекс строки с данными - `StatusHandle GetData(string nameResources, int id)` - подаём имя RESX файла запечатанного в DLL `(OfferBribeResources_name,NameResources_name,EquipResources_name,SBM3_name,SBM2_name,SBM_name,SBM_info,EquipResources_info,MiscTextInfo2_info,InfoCards_info,MiscText_info, SBM3_info)` и идентификатор - получаем значение ресурса по ключу из инициализированного RESX
+### 💥 Core 💥
 
-- `FLGenerateLibrary` формирует файлы `.resx` для `FLResources` на основе данных полученных из `.dll` Win32 для игры `Freelancer 2003`. Данные предварительно получаем с помощью программы [`Resource Hacker`](Soft/reshacker_setup.exe). Порядок получения описан ниже
-- `FLEDId` программа для быстрого конвертирования `ids_name` и `ids_info` в число которое зашито в `DLL` файл ресурсов игры `Freelancer Rebirth` (не завязан на freelancer.ini структуру) и наоборот покажет по имени dll и числу в нём тот номер который нужно вписать в `INI` файл
+- Generates a **`FLResources`** export targeting `.NET 3.5`, compatible with `Unity`
 
-### 🌟 Порядок извлечения файлов из `dll` с помощью [`Resource Hacker`](Soft/reshacker_setup.exe) 🌟
+  ![alt text](Media/dlls.png)
 
-1. Открываем `dll` в [`Resource Hacker`](Soft/reshacker_setup.exe) например `equipresources.dll`
+- Main access class when integrating the library into a project: `ResControl`
 
-   > выделяем `String Table` \
-   > сохраняем .rc в папку `INPUT` которая лежит рядом с исполняемым `.exe` файлом \
-   > меняем имя файла c `.rc` на `data.txt` \
-   > внутри файла удаляем `LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL` \
-   > ![alt text](Media/res1.png) ![alt text](Media/image.png)![alt text](Media/image-1.png) ![alt text](Media/image-2.png)
+  It provides the following API:
+  - `Dictionary<string, int> LoadIds(int ids)`  
+    → Input: numeric value from INI (`ids_name` or `ids_info`)  
+    → Output: DLL file name + string index
+
+  - `StatusHandle GetData(string nameResources, int id)`  
+    → Input: RESX resource name embedded in DLL  
+    (`OfferBribeResources_name, NameResources_name, EquipResources_name, SBM3_name, SBM2_name, SBM_name, SBM_info, EquipResources_info, MiscTextInfo2_info, InfoCards_info, MiscText_info, SBM3_info`)  
+    → Output: resource value by key from initialized RESX
+
+---
+
+- `FLGenerateLibrary` generates `.resx` files for `FLResources` using data extracted from Win32 `.dll` files of `Freelancer (2003)`
+
+  Data is предварительно extracted using [`Resource Hacker`](Soft/reshacker_setup.exe).  
+  Extraction steps are described below.
+
+---
+
+- `FLEDId` — a utility for quick conversion between `ids_name` / `ids_info` and the numeric values stored inside resource DLLs
+  - Works independently of `freelancer.ini` structure
+  - Can also resolve INI ID from DLL name + numeric identifier
+
+---
+
+### 🌟 Extracting files from `dll` using [`Resource Hacker`](Soft/reshacker_setup.exe) 🌟
+
+1. Open a `.dll` in [`Resource Hacker`](Soft/reshacker_setup.exe), e.g. `equipresources.dll`
+   - Select `String Table`
+   - Save `.rc` file into the `INPUT` folder (located near the `.exe`)
+   - Rename `.rc` → `data.txt`
+   - Remove line:
+     ```
+     LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+     ```
+
+   ![alt text](Media/res1.png)  
+   ![alt text](Media/image.png)  
+   ![alt text](Media/image-1.png)  
+   ![alt text](Media/image-2.png)
 
    > [!NOTE]
-   > Поздравляю вы создали файл для определения `ids_name` полей!
+   > You have now created a file for resolving `ids_name` fields.
 
-2. В этом же `dll` если есть папка `HTML` нужно
+---
 
-   > выделяем `HTML` \
-   > сохраняем .rc в папку `INPUT\HTML` которая лежит рядом с исполняемым `.exe` файлом \
-   > удаляем файл `.rc` (нам нужны те `.txt` которые он там формирует под каждый `.html`) \
-   > ![alt text](Media/image-3.png) ![alt text](Media/image-4.png)![alt text](Media/image-5.png)
+2. If the DLL contains an `HTML` section:
+   - Select `HTML`
+   - Save `.rc` into `INPUT\HTML`
+   - Delete the `.rc` file (we only need the generated `.txt` files for each `.html`)
+
+   ![alt text](Media/image-3.png)  
+   ![alt text](Media/image-4.png)  
+   ![alt text](Media/image-5.png)
 
    > [!NOTE]
-   > Поздравляю вы создали файл для определения `ids_info` полей!
+   > You have now created files for resolving `ids_info` fields.
 
-3. Фактически мы получим папку `INPUT` обязательно в таком виде
-   ![alt text](Media/image-6.png)
+---
 
-### 😈 Командная оболочка 😈
+3. Final structure should look like:
 
-1. Команда `g [filename.ini] [field]` - поиск уникальных значений поля в INI файле который лежит в папке `Analis`
+![alt text](Media/image-6.png)
 
-   - [filename.ini] - имя файла строго существующего в папке `Analis` (При желании туда можно положить свой INI)
-   - [field] - Имя поля внутри файла которое там постоянно встречается но с одинаковым значением
+---
 
-   > Например
+### 😈 Command Shell 😈
+
+1. Command `g [filename.ini] [field]`  
+   → Finds unique values of a field inside an INI file located in the `Analis` folder
+   - `[filename.ini]` — must exist in `Analis`
+   - `[field]` — field name to analyze
+
+   Example:
 
    ```sh
    g example.ini progres_field
    ```
 
-   ![alt text](Media/image-7.png)
-   ![alt text](Media/image-8.png)
+---
 
-2. Команда `c [path/to/file.resx]` или `clear [path/to/file.resx]` - очистка всех данных ресурсов в `.resx` файле
+2. Command `c [path/to/file.resx]` or `clear [path/to/file.resx]`
+   → Clears all resources inside a `.resx` file
 
-   - [path/to/file.resx] - Как правило такой файл лежит в отдельном C# проекте и вы наполняете его информацией
-     > Например
+   Example:
 
    ```sh
    c path/to/file.resx
    ```
 
-   > или
+---
 
-   ```sh
-   clear path/to/file.resx
-   ```
+3. Command `st [path/to/file.resx] [path/to/data.txt]`
+   → Generates `.resx` entries from TXT data
 
-3. Команда `st [path/to/file.resx] [path/to/data.txt]` - генерация из папки с TXT (.dll Win32 -> Resource Hacker -> .rc файл -> .txt файлы) строк в .resx файл
-
-   - [path/to/file.resx] - Как правило такой файл лежит в отдельном C# проекте и вы наполняете его информацией
-   - [path/to/data.txt] - Как правило это файл из папки `INPUT` конкретно отсканированной библиотеки `dll` - файл `data.txt`
-
-   > Например
+   Example:
 
    ```sh
    st path/to/file.resx path/to/data.txt
    ```
 
-4. Команда `st [path/to/file.resx] [path/to/html]` - генерация из папки с TXT (.dll Win32 -> Resource Hacker -> .rc файл -> .txt файлы) строк в .resx файл
+---
 
-   - [path/to/file.resx] - Как правило такой файл лежит в отдельном C# проекте и вы наполняете его информацией
-   - [path/to/html] - Как правило это папка HTML с информациннными картами (которые указываются в `ids_info`) из папки `INPUT`
+4. Command `st [path/to/file.resx] [path/to/html]`
+   → Generates `.resx` entries from HTML TXT files
 
-   > Например
+   Example:
 
    ```sh
    st path/to/file.resx path/to/html
    ```
 
-5. Команда `import` или `i` - копирует тестовые данные в папку `INPUT` для того чтобы можно было генерировать `.resx` файл ресурсов
+---
 
-   > Например
+5. Command `import` or `i`
+   → Copies test data into `INPUT` folder
+
+   Example:
 
    ```sh
    import
    ```
 
-   > или
+---
 
-   ```
-   i
-   ```
+6. Command `all` or `a`
+   → Generates resource files from `INPUT` into `OUTPUT`
 
-6. Команда `all` или `a` - генерирует из папки `INPUT` файлы ресурсов в папку `OUTPUT` (их также можно перезаписывать командами описанными выше)
-
-   > Например
+   Example:
 
    ```sh
    all
    ```
 
-   > или
+---
 
-   ```
-   a
-   ```
+7. Command `rhtml`
+   → Outputs processed HTML text formatted for `Unity TextMeshPro`
 
-7. Команда `rhtml` - вывод текста сгенерированного в папке `HTML` после обработки в формате для `Unity - TextMeshPro`
+---
 
-   ![alt text](Media/image-9.png)
+8. Command `exit` / `e` / `q`
+   → Exit application
 
-8. Команда `exit` или `e` или `q` - выход
+---
 
-9. Команда начинающаяся на `::text` выводит найденные совпадения слов которые встречаются в зашитых данных в `FLResources.dll`
-   ![alt text](Media/image-10.png)
+9. Command starting with `::text`
+   → Searches for matching text inside embedded data in `FLResources.dll`
 
-10. Команда начинающаяся на `::489` выводит найденные совпадения идентификаторов которые встречаются в зашитых данных в `FLResources.dll`
-    ![alt text](Media/image-11.png)
+---
+
+10. Command starting with `::489`
+    → Searches for matching identifiers inside embedded data
+
+---
 
 <p align="center">✨Dvurechensky✨</p>
