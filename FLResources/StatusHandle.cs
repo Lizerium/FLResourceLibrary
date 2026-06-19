@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 18 июня 2026 06:52:04
- * Version: 1.0.300
+ * Last Updated: 19 июня 2026 06:52:01
+ * Version: 1.0.301
  */
 
 namespace FLResources
