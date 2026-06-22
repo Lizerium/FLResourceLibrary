@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 21 июня 2026 06:51:58
- * Version: 1.0.303
+ * Last Updated: 22 июня 2026 06:52:10
+ * Version: 1.0.304
  */
 
 namespace FLCore
