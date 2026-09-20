@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 19 сентября 2026 08:45:26
- * Version: 1.0.394
+ * Last Updated: 20 сентября 2026 08:42:36
+ * Version: 1.0.395
  */
 
 using FLCore;
